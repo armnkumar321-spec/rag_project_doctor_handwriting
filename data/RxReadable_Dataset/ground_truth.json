@@ -1,0 +1,4879 @@
+{
+  "dataset": "RxReadable synthetic handwritten prescription test set",
+  "version": "1.0",
+  "count": 50,
+  "synthetic": true,
+  "clinically_validated": false,
+  "prescriptions": [
+    {
+      "prescription_id": "RX001",
+      "difficulty_level": "easy",
+      "original_text": "Sunrise Family Clinic\nDr. Meera Bansal, MBBS, MD (Paediatrics)\nReg. No. FMC-83499 | Plot 7, Sector 21, Ramnagar\nDate: 25.2.26\nName: Harsh Saxena\nAge/Sex: 27 yrs / F\nComplaint: vomiting for 5 days\nRx\n1. Omeprazole 20 mg - 1 capsule once a day for 2\nweeks\nReview after one week\nSignature",
+      "medicine_names": [
+        "Omeprazole"
+      ],
+      "dosage": [
+        "20 mg 1 capsule"
+      ],
+      "frequency": [
+        "once a day"
+      ],
+      "duration": [
+        "2 weeks"
+      ],
+      "abbreviations": [
+        "Rx",
+        "mg"
+      ],
+      "unclear_segments": [],
+      "special_cases": [
+        "date"
+      ],
+      "medicines": [
+        {
+          "form": "",
+          "name": "Omeprazole",
+          "strength": "20 mg",
+          "dose": "1 capsule",
+          "frequency": "once a day",
+          "duration": "2 weeks"
+        }
+      ],
+      "patient": {
+        "name": "Harsh Saxena",
+        "age_sex": "27 yrs / F",
+        "date": "25.2.26"
+      },
+      "corrections": [],
+      "layout": "printed_labels",
+      "handwriting_font": "PatrickHand-Regular",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": []
+      }
+    },
+    {
+      "prescription_id": "RX002",
+      "difficulty_level": "easy",
+      "original_text": "Orchid Family Practice\nDr. Arvind Sood, MBBS, DCH\nReg. No. FMC-20807 | Plot 7, Sector 21, Ramnagar\nDate: 12.6.26\nName: Riya Mehra\nAge/Sex: 45 yrs / M\nComplaint: vomiting for 4 days\nRx\n1. Vitamin C 500 mg - 1 tablet at night for\n10 days\nDrink plenty of water\nSignature",
+      "medicine_names": [
+        "Vitamin C"
+      ],
+      "dosage": [
+        "500 mg 1 tablet"
+      ],
+      "frequency": [
+        "at night"
+      ],
+      "duration": [
+        "10 days"
+      ],
+      "abbreviations": [
+        "m",
+        "Rx",
+        "mg"
+      ],
+      "unclear_segments": [],
+      "special_cases": [
+        "date"
+      ],
+      "medicines": [
+        {
+          "form": "",
+          "name": "Vitamin C",
+          "strength": "500 mg",
+          "dose": "1 tablet",
+          "frequency": "at night",
+          "duration": "10 days"
+        }
+      ],
+      "patient": {
+        "name": "Riya Mehra",
+        "age_sex": "45 yrs / M",
+        "date": "12.6.26"
+      },
+      "corrections": [],
+      "layout": "handwritten_labels",
+      "handwriting_font": "Caveat",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": []
+      }
+    },
+    {
+      "prescription_id": "RX003",
+      "difficulty_level": "easy",
+      "original_text": "Harmony Health Hub\nDr. Arvind Sood, MBBS, DNB (Family Medicine)\nReg. No. FMC-64274 | 3rd Floor, Kiran Complex, Devpur\nDate: 10/08/26\nName: Anjali Dutta\nAge/Sex: 10 yrs / M\nComplaint: sore throat, cough for 2 days\nRx\n1. ORS - 1 sachet when needed for 7 days\n2. Vitamin C 500 mg - 1 tablet twice a day for\n10 days\n3. Omeprazole 20 mg - 1 capsule once a day for\n3 days\nTake rest for 3 days\nSignature",
+      "medicine_names": [
+        "ORS",
+        "Vitamin C",
+        "Omeprazole"
+      ],
+      "dosage": [
+        "1 sachet",
+        "500 mg 1 tablet",
+        "20 mg 1 capsule"
+      ],
+      "frequency": [
+        "when needed",
+        "twice a day",
+        "once a day"
+      ],
+      "duration": [
+        "7 days",
+        "10 days",
+        "3 days"
+      ],
+      "abbreviations": [
+        "m",
+        "Rx",
+        "mg"
+      ],
+      "unclear_segments": [],
+      "special_cases": [
+        "date"
+      ],
+      "medicines": [
+        {
+          "form": "",
+          "name": "ORS",
+          "strength": "",
+          "dose": "1 sachet",
+          "frequency": "when needed",
+          "duration": "7 days"
+        },
+        {
+          "form": "",
+          "name": "Vitamin C",
+          "strength": "500 mg",
+          "dose": "1 tablet",
+          "frequency": "twice a day",
+          "duration": "10 days"
+        },
+        {
+          "form": "",
+          "name": "Omeprazole",
+          "strength": "20 mg",
+          "dose": "1 capsule",
+          "frequency": "once a day",
+          "duration": "3 days"
+        }
+      ],
+      "patient": {
+        "name": "Anjali Dutta",
+        "age_sex": "10 yrs / M",
+        "date": "10/08/26"
+      },
+      "corrections": [],
+      "layout": "printed_labels",
+      "handwriting_font": "Caveat",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": []
+      }
+    },
+    {
+      "prescription_id": "RX004",
+      "difficulty_level": "easy",
+      "original_text": "Greenleaf Health Centre\nDr. Meera Bansal, MBBS, MD (Medicine)\nReg. No. FMC-42956 | B-9 Market Street, Chandanpur\nDate: 8.4.26\nName: Yash Saxena\nAge/Sex: 57 yrs / M\nComplaint: dry cough for 5 days\nRx\n1. Paracetamol 500 mg - 1 tablet when needed for 5\ndays\n2. Calcium 500 mg - 1 tablet at night for 7 days\nCome back if fever continues\nSignature",
+      "medicine_names": [
+        "Paracetamol",
+        "Calcium"
+      ],
+      "dosage": [
+        "500 mg 1 tablet",
+        "500 mg 1 tablet"
+      ],
+      "frequency": [
+        "when needed",
+        "at night"
+      ],
+      "duration": [
+        "5 days",
+        "7 days"
+      ],
+      "abbreviations": [
+        "m",
+        "Rx",
+        "mg"
+      ],
+      "unclear_segments": [],
+      "special_cases": [
+        "date"
+      ],
+      "medicines": [
+        {
+          "form": "",
+          "name": "Paracetamol",
+          "strength": "500 mg",
+          "dose": "1 tablet",
+          "frequency": "when needed",
+          "duration": "5 days"
+        },
+        {
+          "form": "",
+          "name": "Calcium",
+          "strength": "500 mg",
+          "dose": "1 tablet",
+          "frequency": "at night",
+          "duration": "7 days"
+        }
+      ],
+      "patient": {
+        "name": "Yash Saxena",
+        "age_sex": "57 yrs / M",
+        "date": "8.4.26"
+      },
+      "corrections": [],
+      "layout": "handwritten_labels",
+      "handwriting_font": "PatrickHand-Regular",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": []
+      }
+    },
+    {
+      "prescription_id": "RX005",
+      "difficulty_level": "easy",
+      "original_text": "Maple Polyclinic\nDr. Kavya Iyer, MBBS, MD (Medicine)\nReg. No. FMC-65756 | 45 Hill View, Ambapur\nName: Tanvi Rawat Age/Sex: 28 yrs / M\nDate: 11/10/26\nComplaint: vomiting for 2 days\nRx\n1. Paracetamol 650 mg - 1 tablet at night for 2 weeks\nDrink plenty of water\nSignature",
+      "medicine_names": [
+        "Paracetamol"
+      ],
+      "dosage": [
+        "650 mg 1 tablet"
+      ],
+      "frequency": [
+        "at night"
+      ],
+      "duration": [
+        "2 weeks"
+      ],
+      "abbreviations": [
+        "m",
+        "Rx",
+        "mg"
+      ],
+      "unclear_segments": [],
+      "special_cases": [
+        "date"
+      ],
+      "medicines": [
+        {
+          "form": "",
+          "name": "Paracetamol",
+          "strength": "650 mg",
+          "dose": "1 tablet",
+          "frequency": "at night",
+          "duration": "2 weeks"
+        }
+      ],
+      "patient": {
+        "name": "Tanvi Rawat",
+        "age_sex": "28 yrs / M",
+        "date": "11/10/26"
+      },
+      "corrections": [],
+      "layout": "two_column",
+      "handwriting_font": "Kalam-Regular",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": []
+      }
+    },
+    {
+      "prescription_id": "RX006",
+      "difficulty_level": "easy",
+      "original_text": "Sunrise Family Clinic\nDr. Ritesh Malhotra, MBBS\nReg. No. FMC-35481 | 22 Station Lane, Sitapur Nagar\nName: Nisha Bhatt Age/Sex: 51 yrs / F\nDate: 27/02/26\nComplaint: runny nose, sneezing for 5 days\nRx\n1. Ibuprofen 400 mg - 1 tablet when needed for 2 weeks\n2. ORS - 1 sachet at night for 2 weeks\nAvoid oily food\nSignature",
+      "medicine_names": [
+        "Ibuprofen",
+        "ORS"
+      ],
+      "dosage": [
+        "400 mg 1 tablet",
+        "1 sachet"
+      ],
+      "frequency": [
+        "when needed",
+        "at night"
+      ],
+      "duration": [
+        "2 weeks",
+        "2 weeks"
+      ],
+      "abbreviations": [
+        "Rx",
+        "mg"
+      ],
+      "unclear_segments": [],
+      "special_cases": [
+        "date"
+      ],
+      "medicines": [
+        {
+          "form": "",
+          "name": "Ibuprofen",
+          "strength": "400 mg",
+          "dose": "1 tablet",
+          "frequency": "when needed",
+          "duration": "2 weeks"
+        },
+        {
+          "form": "",
+          "name": "ORS",
+          "strength": "",
+          "dose": "1 sachet",
+          "frequency": "at night",
+          "duration": "2 weeks"
+        }
+      ],
+      "patient": {
+        "name": "Nisha Bhatt",
+        "age_sex": "51 yrs / F",
+        "date": "27/02/26"
+      },
+      "corrections": [],
+      "layout": "two_column",
+      "handwriting_font": "Kalam-Regular",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": []
+      }
+    },
+    {
+      "prescription_id": "RX007",
+      "difficulty_level": "easy",
+      "original_text": "Silver Oak Clinic\nDr. Ananya Ghosh, MBBS, MD (Paediatrics)\nReg. No. FMC-64518 | 45 Hill View, Ambapur\nDate: 24/06/26\nName: Karan Bhatt\nAge/Sex: 4 yrs / M\nComplaint: fever, body ache for 4 days\nRx\n1. Paracetamol 650 mg - 1 tablet when needed\nfor 5 days\n2. Amoxicillin 500 mg - 1 capsule twice a day\nfor 2 weeks\n3. Omeprazole 20 mg - 1 capsule when needed for\n7 days\nReview after one week\nSignature",
+      "medicine_names": [
+        "Paracetamol",
+        "Amoxicillin",
+        "Omeprazole"
+      ],
+      "dosage": [
+        "650 mg 1 tablet",
+        "500 mg 1 capsule",
+        "20 mg 1 capsule"
+      ],
+      "frequency": [
+        "when needed",
+        "twice a day",
+        "when needed"
+      ],
+      "duration": [
+        "5 days",
+        "2 weeks",
+        "7 days"
+      ],
+      "abbreviations": [
+        "m",
+        "Rx",
+        "mg"
+      ],
+      "unclear_segments": [],
+      "special_cases": [
+        "date"
+      ],
+      "medicines": [
+        {
+          "form": "",
+          "name": "Paracetamol",
+          "strength": "650 mg",
+          "dose": "1 tablet",
+          "frequency": "when needed",
+          "duration": "5 days"
+        },
+        {
+          "form": "",
+          "name": "Amoxicillin",
+          "strength": "500 mg",
+          "dose": "1 capsule",
+          "frequency": "twice a day",
+          "duration": "2 weeks"
+        },
+        {
+          "form": "",
+          "name": "Omeprazole",
+          "strength": "20 mg",
+          "dose": "1 capsule",
+          "frequency": "when needed",
+          "duration": "7 days"
+        }
+      ],
+      "patient": {
+        "name": "Karan Bhatt",
+        "age_sex": "4 yrs / M",
+        "date": "24/06/26"
+      },
+      "corrections": [],
+      "layout": "handwritten_labels",
+      "handwriting_font": "Caveat",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": []
+      }
+    },
+    {
+      "prescription_id": "RX008",
+      "difficulty_level": "easy",
+      "original_text": "Orchid Family Practice\nDr. Arvind Sood, MBBS, DNB (Family Medicine)\nReg. No. FMC-77545 | B-9 Market Street, Chandanpur\nDate: 24/11/2026\nName: Simran Nair\nAge/Sex: 44 yrs / M\nComplaint: vomiting for 3 days\nRx\n1. Calcium 500 mg - 1 tablet three times a day for 10\ndays\n2. Vitamin C 500 mg - 1 tablet three times a day for\n3 days\nReview after one week\nSignature",
+      "medicine_names": [
+        "Calcium",
+        "Vitamin C"
+      ],
+      "dosage": [
+        "500 mg 1 tablet",
+        "500 mg 1 tablet"
+      ],
+      "frequency": [
+        "three times a day",
+        "three times a day"
+      ],
+      "duration": [
+        "10 days",
+        "3 days"
+      ],
+      "abbreviations": [
+        "m",
+        "Rx",
+        "mg"
+      ],
+      "unclear_segments": [],
+      "special_cases": [
+        "date"
+      ],
+      "medicines": [
+        {
+          "form": "",
+          "name": "Calcium",
+          "strength": "500 mg",
+          "dose": "1 tablet",
+          "frequency": "three times a day",
+          "duration": "10 days"
+        },
+        {
+          "form": "",
+          "name": "Vitamin C",
+          "strength": "500 mg",
+          "dose": "1 tablet",
+          "frequency": "three times a day",
+          "duration": "3 days"
+        }
+      ],
+      "patient": {
+        "name": "Simran Nair",
+        "age_sex": "44 yrs / M",
+        "date": "24/11/2026"
+      },
+      "corrections": [],
+      "layout": "printed_labels",
+      "handwriting_font": "Kalam-Regular",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": []
+      }
+    },
+    {
+      "prescription_id": "RX009",
+      "difficulty_level": "easy",
+      "original_text": "Harmony Health Hub\nDr. Ritesh Malhotra, MBBS, MD (Medicine)\nReg. No. FMC-81630 | 45 Hill View, Ambapur\nDate: 27/02/2026\nName: Anjali Nair\nAge/Sex: 65 yrs / F\nComplaint: skin itching for 2 days\nRx\n1. Paracetamol 650 mg - 1 tablet at night for 7 days\nReview after one week\nSignature",
+      "medicine_names": [
+        "Paracetamol"
+      ],
+      "dosage": [
+        "650 mg 1 tablet"
+      ],
+      "frequency": [
+        "at night"
+      ],
+      "duration": [
+        "7 days"
+      ],
+      "abbreviations": [
+        "Rx",
+        "mg"
+      ],
+      "unclear_segments": [],
+      "special_cases": [
+        "date"
+      ],
+      "medicines": [
+        {
+          "form": "",
+          "name": "Paracetamol",
+          "strength": "650 mg",
+          "dose": "1 tablet",
+          "frequency": "at night",
+          "duration": "7 days"
+        }
+      ],
+      "patient": {
+        "name": "Anjali Nair",
+        "age_sex": "65 yrs / F",
+        "date": "27/02/2026"
+      },
+      "corrections": [],
+      "layout": "printed_labels",
+      "handwriting_font": "Kalam-Regular",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": []
+      }
+    },
+    {
+      "prescription_id": "RX010",
+      "difficulty_level": "easy",
+      "original_text": "Sunrise Family Clinic\nDr. Priya Menon, MBBS, DCH\nReg. No. FMC-21757 | 22 Station Lane, Sitapur Nagar\nName: Karan Reddy Age/Sex: 28 yrs / F\nDate: 16-Mar-2026\nComplaint: dry cough for 2 days\nRx\n1. ORS - 1 sachet at night for 2 weeks\n2. Vitamin C 500 mg - 1 tablet twice a day for 10\ndays\n3. Cetirizine 10 mg - 1 tablet twice a day for 5\ndays\nTake rest for 3 days\nSignature",
+      "medicine_names": [
+        "ORS",
+        "Vitamin C",
+        "Cetirizine"
+      ],
+      "dosage": [
+        "1 sachet",
+        "500 mg 1 tablet",
+        "10 mg 1 tablet"
+      ],
+      "frequency": [
+        "at night",
+        "twice a day",
+        "twice a day"
+      ],
+      "duration": [
+        "2 weeks",
+        "10 days",
+        "5 days"
+      ],
+      "abbreviations": [
+        "Rx",
+        "mg"
+      ],
+      "unclear_segments": [],
+      "special_cases": [
+        "date"
+      ],
+      "medicines": [
+        {
+          "form": "",
+          "name": "ORS",
+          "strength": "",
+          "dose": "1 sachet",
+          "frequency": "at night",
+          "duration": "2 weeks"
+        },
+        {
+          "form": "",
+          "name": "Vitamin C",
+          "strength": "500 mg",
+          "dose": "1 tablet",
+          "frequency": "twice a day",
+          "duration": "10 days"
+        },
+        {
+          "form": "",
+          "name": "Cetirizine",
+          "strength": "10 mg",
+          "dose": "1 tablet",
+          "frequency": "twice a day",
+          "duration": "5 days"
+        }
+      ],
+      "patient": {
+        "name": "Karan Reddy",
+        "age_sex": "28 yrs / F",
+        "date": "16-Mar-2026"
+      },
+      "corrections": [],
+      "layout": "two_column",
+      "handwriting_font": "PatrickHand-Regular",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": []
+      }
+    },
+    {
+      "prescription_id": "RX011",
+      "difficulty_level": "easy",
+      "original_text": "Maple Polyclinic\nDr. Neha Kulkarni, MBBS, MD (Medicine)\nReg. No. FMC-21896 | Plot 7, Sector 21, Ramnagar\nDate: 10/07/2026\nName: Simran Nair\nAge/Sex: 68 yrs / M\nComplaint: loose motions for 3 days\nRx\n1. Omeprazole 20 mg - 1 capsule when needed for 7 days\nAvoid oily food\nSignature",
+      "medicine_names": [
+        "Omeprazole"
+      ],
+      "dosage": [
+        "20 mg 1 capsule"
+      ],
+      "frequency": [
+        "when needed"
+      ],
+      "duration": [
+        "7 days"
+      ],
+      "abbreviations": [
+        "m",
+        "Rx",
+        "mg"
+      ],
+      "unclear_segments": [],
+      "special_cases": [
+        "date"
+      ],
+      "medicines": [
+        {
+          "form": "",
+          "name": "Omeprazole",
+          "strength": "20 mg",
+          "dose": "1 capsule",
+          "frequency": "when needed",
+          "duration": "7 days"
+        }
+      ],
+      "patient": {
+        "name": "Simran Nair",
+        "age_sex": "68 yrs / M",
+        "date": "10/07/2026"
+      },
+      "corrections": [],
+      "layout": "handwritten_labels",
+      "handwriting_font": "Kalam-Regular",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": []
+      }
+    },
+    {
+      "prescription_id": "RX012",
+      "difficulty_level": "easy",
+      "original_text": "Lotus Care Clinic\nDr. Vikram Chauhan, MBBS, MD (Medicine)\nReg. No. FMC-84142 | 14 Lakeview Road, Navgaon\nDate: 1.4.26\nName: Karan Kapoor\nAge/Sex: 71 yrs / M\nComplaint: fever, body ache for 4 days\nRx\n1. Cefixime 200 mg - 1 capsule at night for 10 days\nDrink plenty of water\nSignature",
+      "medicine_names": [
+        "Cefixime"
+      ],
+      "dosage": [
+        "200 mg 1 capsule"
+      ],
+      "frequency": [
+        "at night"
+      ],
+      "duration": [
+        "10 days"
+      ],
+      "abbreviations": [
+        "m",
+        "Rx",
+        "mg"
+      ],
+      "unclear_segments": [],
+      "special_cases": [
+        "date",
+        "lookalike_name:Cefixime~Cefuroxime"
+      ],
+      "medicines": [
+        {
+          "form": "",
+          "name": "Cefixime",
+          "strength": "200 mg",
+          "dose": "1 capsule",
+          "frequency": "at night",
+          "duration": "10 days"
+        }
+      ],
+      "patient": {
+        "name": "Karan Kapoor",
+        "age_sex": "71 yrs / M",
+        "date": "1.4.26"
+      },
+      "corrections": [],
+      "layout": "printed_labels",
+      "handwriting_font": "Kalam-Regular",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": []
+      }
+    },
+    {
+      "prescription_id": "RX013",
+      "difficulty_level": "easy",
+      "original_text": "Orchid Family Practice\nDr. Arvind Sood, MBBS, MD (Medicine)\nReg. No. FMC-56459 | 14 Lakeview Road, Navgaon\nName: Om Joshi Age/Sex: 14 yrs / M\nDate: 17/06/26\nComplaint: skin itching for 5 days\nRx\n1. Vitamin C 500 mg - 1 tablet twice a day for 5\ndays\nAvoid oily food\nSignature",
+      "medicine_names": [
+        "Vitamin C"
+      ],
+      "dosage": [
+        "500 mg 1 tablet"
+      ],
+      "frequency": [
+        "twice a day"
+      ],
+      "duration": [
+        "5 days"
+      ],
+      "abbreviations": [
+        "m",
+        "Rx",
+        "mg"
+      ],
+      "unclear_segments": [],
+      "special_cases": [
+        "date"
+      ],
+      "medicines": [
+        {
+          "form": "",
+          "name": "Vitamin C",
+          "strength": "500 mg",
+          "dose": "1 tablet",
+          "frequency": "twice a day",
+          "duration": "5 days"
+        }
+      ],
+      "patient": {
+        "name": "Om Joshi",
+        "age_sex": "14 yrs / M",
+        "date": "17/06/26"
+      },
+      "corrections": [],
+      "layout": "two_column",
+      "handwriting_font": "PatrickHand-Regular",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": []
+      }
+    },
+    {
+      "prescription_id": "RX014",
+      "difficulty_level": "easy",
+      "original_text": "Lotus Care Clinic\nDr. Ananya Ghosh, MBBS, DNB (Family Medicine)\nReg. No. FMC-17156 | B-9 Market Street, Chandanpur\nDate: 06/01/2026\nName: Lata Reddy\nAge/Sex: 49 yrs / F\nComplaint: acidity, bloating for 5 days\nRx\n1. Paracetamol 650 mg - 1 tablet twice a day for\n~~3~~ 2 weeks\n2. Ibuprofen 400 mg - 1 tablet twice a day for 5\ndays\nTake rest for 3 days\nSignature",
+      "medicine_names": [
+        "Paracetamol",
+        "Ibuprofen"
+      ],
+      "dosage": [
+        "650 mg 1 tablet",
+        "400 mg 1 tablet"
+      ],
+      "frequency": [
+        "twice a day",
+        "twice a day"
+      ],
+      "duration": [
+        "2 weeks",
+        "5 days"
+      ],
+      "abbreviations": [
+        "Rx",
+        "mg"
+      ],
+      "unclear_segments": [],
+      "special_cases": [
+        "crossed_out_word",
+        "date",
+        "handwritten_correction"
+      ],
+      "medicines": [
+        {
+          "form": "",
+          "name": "Paracetamol",
+          "strength": "650 mg",
+          "dose": "1 tablet",
+          "frequency": "twice a day",
+          "duration": "2 weeks"
+        },
+        {
+          "form": "",
+          "name": "Ibuprofen",
+          "strength": "400 mg",
+          "dose": "1 tablet",
+          "frequency": "twice a day",
+          "duration": "5 days"
+        }
+      ],
+      "patient": {
+        "name": "Lata Reddy",
+        "age_sex": "49 yrs / F",
+        "date": "06/01/2026"
+      },
+      "corrections": [
+        {
+          "crossed_out": "3",
+          "correction": "2"
+        }
+      ],
+      "layout": "handwritten_labels",
+      "handwriting_font": "PatrickHand-Regular",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": []
+      }
+    },
+    {
+      "prescription_id": "RX015",
+      "difficulty_level": "easy",
+      "original_text": "Harmony Health Hub\nDr. Sunil Rathore, MBBS, MD (Paediatrics)\nReg. No. FMC-47225 | Plot 7, Sector 21, Ramnagar\nDate: 4.1.26\nName: Nisha Mehra\nAge/Sex: 77 yrs / F\nComplaint: loose motions for 2 days\nRx\n1. Calcium 500 mg - 1 tablet when needed for 10\ndays\n2. Omeprazole 20 mg - 1 capsule three times a day\nfor 3 days\n3. ORS - 1 sachet at night for 7 days\nCome back if fever continues\nSignature",
+      "medicine_names": [
+        "Calcium",
+        "Omeprazole",
+        "ORS"
+      ],
+      "dosage": [
+        "500 mg 1 tablet",
+        "20 mg 1 capsule",
+        "1 sachet"
+      ],
+      "frequency": [
+        "when needed",
+        "three times a day",
+        "at night"
+      ],
+      "duration": [
+        "10 days",
+        "3 days",
+        "7 days"
+      ],
+      "abbreviations": [
+        "Rx",
+        "mg"
+      ],
+      "unclear_segments": [],
+      "special_cases": [
+        "date"
+      ],
+      "medicines": [
+        {
+          "form": "",
+          "name": "Calcium",
+          "strength": "500 mg",
+          "dose": "1 tablet",
+          "frequency": "when needed",
+          "duration": "10 days"
+        },
+        {
+          "form": "",
+          "name": "Omeprazole",
+          "strength": "20 mg",
+          "dose": "1 capsule",
+          "frequency": "three times a day",
+          "duration": "3 days"
+        },
+        {
+          "form": "",
+          "name": "ORS",
+          "strength": "",
+          "dose": "1 sachet",
+          "frequency": "at night",
+          "duration": "7 days"
+        }
+      ],
+      "patient": {
+        "name": "Nisha Mehra",
+        "age_sex": "77 yrs / F",
+        "date": "4.1.26"
+      },
+      "corrections": [],
+      "layout": "handwritten_labels",
+      "handwriting_font": "PatrickHand-Regular",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": []
+      }
+    },
+    {
+      "prescription_id": "RX016",
+      "difficulty_level": "medium",
+      "original_text": "Harmony Health Hub\nDr. Arvind Sood, MBBS, MD (Paediatrics)\nReg. No. FMC-27234 | 22 Station Lane, Sitapur Nagar\nName: Lata Verma Age/Sex: 48/F\nDate: 6.6.26\nc/o acidity, bloating x 3d\nRx\n1) Inj Diclofenac [ILLEGIBLE] 1 ~~TDS~~ IM stat\n2. Tab Hydroxyzine 25mg 0-0-1 AC x 5d\nRv after 5/7\nSignature",
+      "medicine_names": [
+        "Diclofenac",
+        "Hydroxyzine"
+      ],
+      "dosage": [
+        "[ILLEGIBLE] 1",
+        "25mg"
+      ],
+      "frequency": [
+        "IM stat",
+        "0-0-1 AC"
+      ],
+      "duration": [
+        "",
+        "x 5d"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "Rx",
+        "Inj",
+        "TDS",
+        "IM",
+        "stat",
+        "Tab",
+        "mg",
+        "0-0-1 (dose pattern)",
+        "AC",
+        "Rv",
+        "/7"
+      ],
+      "unclear_segments": [
+        "1) Inj Diclofenac [ILLEGIBLE] 1 ~~TDS~~ IM stat"
+      ],
+      "special_cases": [
+        "crossed_out_word",
+        "date",
+        "handwritten_correction",
+        "illegible_segment",
+        "lookalike_name:Hydroxyzine~Hydralazine"
+      ],
+      "medicines": [
+        {
+          "form": "Inj",
+          "name": "Diclofenac",
+          "strength": "[ILLEGIBLE]",
+          "dose": "1",
+          "frequency": "IM stat",
+          "duration": ""
+        },
+        {
+          "form": "Tab",
+          "name": "Hydroxyzine",
+          "strength": "25mg",
+          "dose": "",
+          "frequency": "0-0-1 AC",
+          "duration": "x 5d"
+        }
+      ],
+      "patient": {
+        "name": "Lata Verma",
+        "age_sex": "48/F",
+        "date": "6.6.26"
+      },
+      "corrections": [
+        {
+          "crossed_out": "TDS",
+          "correction": "IM"
+        }
+      ],
+      "layout": "two_column",
+      "handwriting_font": "Caveat",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": [
+          {
+            "box": [
+              300,
+              336,
+              351,
+              417
+            ],
+            "hidden_source": "75mg"
+          }
+        ]
+      }
+    },
+    {
+      "prescription_id": "RX017",
+      "difficulty_level": "medium",
+      "original_text": "Crescent Care Centre\nDr. Vikram Chauhan, MBBS\nReg. No. FMC-37700 | Plot 7, Sector 21, Ramnagar\nName: Anjali Saxena Age/Sex: 61/F\nDate: 02/01/26\nc/o skin itching x 2d\nTemp 102.9 F\nRx\n1) Tab [ILLEGIBLE] 250mg 1 tab 1-0-1 PC x 5d\n2. Tab metformin 1.5mg 1 tab 1-0-1 x 3d\n3) Tab Atorvastatin 10mg QID x 10d\n4. Tab Prednisolone 10mg 1-0-0 after food x 1wk\nAvoid cold drinks\nSignature",
+      "medicine_names": [
+        "[ILLEGIBLE]",
+        "metformin",
+        "Atorvastatin",
+        "Prednisolone"
+      ],
+      "dosage": [
+        "250mg 1 tab",
+        "1.5mg 1 tab",
+        "10mg",
+        "10mg"
+      ],
+      "frequency": [
+        "1-0-1 PC",
+        "1-0-1",
+        "QID",
+        "1-0-0 after food"
+      ],
+      "duration": [
+        "x 5d",
+        "x 3d",
+        "x 10d",
+        "x 1wk"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "Temp",
+        "Rx",
+        "Tab",
+        "mg",
+        "1-0-1 (dose pattern)",
+        "PC",
+        "QID",
+        "1-0-0 (dose pattern)",
+        "wk"
+      ],
+      "unclear_segments": [
+        "1) Tab [ILLEGIBLE] 250mg 1 tab 1-0-1 PC x 5d"
+      ],
+      "special_cases": [
+        "ambiguous_digits",
+        "date",
+        "illegible_segment",
+        "mixed_case",
+        "numeric_values"
+      ],
+      "medicines": [
+        {
+          "form": "Tab",
+          "name": "[ILLEGIBLE]",
+          "strength": "250mg",
+          "dose": "1 tab",
+          "frequency": "1-0-1 PC",
+          "duration": "x 5d"
+        },
+        {
+          "form": "Tab",
+          "name": "metformin",
+          "strength": "1.5mg",
+          "dose": "1 tab",
+          "frequency": "1-0-1",
+          "duration": "x 3d"
+        },
+        {
+          "form": "Tab",
+          "name": "Atorvastatin",
+          "strength": "10mg",
+          "dose": "",
+          "frequency": "QID",
+          "duration": "x 10d"
+        },
+        {
+          "form": "Tab",
+          "name": "Prednisolone",
+          "strength": "10mg",
+          "dose": "",
+          "frequency": "1-0-0 after food",
+          "duration": "x 1wk"
+        }
+      ],
+      "patient": {
+        "name": "Anjali Saxena",
+        "age_sex": "61/F",
+        "date": "02/01/26"
+      },
+      "corrections": [],
+      "layout": "two_column",
+      "handwriting_font": "ReenieBeanie",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": [
+          {
+            "box": [
+              209,
+              397,
+              335,
+              489
+            ],
+            "hidden_source": "azithromycin"
+          }
+        ]
+      }
+    },
+    {
+      "prescription_id": "RX018",
+      "difficulty_level": "medium",
+      "original_text": "Harmony Health Hub\nDr. Sunil Rathore, MBBS, MD (Medicine)\nReg. No. FMC-64197 | 45 Hill View, Ambapur\nDate: 02/05/2026\nName: Dev Kapoor\nAge/Sex: 39/F\nc/o loose motions x 4d\nSpO2 95%\nRx\n1) Tab Rabeprazole ~~5ml~~ 20mg 1 tab 1-1-1 PC x 10d\n2. Tab cLOPIDOGREL 75mg SOS PC x 3d\n3) Tab Folic Acid 5mg 1/2 HS x 5d\n4. Tab Cetirizine 10 mg BD AC x 3/7\nAdv: plenty of fluids\nSignature",
+      "medicine_names": [
+        "Rabeprazole",
+        "cLOPIDOGREL",
+        "Folic Acid",
+        "Cetirizine"
+      ],
+      "dosage": [
+        "20mg 1 tab",
+        "75mg",
+        "5mg 1/2",
+        "10 mg"
+      ],
+      "frequency": [
+        "1-1-1 PC",
+        "SOS PC",
+        "HS",
+        "BD AC"
+      ],
+      "duration": [
+        "x 10d",
+        "x 3d",
+        "x 5d",
+        "x 3/7"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "Rx",
+        "Tab",
+        "ml",
+        "mg",
+        "1-1-1 (dose pattern)",
+        "PC",
+        "SOS",
+        "HS",
+        "BD",
+        "AC",
+        "/7",
+        "Adv"
+      ],
+      "unclear_segments": [],
+      "special_cases": [
+        "crossed_out_word",
+        "date",
+        "handwritten_correction",
+        "mixed_case",
+        "numeric_values"
+      ],
+      "medicines": [
+        {
+          "form": "Tab",
+          "name": "Rabeprazole",
+          "strength": "20mg",
+          "dose": "1 tab",
+          "frequency": "1-1-1 PC",
+          "duration": "x 10d"
+        },
+        {
+          "form": "Tab",
+          "name": "cLOPIDOGREL",
+          "strength": "75mg",
+          "dose": "",
+          "frequency": "SOS PC",
+          "duration": "x 3d"
+        },
+        {
+          "form": "Tab",
+          "name": "Folic Acid",
+          "strength": "5mg",
+          "dose": "1/2",
+          "frequency": "HS",
+          "duration": "x 5d"
+        },
+        {
+          "form": "Tab",
+          "name": "Cetirizine",
+          "strength": "10 mg",
+          "dose": "",
+          "frequency": "BD AC",
+          "duration": "x 3/7"
+        }
+      ],
+      "patient": {
+        "name": "Dev Kapoor",
+        "age_sex": "39/F",
+        "date": "02/05/2026"
+      },
+      "corrections": [
+        {
+          "crossed_out": "5ml",
+          "correction": "20mg"
+        }
+      ],
+      "layout": "printed_labels",
+      "handwriting_font": "Cedarville-Cursive",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": []
+      }
+    },
+    {
+      "prescription_id": "RX019",
+      "difficulty_level": "medium",
+      "original_text": "Lotus Care Clinic\nDr. Arvind Sood, MBBS, DNB (Family Medicine)\nReg. No. FMC-94876 | 3rd Floor, Kiran Complex, Devpur\nDate: 11 Oct 26\nName: Lata Shah\nAge/Sex: 47/F\nc/o acidity, bloating x 2d\nBP 114/82\nRx\n1) Tab Metronidazole 400mg TDS [ILLEGIBLE] x 7d\n2. Tab Domperidone 10mg BD PC x ~~10d~~ 1wk\nReview SOS\nSignature",
+      "medicine_names": [
+        "Metronidazole",
+        "Domperidone"
+      ],
+      "dosage": [
+        "400mg",
+        "10mg"
+      ],
+      "frequency": [
+        "TDS [ILLEGIBLE]",
+        "BD PC"
+      ],
+      "duration": [
+        "x 7d",
+        "x 1wk"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "BP",
+        "Rx",
+        "Tab",
+        "mg",
+        "TDS",
+        "BD",
+        "PC",
+        "wk",
+        "SOS"
+      ],
+      "unclear_segments": [
+        "1) Tab Metronidazole 400mg TDS [ILLEGIBLE] x 7d"
+      ],
+      "special_cases": [
+        "crossed_out_word",
+        "date",
+        "handwritten_correction",
+        "illegible_segment",
+        "numeric_values"
+      ],
+      "medicines": [
+        {
+          "form": "Tab",
+          "name": "Metronidazole",
+          "strength": "400mg",
+          "dose": "",
+          "frequency": "TDS [ILLEGIBLE]",
+          "duration": "x 7d"
+        },
+        {
+          "form": "Tab",
+          "name": "Domperidone",
+          "strength": "10mg",
+          "dose": "",
+          "frequency": "BD PC",
+          "duration": "x 1wk"
+        }
+      ],
+      "patient": {
+        "name": "Lata Shah",
+        "age_sex": "47/F",
+        "date": "11 Oct 26"
+      },
+      "corrections": [
+        {
+          "crossed_out": "10d",
+          "correction": "1wk"
+        }
+      ],
+      "layout": "printed_labels",
+      "handwriting_font": "Caveat",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": [
+          {
+            "box": [
+              482,
+              495,
+              516,
+              571
+            ],
+            "hidden_source": "AC"
+          }
+        ]
+      }
+    },
+    {
+      "prescription_id": "RX020",
+      "difficulty_level": "medium",
+      "original_text": "Orchid Family Practice\nDr. Arvind Sood, MBBS, MD (Paediatrics)\nReg. No. FMC-50742 | 14 Lakeview Road, Navgaon\nDate: 10-Jun-2026\nName: Raghav Dutta\nAge/Sex: 52/M\nc/o acidity, [ILLEGIBLE] x 4d\nWt 73kg\nRx\n1) Cap omeprazole 20 mg 1-1-1 x 7d\n2. Tab Azithromycin 500mg 0-0-1 after food x 14d\n3) Tab Cefixime ~~100mg~~ 75mg 1 IM stat\nAdv: steam inhalation BD\nSignature",
+      "medicine_names": [
+        "omeprazole",
+        "Azithromycin",
+        "Cefixime"
+      ],
+      "dosage": [
+        "20 mg",
+        "500mg",
+        "75mg 1"
+      ],
+      "frequency": [
+        "1-1-1",
+        "0-0-1 after food",
+        "IM stat"
+      ],
+      "duration": [
+        "x 7d",
+        "x 14d",
+        ""
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "Wt",
+        "Rx",
+        "Cap",
+        "mg",
+        "1-1-1 (dose pattern)",
+        "Tab",
+        "0-0-1 (dose pattern)",
+        "IM",
+        "stat",
+        "Adv",
+        "BD"
+      ],
+      "unclear_segments": [
+        "c/o acidity, [ILLEGIBLE] x 4d"
+      ],
+      "special_cases": [
+        "ambiguous_digits",
+        "crossed_out_word",
+        "date",
+        "handwritten_correction",
+        "illegible_segment",
+        "lookalike_name:Cefixime~Cefuroxime",
+        "mixed_case",
+        "numeric_values"
+      ],
+      "medicines": [
+        {
+          "form": "Cap",
+          "name": "omeprazole",
+          "strength": "20 mg",
+          "dose": "",
+          "frequency": "1-1-1",
+          "duration": "x 7d"
+        },
+        {
+          "form": "Tab",
+          "name": "Azithromycin",
+          "strength": "500mg",
+          "dose": "",
+          "frequency": "0-0-1 after food",
+          "duration": "x 14d"
+        },
+        {
+          "form": "Tab",
+          "name": "Cefixime",
+          "strength": "75mg",
+          "dose": "1",
+          "frequency": "IM stat",
+          "duration": ""
+        }
+      ],
+      "patient": {
+        "name": "Raghav Dutta",
+        "age_sex": "52/M",
+        "date": "10-Jun-2026"
+      },
+      "corrections": [
+        {
+          "crossed_out": "100mg",
+          "correction": "75mg"
+        }
+      ],
+      "layout": "printed_labels",
+      "handwriting_font": "Caveat",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": [
+          {
+            "box": [
+              188,
+              327,
+              253,
+              403
+            ],
+            "hidden_source": "bloating"
+          }
+        ]
+      }
+    },
+    {
+      "prescription_id": "RX021",
+      "difficulty_level": "medium",
+      "original_text": "Harmony Health Hub\nDr. Sunil Rathore, MBBS, DCH\nReg. No. FMC-92065 | 14 Lakeview Road, Navgaon\nName: Kriti Rawat Age/Sex: 36/M\nDate: 8 Oct 26\nc/o loose motions x 5d\nRx\n1) Tab Montelukast 10mg 2 TDS x 10d\n2. Tab lEVOCETIRIZINE 0.5mg 2 HS x 3/7\n3) Tab Metformin 500mg 1 tab QID x 5d\nAdv: steam inhalation BD\nSignature",
+      "medicine_names": [
+        "Montelukast",
+        "lEVOCETIRIZINE",
+        "Metformin"
+      ],
+      "dosage": [
+        "10mg 2",
+        "0.5mg 2",
+        "500mg 1 tab"
+      ],
+      "frequency": [
+        "TDS",
+        "HS",
+        "QID"
+      ],
+      "duration": [
+        "x 10d",
+        "x 3/7",
+        "x 5d"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "Rx",
+        "Tab",
+        "mg",
+        "TDS",
+        "HS",
+        "/7",
+        "QID",
+        "Adv",
+        "BD"
+      ],
+      "unclear_segments": [],
+      "special_cases": [
+        "ambiguous_digits",
+        "date",
+        "lookalike_name:Metformin~Metronidazole",
+        "mixed_case"
+      ],
+      "medicines": [
+        {
+          "form": "Tab",
+          "name": "Montelukast",
+          "strength": "10mg",
+          "dose": "2",
+          "frequency": "TDS",
+          "duration": "x 10d"
+        },
+        {
+          "form": "Tab",
+          "name": "lEVOCETIRIZINE",
+          "strength": "0.5mg",
+          "dose": "2",
+          "frequency": "HS",
+          "duration": "x 3/7"
+        },
+        {
+          "form": "Tab",
+          "name": "Metformin",
+          "strength": "500mg",
+          "dose": "1 tab",
+          "frequency": "QID",
+          "duration": "x 5d"
+        }
+      ],
+      "patient": {
+        "name": "Kriti Rawat",
+        "age_sex": "36/M",
+        "date": "8 Oct 26"
+      },
+      "corrections": [],
+      "layout": "two_column",
+      "handwriting_font": "ReenieBeanie",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": []
+      }
+    },
+    {
+      "prescription_id": "RX022",
+      "difficulty_level": "medium",
+      "original_text": "Orchid Family Practice\nDr. Meera Bansal, MBBS, MD (Paediatrics)\nReg. No. FMC-95191 | 3rd Floor, Kiran Complex, Devpur\nName: Arjun Reddy Age/Sex: 19/M\nDate: 14/07/2026\nc/o loose motions x 3d\nWt 73kg\nRx\n1) Tab Montelukast 10mg 1-0-0 x 10d\n2. Tab Atorvastatin 10mg 1/2 0-0-1 x 14d\n3) Tab Prednisolone 5mg 1/2 1-1-1 AC x 10d\n4. Tab Ondansetron 0.5mg 1 tab 1-0-1 PC x 5/7\nAdv: soft [ILLEGIBLE]\nSignature",
+      "medicine_names": [
+        "Montelukast",
+        "Atorvastatin",
+        "Prednisolone",
+        "Ondansetron"
+      ],
+      "dosage": [
+        "10mg",
+        "10mg 1/2",
+        "5mg 1/2",
+        "0.5mg 1 tab"
+      ],
+      "frequency": [
+        "1-0-0",
+        "0-0-1",
+        "1-1-1 AC",
+        "1-0-1 PC"
+      ],
+      "duration": [
+        "x 10d",
+        "x 14d",
+        "x 10d",
+        "x 5/7"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "Wt",
+        "Rx",
+        "Tab",
+        "mg",
+        "1-0-0 (dose pattern)",
+        "0-0-1 (dose pattern)",
+        "1-1-1 (dose pattern)",
+        "AC",
+        "1-0-1 (dose pattern)",
+        "PC",
+        "/7",
+        "Adv"
+      ],
+      "unclear_segments": [
+        "Adv: soft [ILLEGIBLE]"
+      ],
+      "special_cases": [
+        "ambiguous_digits",
+        "date",
+        "illegible_segment",
+        "numeric_values"
+      ],
+      "medicines": [
+        {
+          "form": "Tab",
+          "name": "Montelukast",
+          "strength": "10mg",
+          "dose": "",
+          "frequency": "1-0-0",
+          "duration": "x 10d"
+        },
+        {
+          "form": "Tab",
+          "name": "Atorvastatin",
+          "strength": "10mg",
+          "dose": "1/2",
+          "frequency": "0-0-1",
+          "duration": "x 14d"
+        },
+        {
+          "form": "Tab",
+          "name": "Prednisolone",
+          "strength": "5mg",
+          "dose": "1/2",
+          "frequency": "1-1-1 AC",
+          "duration": "x 10d"
+        },
+        {
+          "form": "Tab",
+          "name": "Ondansetron",
+          "strength": "0.5mg",
+          "dose": "1 tab",
+          "frequency": "1-0-1 PC",
+          "duration": "x 5/7"
+        }
+      ],
+      "patient": {
+        "name": "Arjun Reddy",
+        "age_sex": "19/M",
+        "date": "14/07/2026"
+      },
+      "corrections": [],
+      "layout": "two_column",
+      "handwriting_font": "Caveat",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": [
+          {
+            "box": [
+              161,
+              611,
+              201,
+              692
+            ],
+            "hidden_source": "diet"
+          }
+        ]
+      }
+    },
+    {
+      "prescription_id": "RX023",
+      "difficulty_level": "medium",
+      "original_text": "Maple Polyclinic\nDr. Farhan Qadri, MBBS, MD (Medicine)\nReg. No. FMC-91673 | B-9 Market Street, Chandanpur\nDate: 8-Mar-2026\nName: Harsh Dutta\nAge/Sex: 20/F\nc/o acidity, bloating x 5d\nRx\n1) Cap Vitamin D3 60000IU 1/2 1-0-0 x 1m\n2. Tab PARACETAMOL 650 mg 1 TDS after food x\n3d\n3) Syp Ambroxol 10ml QID after food x 5/7\n4. Tab Atorvastatin 10mg SOS PC x 14d\nReview SOS\nSignature",
+      "medicine_names": [
+        "Vitamin D3",
+        "PARACETAMOL",
+        "Ambroxol",
+        "Atorvastatin"
+      ],
+      "dosage": [
+        "60000IU 1/2",
+        "650 mg 1",
+        "10ml",
+        "10mg"
+      ],
+      "frequency": [
+        "1-0-0",
+        "TDS after food",
+        "QID after food",
+        "SOS PC"
+      ],
+      "duration": [
+        "x 1m",
+        "x 3d",
+        "x 5/7",
+        "x 14d"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "Rx",
+        "Cap",
+        "IU",
+        "1-0-0 (dose pattern)",
+        "m",
+        "Tab",
+        "mg",
+        "TDS",
+        "Syp",
+        "ml",
+        "QID",
+        "/7",
+        "SOS",
+        "PC"
+      ],
+      "unclear_segments": [],
+      "special_cases": [
+        "date",
+        "mixed_case"
+      ],
+      "medicines": [
+        {
+          "form": "Cap",
+          "name": "Vitamin D3",
+          "strength": "60000IU",
+          "dose": "1/2",
+          "frequency": "1-0-0",
+          "duration": "x 1m"
+        },
+        {
+          "form": "Tab",
+          "name": "PARACETAMOL",
+          "strength": "650 mg",
+          "dose": "1",
+          "frequency": "TDS after food",
+          "duration": "x 3d"
+        },
+        {
+          "form": "Syp",
+          "name": "Ambroxol",
+          "strength": "10ml",
+          "dose": "",
+          "frequency": "QID after food",
+          "duration": "x 5/7"
+        },
+        {
+          "form": "Tab",
+          "name": "Atorvastatin",
+          "strength": "10mg",
+          "dose": "",
+          "frequency": "SOS PC",
+          "duration": "x 14d"
+        }
+      ],
+      "patient": {
+        "name": "Harsh Dutta",
+        "age_sex": "20/F",
+        "date": "8-Mar-2026"
+      },
+      "corrections": [],
+      "layout": "printed_labels",
+      "handwriting_font": "Cedarville-Cursive",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": []
+      }
+    },
+    {
+      "prescription_id": "RX024",
+      "difficulty_level": "medium",
+      "original_text": "Orchid Family Practice\nDr. Meera Bansal, MBBS, DCH\nReg. No. FMC-96575 | Plot 7, Sector 21, Ramnagar\nDate: 27/04/26\nName: Lata Rawat\nAge/Sex: 56/M\nc/o sore throat, cough x 4d\nSpO2 95%\nRx\n1) Tab Domperidone 10mg 1 1-0-1 x 1m\n2. Tab Rabeprazole 20mg OD PC x 5d\n3) Tab Azithromycin 500mg 2 QID after food\nx 3d\n4. Tab [ILLEGIBLE] 10mg TDS AC x ~~7d~~ 3d\nAdv: plenty of fluids\nSignature",
+      "medicine_names": [
+        "Domperidone",
+        "Rabeprazole",
+        "Azithromycin",
+        "[ILLEGIBLE]"
+      ],
+      "dosage": [
+        "10mg 1",
+        "20mg",
+        "500mg 2",
+        "10mg"
+      ],
+      "frequency": [
+        "1-0-1",
+        "OD PC",
+        "QID after food",
+        "TDS AC"
+      ],
+      "duration": [
+        "x 1m",
+        "x 5d",
+        "x 3d",
+        "x 3d"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "Rx",
+        "Tab",
+        "mg",
+        "1-0-1 (dose pattern)",
+        "m",
+        "OD",
+        "PC",
+        "QID",
+        "TDS",
+        "AC",
+        "Adv"
+      ],
+      "unclear_segments": [
+        "4. Tab [ILLEGIBLE] 10mg TDS AC x ~~7d~~ 3d"
+      ],
+      "special_cases": [
+        "crossed_out_word",
+        "date",
+        "handwritten_correction",
+        "illegible_segment",
+        "mixed_case",
+        "numeric_values"
+      ],
+      "medicines": [
+        {
+          "form": "Tab",
+          "name": "Domperidone",
+          "strength": "10mg",
+          "dose": "1",
+          "frequency": "1-0-1",
+          "duration": "x 1m"
+        },
+        {
+          "form": "Tab",
+          "name": "Rabeprazole",
+          "strength": "20mg",
+          "dose": "",
+          "frequency": "OD PC",
+          "duration": "x 5d"
+        },
+        {
+          "form": "Tab",
+          "name": "Azithromycin",
+          "strength": "500mg",
+          "dose": "2",
+          "frequency": "QID after food",
+          "duration": "x 3d"
+        },
+        {
+          "form": "Tab",
+          "name": "[ILLEGIBLE]",
+          "strength": "10mg",
+          "dose": "",
+          "frequency": "TDS AC",
+          "duration": "x 3d"
+        }
+      ],
+      "patient": {
+        "name": "Lata Rawat",
+        "age_sex": "56/M",
+        "date": "27/04/26"
+      },
+      "corrections": [
+        {
+          "crossed_out": "7d",
+          "correction": "3d"
+        }
+      ],
+      "layout": "printed_labels",
+      "handwriting_font": "ReenieBeanie",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": [
+          {
+            "box": [
+              209,
+              788,
+              323,
+              878
+            ],
+            "hidden_source": "Prednisolone"
+          }
+        ]
+      }
+    },
+    {
+      "prescription_id": "RX025",
+      "difficulty_level": "medium",
+      "original_text": "Crescent Care Centre\nDr. Kavya Iyer, MBBS\nReg. No. FMC-78199 | 14 Lakeview Road, Navgaon\nDate: 12.6.26\nName: Kriti Shah\nAge/Sex: 23/M\nc/o vomiting x 2d\nSpO2 98%\nRx\n1) Tab Folic Acid 1.5mg 1/2 0-0-1 PC x 7d\n2. Cap Omeprazole 20 mg HS PC x 5/7\n3) Tab Metronidazole 400mg 1 OD PC x 1m\n4. Tab Paracetamol 650 mg 1/2 HS PC x 3d\nAdv: plenty of fluids\nSignature",
+      "medicine_names": [
+        "Folic Acid",
+        "Omeprazole",
+        "Metronidazole",
+        "Paracetamol"
+      ],
+      "dosage": [
+        "1.5mg 1/2",
+        "20 mg",
+        "400mg 1",
+        "650 mg 1/2"
+      ],
+      "frequency": [
+        "0-0-1 PC",
+        "HS PC",
+        "OD PC",
+        "HS PC"
+      ],
+      "duration": [
+        "x 7d",
+        "x 5/7",
+        "x 1m",
+        "x 3d"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "Rx",
+        "Tab",
+        "mg",
+        "0-0-1 (dose pattern)",
+        "PC",
+        "Cap",
+        "HS",
+        "/7",
+        "OD",
+        "m",
+        "Adv"
+      ],
+      "unclear_segments": [],
+      "special_cases": [
+        "ambiguous_digits",
+        "date",
+        "numeric_values"
+      ],
+      "medicines": [
+        {
+          "form": "Tab",
+          "name": "Folic Acid",
+          "strength": "1.5mg",
+          "dose": "1/2",
+          "frequency": "0-0-1 PC",
+          "duration": "x 7d"
+        },
+        {
+          "form": "Cap",
+          "name": "Omeprazole",
+          "strength": "20 mg",
+          "dose": "",
+          "frequency": "HS PC",
+          "duration": "x 5/7"
+        },
+        {
+          "form": "Tab",
+          "name": "Metronidazole",
+          "strength": "400mg",
+          "dose": "1",
+          "frequency": "OD PC",
+          "duration": "x 1m"
+        },
+        {
+          "form": "Tab",
+          "name": "Paracetamol",
+          "strength": "650 mg",
+          "dose": "1/2",
+          "frequency": "HS PC",
+          "duration": "x 3d"
+        }
+      ],
+      "patient": {
+        "name": "Kriti Shah",
+        "age_sex": "23/M",
+        "date": "12.6.26"
+      },
+      "corrections": [],
+      "layout": "printed_labels",
+      "handwriting_font": "NothingYouCouldDo",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": []
+      }
+    },
+    {
+      "prescription_id": "RX026",
+      "difficulty_level": "medium",
+      "original_text": "Lotus Care Clinic\nDr. Arvind Sood, MBBS\nReg. No. FMC-50427 | B-9 Market Street, Chandanpur\nName: Kabir Joshi Age/Sex: 64/F\nDate: 9 Jul 26\nc/o sore throat, cough x 2d\nWt 51kg\nRx\n1) Tab Pantoprazole 0.5mg 1 tab 0-0-1 x 10d\n2. Tab AMLODIPINE 5mg 1 ~~BD~~ TDS PC x 14d\n3) Tab Prednisolone 5mg SOS x 1m\nAdv: steam inhalation BD\nSignature",
+      "medicine_names": [
+        "Pantoprazole",
+        "AMLODIPINE",
+        "Prednisolone"
+      ],
+      "dosage": [
+        "0.5mg 1 tab",
+        "5mg 1",
+        "5mg"
+      ],
+      "frequency": [
+        "0-0-1",
+        "TDS PC",
+        "SOS"
+      ],
+      "duration": [
+        "x 10d",
+        "x 14d",
+        "x 1m"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "Wt",
+        "Rx",
+        "Tab",
+        "mg",
+        "0-0-1 (dose pattern)",
+        "BD",
+        "TDS",
+        "PC",
+        "SOS",
+        "m",
+        "Adv"
+      ],
+      "unclear_segments": [],
+      "special_cases": [
+        "ambiguous_digits",
+        "crossed_out_word",
+        "date",
+        "handwritten_correction",
+        "mixed_case",
+        "numeric_values"
+      ],
+      "medicines": [
+        {
+          "form": "Tab",
+          "name": "Pantoprazole",
+          "strength": "0.5mg",
+          "dose": "1 tab",
+          "frequency": "0-0-1",
+          "duration": "x 10d"
+        },
+        {
+          "form": "Tab",
+          "name": "AMLODIPINE",
+          "strength": "5mg",
+          "dose": "1",
+          "frequency": "TDS PC",
+          "duration": "x 14d"
+        },
+        {
+          "form": "Tab",
+          "name": "Prednisolone",
+          "strength": "5mg",
+          "dose": "",
+          "frequency": "SOS",
+          "duration": "x 1m"
+        }
+      ],
+      "patient": {
+        "name": "Kabir Joshi",
+        "age_sex": "64/F",
+        "date": "9 Jul 26"
+      },
+      "corrections": [
+        {
+          "crossed_out": "BD",
+          "correction": "TDS"
+        }
+      ],
+      "layout": "two_column",
+      "handwriting_font": "Cedarville-Cursive",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": []
+      }
+    },
+    {
+      "prescription_id": "RX027",
+      "difficulty_level": "medium",
+      "original_text": "Sunrise Family Clinic\nDr. Neha Kulkarni, MBBS, DCH\nReg. No. FMC-99101 | Plot 7, Sector 21, Ramnagar\nDate: 26/04/2026\nName: Nisha Kapoor\nAge/Sex: 74/M\nc/o headache x 5d\nRx\n1) Tab Metronidazole 400mg 2 OD x 1wk\n2. Tab pANTOPRAZOLE 40mg BD after food x\n5/7\n3) Tab Clopidogrel 75mg OD x 10d\n4. Cap Amoxicillin 500 mg 1 QID PC x 5/7\nAdv: rest x 3d\nSignature",
+      "medicine_names": [
+        "Metronidazole",
+        "pANTOPRAZOLE",
+        "Clopidogrel",
+        "Amoxicillin"
+      ],
+      "dosage": [
+        "400mg 2",
+        "40mg",
+        "75mg",
+        "500 mg 1"
+      ],
+      "frequency": [
+        "OD",
+        "BD after food",
+        "OD",
+        "QID PC"
+      ],
+      "duration": [
+        "x 1wk",
+        "x 5/7",
+        "x 10d",
+        "x 5/7"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "Rx",
+        "Tab",
+        "mg",
+        "OD",
+        "wk",
+        "BD",
+        "/7",
+        "Cap",
+        "QID",
+        "PC",
+        "Adv"
+      ],
+      "unclear_segments": [],
+      "special_cases": [
+        "date",
+        "mixed_case"
+      ],
+      "medicines": [
+        {
+          "form": "Tab",
+          "name": "Metronidazole",
+          "strength": "400mg",
+          "dose": "2",
+          "frequency": "OD",
+          "duration": "x 1wk"
+        },
+        {
+          "form": "Tab",
+          "name": "pANTOPRAZOLE",
+          "strength": "40mg",
+          "dose": "",
+          "frequency": "BD after food",
+          "duration": "x 5/7"
+        },
+        {
+          "form": "Tab",
+          "name": "Clopidogrel",
+          "strength": "75mg",
+          "dose": "",
+          "frequency": "OD",
+          "duration": "x 10d"
+        },
+        {
+          "form": "Cap",
+          "name": "Amoxicillin",
+          "strength": "500 mg",
+          "dose": "1",
+          "frequency": "QID PC",
+          "duration": "x 5/7"
+        }
+      ],
+      "patient": {
+        "name": "Nisha Kapoor",
+        "age_sex": "74/M",
+        "date": "26/04/2026"
+      },
+      "corrections": [],
+      "layout": "printed_labels",
+      "handwriting_font": "ReenieBeanie",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": []
+      }
+    },
+    {
+      "prescription_id": "RX028",
+      "difficulty_level": "medium",
+      "original_text": "Bluebell Medical Point\nDr. Ananya Ghosh, MBBS, DNB (Family Medicine)\nReg. No. FMC-21568 | Plot 7, Sector 21, Ramnagar\nDate: 24/11/2026\nName: Simran Pillai\nAge/Sex: 51/F\nc/o dry cough x 4d\nWt 72kg\nRx\n1) Tab Atorvastatin 10mg 1/2 QID x 3/7\n2. Tab Paracetamol 500 mg HS x 5/7\nAdv: steam inhalation BD\nSignature",
+      "medicine_names": [
+        "Atorvastatin",
+        "Paracetamol"
+      ],
+      "dosage": [
+        "10mg 1/2",
+        "500 mg"
+      ],
+      "frequency": [
+        "QID",
+        "HS"
+      ],
+      "duration": [
+        "x 3/7",
+        "x 5/7"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "Wt",
+        "Rx",
+        "Tab",
+        "mg",
+        "QID",
+        "/7",
+        "HS",
+        "Adv",
+        "BD"
+      ],
+      "unclear_segments": [],
+      "special_cases": [
+        "date",
+        "numeric_values"
+      ],
+      "medicines": [
+        {
+          "form": "Tab",
+          "name": "Atorvastatin",
+          "strength": "10mg",
+          "dose": "1/2",
+          "frequency": "QID",
+          "duration": "x 3/7"
+        },
+        {
+          "form": "Tab",
+          "name": "Paracetamol",
+          "strength": "500 mg",
+          "dose": "",
+          "frequency": "HS",
+          "duration": "x 5/7"
+        }
+      ],
+      "patient": {
+        "name": "Simran Pillai",
+        "age_sex": "51/F",
+        "date": "24/11/2026"
+      },
+      "corrections": [],
+      "layout": "handwritten_labels",
+      "handwriting_font": "ReenieBeanie",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": []
+      }
+    },
+    {
+      "prescription_id": "RX029",
+      "difficulty_level": "medium",
+      "original_text": "Silver Oak Clinic\nDr. Arvind Sood, MBBS, DCH\nReg. No. FMC-37528 | 14 Lakeview Road, Navgaon\nDate: 14.10.26\nName: Raghav Kapoor\nAge/Sex: 71/M\nc/o acidity, bloating x 2d\nRx\n1) Tab Pantoprazole 40mg BD x 14d\n2. Tab Paracetamol 500 mg 0-0-1 x 5d\nAdv: soft diet\nSignature",
+      "medicine_names": [
+        "Pantoprazole",
+        "Paracetamol"
+      ],
+      "dosage": [
+        "40mg",
+        "500 mg"
+      ],
+      "frequency": [
+        "BD",
+        "0-0-1"
+      ],
+      "duration": [
+        "x 14d",
+        "x 5d"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "Rx",
+        "Tab",
+        "mg",
+        "BD",
+        "0-0-1 (dose pattern)",
+        "Adv"
+      ],
+      "unclear_segments": [],
+      "special_cases": [
+        "date"
+      ],
+      "medicines": [
+        {
+          "form": "Tab",
+          "name": "Pantoprazole",
+          "strength": "40mg",
+          "dose": "",
+          "frequency": "BD",
+          "duration": "x 14d"
+        },
+        {
+          "form": "Tab",
+          "name": "Paracetamol",
+          "strength": "500 mg",
+          "dose": "",
+          "frequency": "0-0-1",
+          "duration": "x 5d"
+        }
+      ],
+      "patient": {
+        "name": "Raghav Kapoor",
+        "age_sex": "71/M",
+        "date": "14.10.26"
+      },
+      "corrections": [],
+      "layout": "handwritten_labels",
+      "handwriting_font": "Cedarville-Cursive",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": []
+      }
+    },
+    {
+      "prescription_id": "RX030",
+      "difficulty_level": "medium",
+      "original_text": "Riverside Wellness Clinic\nDr. Vikram Chauhan, MBBS, DNB (Family Medicine)\nReg. No. FMC-49049 | 45 Hill View, Ambapur\nDate: 8 Mar 26\nName: Kabir Shah\nAge/Sex: 36/M\nc/o fever, body ache x 3d\nBP 139/89\nRx\n1) Tab Ondansetron 4mg 1/2 BD after food x 5/7\n2. Tab Levocetirizine ~~20mg~~ 5mg 1 tab BD PC x 5/7\n3) Syp Ambroxol 5ml BD x 10d\n4. Tab Cetirizine 10 mg 1 tab OD x 1m\nAdv: plenty of fluids\nSignature",
+      "medicine_names": [
+        "Ondansetron",
+        "Levocetirizine",
+        "Ambroxol",
+        "Cetirizine"
+      ],
+      "dosage": [
+        "4mg 1/2",
+        "5mg 1 tab",
+        "5ml",
+        "10 mg 1 tab"
+      ],
+      "frequency": [
+        "BD after food",
+        "BD PC",
+        "BD",
+        "OD"
+      ],
+      "duration": [
+        "x 5/7",
+        "x 5/7",
+        "x 10d",
+        "x 1m"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "BP",
+        "Rx",
+        "Tab",
+        "mg",
+        "BD",
+        "/7",
+        "PC",
+        "Syp",
+        "ml",
+        "OD",
+        "m",
+        "Adv"
+      ],
+      "unclear_segments": [],
+      "special_cases": [
+        "crossed_out_word",
+        "date",
+        "handwritten_correction",
+        "numeric_values"
+      ],
+      "medicines": [
+        {
+          "form": "Tab",
+          "name": "Ondansetron",
+          "strength": "4mg",
+          "dose": "1/2",
+          "frequency": "BD after food",
+          "duration": "x 5/7"
+        },
+        {
+          "form": "Tab",
+          "name": "Levocetirizine",
+          "strength": "5mg",
+          "dose": "1 tab",
+          "frequency": "BD PC",
+          "duration": "x 5/7"
+        },
+        {
+          "form": "Syp",
+          "name": "Ambroxol",
+          "strength": "5ml",
+          "dose": "",
+          "frequency": "BD",
+          "duration": "x 10d"
+        },
+        {
+          "form": "Tab",
+          "name": "Cetirizine",
+          "strength": "10 mg",
+          "dose": "1 tab",
+          "frequency": "OD",
+          "duration": "x 1m"
+        }
+      ],
+      "patient": {
+        "name": "Kabir Shah",
+        "age_sex": "36/M",
+        "date": "8 Mar 26"
+      },
+      "corrections": [
+        {
+          "crossed_out": "20mg",
+          "correction": "5mg"
+        }
+      ],
+      "layout": "handwritten_labels",
+      "handwriting_font": "NothingYouCouldDo",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": []
+      }
+    },
+    {
+      "prescription_id": "RX031",
+      "difficulty_level": "hard",
+      "original_text": "Harmony Health Hub\nDr. Arvind Sood, MBBS, DCH\nReg. No. FMC-65913 | 45 Hill View, Ambapur\nName: Riya Bhatt Age/Sex: 17/F\nDate: ~~07/09/26~~ 18/09/2026\nc/o fever, body ache x 2d\nBP 149/83\nRx\n1) Tab Rabeprazole 20mg 2 1-0-0 x 14d\n2. Tab Metformin 500mg QID PC x 14d\n3) Cap Amoxicillin 500 mg 1-0-0 after food x\n1m\n4. Tab Atorvastatin 10mg 1 SOS AC x 1wk\n5) Tab Vitamin C ~~250mg~~ 17mg 1 1-0-1 x 3/7\nRv after [ILLEGIBLE]\nSignature",
+      "medicine_names": [
+        "Rabeprazole",
+        "Metformin",
+        "Amoxicillin",
+        "Atorvastatin",
+        "Vitamin C"
+      ],
+      "dosage": [
+        "20mg 2",
+        "500mg",
+        "500 mg",
+        "10mg 1",
+        "17mg 1"
+      ],
+      "frequency": [
+        "1-0-0",
+        "QID PC",
+        "1-0-0 after food",
+        "SOS AC",
+        "1-0-1"
+      ],
+      "duration": [
+        "x 14d",
+        "x 14d",
+        "x 1m",
+        "x 1wk",
+        "x 3/7"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "BP",
+        "Rx",
+        "Tab",
+        "mg",
+        "1-0-0 (dose pattern)",
+        "QID",
+        "PC",
+        "Cap",
+        "m",
+        "SOS",
+        "AC",
+        "wk",
+        "1-0-1 (dose pattern)",
+        "/7",
+        "Rv"
+      ],
+      "unclear_segments": [
+        "Rv after [ILLEGIBLE]"
+      ],
+      "special_cases": [
+        "ambiguous_digits",
+        "crossed_out_date",
+        "crossed_out_word",
+        "date",
+        "handwritten_correction",
+        "illegible_segment",
+        "numeric_values"
+      ],
+      "medicines": [
+        {
+          "form": "Tab",
+          "name": "Rabeprazole",
+          "strength": "20mg",
+          "dose": "2",
+          "frequency": "1-0-0",
+          "duration": "x 14d"
+        },
+        {
+          "form": "Tab",
+          "name": "Metformin",
+          "strength": "500mg",
+          "dose": "",
+          "frequency": "QID PC",
+          "duration": "x 14d"
+        },
+        {
+          "form": "Cap",
+          "name": "Amoxicillin",
+          "strength": "500 mg",
+          "dose": "",
+          "frequency": "1-0-0 after food",
+          "duration": "x 1m"
+        },
+        {
+          "form": "Tab",
+          "name": "Atorvastatin",
+          "strength": "10mg",
+          "dose": "1",
+          "frequency": "SOS AC",
+          "duration": "x 1wk"
+        },
+        {
+          "form": "Tab",
+          "name": "Vitamin C",
+          "strength": "17mg",
+          "dose": "1",
+          "frequency": "1-0-1",
+          "duration": "x 3/7"
+        }
+      ],
+      "patient": {
+        "name": "Riya Bhatt",
+        "age_sex": "17/F",
+        "date": "18/09/2026"
+      },
+      "corrections": [
+        {
+          "crossed_out": "07/09/26",
+          "correction": "18/09/2026"
+        },
+        {
+          "crossed_out": "250mg",
+          "correction": "17mg"
+        }
+      ],
+      "layout": "two_column",
+      "handwriting_font": "ReenieBeanie",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": [
+          {
+            "box": [
+              215,
+              814,
+              264,
+              899
+            ],
+            "hidden_source": "5/7",
+            "page_rotation_deg": -0.16
+          }
+        ]
+      }
+    },
+    {
+      "prescription_id": "RX032",
+      "difficulty_level": "hard",
+      "original_text": "Lotus Care Clinic\nDr. Priya Menon, MBBS\nReg. No. FMC-44614 | 3rd Floor, Kiran Complex, Devpur\nDate: 2-Jul-2026\nName: Bela Kapoor\nAge/Sex: 7/M\nc/o loose [ILLEGIBLE] x 4d\nWt 32kg\nDx: AGE\nRx\n1) Tab Atorvastatin 10mg 1 TDS x 1m\n2. Cap Omeprazole 20 mg 1 tab OD PC x 14d\n3) Tab Pantoprazole 40mg HS AC x ~~2d~~ 7d\n4. Tab ~~Metronidazole~~ Metformin 500mg 1 tab TDS after [ILLEGIBLE]\nx 1m\nReview SOS\nSignature",
+      "medicine_names": [
+        "Atorvastatin",
+        "Omeprazole",
+        "Pantoprazole",
+        "Metformin"
+      ],
+      "dosage": [
+        "10mg 1",
+        "20 mg 1 tab",
+        "40mg",
+        "500mg 1 tab"
+      ],
+      "frequency": [
+        "TDS",
+        "OD PC",
+        "HS AC",
+        "TDS after [ILLEGIBLE]"
+      ],
+      "duration": [
+        "x 1m",
+        "x 14d",
+        "x 7d",
+        "x 1m"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "Wt",
+        "Dx",
+        "Rx",
+        "Tab",
+        "mg",
+        "TDS",
+        "m",
+        "Cap",
+        "OD",
+        "PC",
+        "HS",
+        "AC",
+        "SOS"
+      ],
+      "unclear_segments": [
+        "c/o loose [ILLEGIBLE] x 4d",
+        "4. Tab ~~Metronidazole~~ Metformin 500mg 1 tab TDS after [ILLEGIBLE]"
+      ],
+      "special_cases": [
+        "crossed_out_word",
+        "date",
+        "handwritten_correction",
+        "illegible_segment",
+        "lookalike_corrected",
+        "lookalike_name:Metformin~Metronidazole",
+        "numeric_values"
+      ],
+      "medicines": [
+        {
+          "form": "Tab",
+          "name": "Atorvastatin",
+          "strength": "10mg",
+          "dose": "1",
+          "frequency": "TDS",
+          "duration": "x 1m"
+        },
+        {
+          "form": "Cap",
+          "name": "Omeprazole",
+          "strength": "20 mg",
+          "dose": "1 tab",
+          "frequency": "OD PC",
+          "duration": "x 14d"
+        },
+        {
+          "form": "Tab",
+          "name": "Pantoprazole",
+          "strength": "40mg",
+          "dose": "",
+          "frequency": "HS AC",
+          "duration": "x 7d"
+        },
+        {
+          "form": "Tab",
+          "name": "Metformin",
+          "strength": "500mg",
+          "dose": "1 tab",
+          "frequency": "TDS after [ILLEGIBLE]",
+          "duration": "x 1m"
+        }
+      ],
+      "patient": {
+        "name": "Bela Kapoor",
+        "age_sex": "7/M",
+        "date": "2-Jul-2026"
+      },
+      "corrections": [
+        {
+          "crossed_out": "2d",
+          "correction": "7d"
+        },
+        {
+          "crossed_out": "Metronidazole",
+          "correction": "Metformin"
+        }
+      ],
+      "layout": "printed_labels",
+      "handwriting_font": "ReenieBeanie",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": [
+          {
+            "box": [
+              187,
+              341,
+              258,
+              424
+            ],
+            "hidden_source": "motions",
+            "page_rotation_deg": 1.19
+          },
+          {
+            "box": [
+              755,
+              789,
+              807,
+              876
+            ],
+            "hidden_source": "food",
+            "page_rotation_deg": 1.19
+          }
+        ]
+      }
+    },
+    {
+      "prescription_id": "RX033",
+      "difficulty_level": "hard",
+      "original_text": "Harmony Health Hub\nDr. Arvind Sood, MBBS, DCH\nReg. No. FMC-19882 | 3rd Floor, Kiran Complex, Devpur\nDate: 9 Sep 26\nName: Aditya Saxena\nAge/Sex: 12/F\nc/o loose [ILLEGIBLE] x 4d\nBP 147/86\nRx\n1) Cap VITAMIN D3 60000IU 2 1-0-1 AC x 10d\n2. syp Ambroxol 10ml ~~OD~~ SOS PC x 1m\n3) Tab Prednisolone 10mg 1-0-1 x 5/7\n4. Tab Paracetamol 650mg 1/2 1-0-1 AC x 1wk\nReview [ILLEGIBLE]\nSignature",
+      "medicine_names": [
+        "VITAMIN D3",
+        "Ambroxol",
+        "Prednisolone",
+        "Paracetamol"
+      ],
+      "dosage": [
+        "60000IU 2",
+        "10ml",
+        "10mg",
+        "650mg 1/2"
+      ],
+      "frequency": [
+        "1-0-1 AC",
+        "SOS PC",
+        "1-0-1",
+        "1-0-1 AC"
+      ],
+      "duration": [
+        "x 10d",
+        "x 1m",
+        "x 5/7",
+        "x 1wk"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "BP",
+        "Rx",
+        "Cap",
+        "IU",
+        "1-0-1 (dose pattern)",
+        "AC",
+        "Syp",
+        "ml",
+        "OD",
+        "SOS",
+        "PC",
+        "m",
+        "Tab",
+        "mg",
+        "/7",
+        "wk"
+      ],
+      "unclear_segments": [
+        "c/o loose [ILLEGIBLE] x 4d",
+        "Review [ILLEGIBLE]"
+      ],
+      "special_cases": [
+        "ambiguous_digits",
+        "crossed_out_word",
+        "date",
+        "handwritten_correction",
+        "illegible_segment",
+        "mixed_case",
+        "numeric_values"
+      ],
+      "medicines": [
+        {
+          "form": "Cap",
+          "name": "VITAMIN D3",
+          "strength": "60000IU",
+          "dose": "2",
+          "frequency": "1-0-1 AC",
+          "duration": "x 10d"
+        },
+        {
+          "form": "syp",
+          "name": "Ambroxol",
+          "strength": "10ml",
+          "dose": "",
+          "frequency": "SOS PC",
+          "duration": "x 1m"
+        },
+        {
+          "form": "Tab",
+          "name": "Prednisolone",
+          "strength": "10mg",
+          "dose": "",
+          "frequency": "1-0-1",
+          "duration": "x 5/7"
+        },
+        {
+          "form": "Tab",
+          "name": "Paracetamol",
+          "strength": "650mg",
+          "dose": "1/2",
+          "frequency": "1-0-1 AC",
+          "duration": "x 1wk"
+        }
+      ],
+      "patient": {
+        "name": "Aditya Saxena",
+        "age_sex": "12/F",
+        "date": "9 Sep 26"
+      },
+      "corrections": [
+        {
+          "crossed_out": "OD",
+          "correction": "SOS"
+        }
+      ],
+      "layout": "printed_labels_margin",
+      "handwriting_font": "LaBelleAurore",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": [
+          {
+            "box": [
+              175,
+              297,
+              242,
+              367
+            ],
+            "hidden_source": "motions",
+            "page_rotation_deg": -1.44
+          },
+          {
+            "box": [
+              137,
+              663,
+              181,
+              726
+            ],
+            "hidden_source": "SOS",
+            "page_rotation_deg": -1.44
+          }
+        ]
+      }
+    },
+    {
+      "prescription_id": "RX034",
+      "difficulty_level": "hard",
+      "original_text": "Bluebell Medical Point\nDr. Neha Kulkarni, MBBS\nReg. No. FMC-27971 | 14 Lakeview Road, Navgaon\nDate: 15 Feb 26\nName: Dev Mehra\nAge/Sex: 66/F\nc/o runny nose, sneezing x 3d\nTemp 99.5 F\nRx\n1) tab Metformin 500mg 1 tab HS x 1wk\n2. Tab Paracetamol 500 mg 1/2 1-1-1 after [ILLEGIBLE] x 1m\n3) cAP Omeprazole 17mg 1/2 OD PC x 10d\n4. Tab Pantoprazole 40mg 2 TDS after food x ~~7d~~ 1wk\n5) Tab ~~Valsartan~~ Losartan 50mg 1 tab 1-0-1 x 7d\nReview SOS\nSignature",
+      "medicine_names": [
+        "Metformin",
+        "Paracetamol",
+        "Omeprazole",
+        "Pantoprazole",
+        "Losartan"
+      ],
+      "dosage": [
+        "500mg 1 tab",
+        "500 mg 1/2",
+        "17mg 1/2",
+        "40mg 2",
+        "50mg 1 tab"
+      ],
+      "frequency": [
+        "HS",
+        "1-1-1 after [ILLEGIBLE]",
+        "OD PC",
+        "TDS after food",
+        "1-0-1"
+      ],
+      "duration": [
+        "x 1wk",
+        "x 1m",
+        "x 10d",
+        "x 1wk",
+        "x 7d"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "Temp",
+        "Rx",
+        "Tab",
+        "mg",
+        "HS",
+        "wk",
+        "1-1-1 (dose pattern)",
+        "m",
+        "Cap",
+        "OD",
+        "PC",
+        "TDS",
+        "1-0-1 (dose pattern)",
+        "SOS"
+      ],
+      "unclear_segments": [
+        "2. Tab Paracetamol 500 mg 1/2 1-1-1 after [ILLEGIBLE] x 1m"
+      ],
+      "special_cases": [
+        "ambiguous_digits",
+        "crossed_out_word",
+        "date",
+        "handwritten_correction",
+        "illegible_segment",
+        "lookalike_corrected",
+        "lookalike_name:Losartan~Valsartan",
+        "mixed_case",
+        "numeric_values"
+      ],
+      "medicines": [
+        {
+          "form": "tab",
+          "name": "Metformin",
+          "strength": "500mg",
+          "dose": "1 tab",
+          "frequency": "HS",
+          "duration": "x 1wk"
+        },
+        {
+          "form": "Tab",
+          "name": "Paracetamol",
+          "strength": "500 mg",
+          "dose": "1/2",
+          "frequency": "1-1-1 after [ILLEGIBLE]",
+          "duration": "x 1m"
+        },
+        {
+          "form": "cAP",
+          "name": "Omeprazole",
+          "strength": "17mg",
+          "dose": "1/2",
+          "frequency": "OD PC",
+          "duration": "x 10d"
+        },
+        {
+          "form": "Tab",
+          "name": "Pantoprazole",
+          "strength": "40mg",
+          "dose": "2",
+          "frequency": "TDS after food",
+          "duration": "x 1wk"
+        },
+        {
+          "form": "Tab",
+          "name": "Losartan",
+          "strength": "50mg",
+          "dose": "1 tab",
+          "frequency": "1-0-1",
+          "duration": "x 7d"
+        }
+      ],
+      "patient": {
+        "name": "Dev Mehra",
+        "age_sex": "66/F",
+        "date": "15 Feb 26"
+      },
+      "corrections": [
+        {
+          "crossed_out": "7d",
+          "correction": "1wk"
+        },
+        {
+          "crossed_out": "Valsartan",
+          "correction": "Losartan"
+        }
+      ],
+      "layout": "printed_labels",
+      "handwriting_font": "NothingYouCouldDo",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": [
+          {
+            "box": [
+              665,
+              517,
+              711,
+              580
+            ],
+            "hidden_source": "food",
+            "page_rotation_deg": -1.31
+          }
+        ]
+      }
+    },
+    {
+      "prescription_id": "RX035",
+      "difficulty_level": "hard",
+      "original_text": "Greenleaf Health Centre\nDr. Meera Bansal, MBBS, MD (Medicine)\nReg. No. FMC-82657 | 14 Lakeview Road, Navgaon\nName: Arjun Shah Age/Sex: 44/M\nDate: 03/01/26\nc/o dry [ILLEGIBLE] x 6d\nRx\n1) tAB Metformin 500mg BD after food x 5d\n2. TAB Domperidone 10mg 1 tab BD after food x 3/7\n3) Tab Cetirizine 10 mg 1 OD after food x ~~10d~~ 1wk\nAdv: soft diet\nSignature",
+      "medicine_names": [
+        "Metformin",
+        "Domperidone",
+        "Cetirizine"
+      ],
+      "dosage": [
+        "500mg",
+        "10mg 1 tab",
+        "10 mg 1"
+      ],
+      "frequency": [
+        "BD after food",
+        "BD after food",
+        "OD after food"
+      ],
+      "duration": [
+        "x 5d",
+        "x 3/7",
+        "x 1wk"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "Rx",
+        "Tab",
+        "mg",
+        "BD",
+        "/7",
+        "OD",
+        "wk",
+        "Adv"
+      ],
+      "unclear_segments": [
+        "c/o dry [ILLEGIBLE] x 6d"
+      ],
+      "special_cases": [
+        "crossed_out_word",
+        "date",
+        "handwritten_correction",
+        "illegible_segment",
+        "mixed_case"
+      ],
+      "medicines": [
+        {
+          "form": "tAB",
+          "name": "Metformin",
+          "strength": "500mg",
+          "dose": "",
+          "frequency": "BD after food",
+          "duration": "x 5d"
+        },
+        {
+          "form": "TAB",
+          "name": "Domperidone",
+          "strength": "10mg",
+          "dose": "1 tab",
+          "frequency": "BD after food",
+          "duration": "x 3/7"
+        },
+        {
+          "form": "Tab",
+          "name": "Cetirizine",
+          "strength": "10 mg",
+          "dose": "1",
+          "frequency": "OD after food",
+          "duration": "x 1wk"
+        }
+      ],
+      "patient": {
+        "name": "Arjun Shah",
+        "age_sex": "44/M",
+        "date": "03/01/26"
+      },
+      "corrections": [
+        {
+          "crossed_out": "10d",
+          "correction": "1wk"
+        }
+      ],
+      "layout": "two_column",
+      "handwriting_font": "NothingYouCouldDo",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": [
+          {
+            "box": [
+              168,
+              190,
+              226,
+              255
+            ],
+            "hidden_source": "cough",
+            "page_rotation_deg": 0.06
+          }
+        ]
+      }
+    },
+    {
+      "prescription_id": "RX036",
+      "difficulty_level": "hard",
+      "original_text": "Bluebell Medical Point\nDr. Arvind Sood, MBBS, DNB (Family Medicine)\nReg. No. FMC-63221 | B-9 Market Street, Chandanpur\nDate: 5 Jun 26\nName: Karan Verma\nAge/Sex: 53/M\nc/o vomiting x 5d\nDx: Viral fever\nRx\n1) tab Metformin 500mg 1 1-1-1 x 1wk\n2. Tab Prednisolone 5mg TDS x 10d\n3) Tab Rabeprazole 20mg SOS PC x ~~5d~~ 5/7\n4. Cap [ILLEGIBLE] 60000IU 1/2 0-0-1 PC x 3d\n5) Tab Losartan 50mg SOS x 10d\nRv after 5/7\nSignature",
+      "medicine_names": [
+        "Metformin",
+        "Prednisolone",
+        "Rabeprazole",
+        "[ILLEGIBLE]",
+        "Losartan"
+      ],
+      "dosage": [
+        "500mg 1",
+        "5mg",
+        "20mg",
+        "60000IU 1/2",
+        "50mg"
+      ],
+      "frequency": [
+        "1-1-1",
+        "TDS",
+        "SOS PC",
+        "0-0-1 PC",
+        "SOS"
+      ],
+      "duration": [
+        "x 1wk",
+        "x 10d",
+        "x 5/7",
+        "x 3d",
+        "x 10d"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "Dx",
+        "Rx",
+        "Tab",
+        "mg",
+        "1-1-1 (dose pattern)",
+        "wk",
+        "TDS",
+        "SOS",
+        "PC",
+        "/7",
+        "Cap",
+        "IU",
+        "0-0-1 (dose pattern)",
+        "Rv"
+      ],
+      "unclear_segments": [
+        "4. Cap [ILLEGIBLE] 60000IU 1/2 0-0-1 PC x 3d"
+      ],
+      "special_cases": [
+        "crossed_out_word",
+        "date",
+        "handwritten_correction",
+        "illegible_segment",
+        "lookalike_name:Losartan~Valsartan",
+        "mixed_case"
+      ],
+      "medicines": [
+        {
+          "form": "tab",
+          "name": "Metformin",
+          "strength": "500mg",
+          "dose": "1",
+          "frequency": "1-1-1",
+          "duration": "x 1wk"
+        },
+        {
+          "form": "Tab",
+          "name": "Prednisolone",
+          "strength": "5mg",
+          "dose": "",
+          "frequency": "TDS",
+          "duration": "x 10d"
+        },
+        {
+          "form": "Tab",
+          "name": "Rabeprazole",
+          "strength": "20mg",
+          "dose": "",
+          "frequency": "SOS PC",
+          "duration": "x 5/7"
+        },
+        {
+          "form": "Cap",
+          "name": "[ILLEGIBLE]",
+          "strength": "60000IU",
+          "dose": "1/2",
+          "frequency": "0-0-1 PC",
+          "duration": "x 3d"
+        },
+        {
+          "form": "Tab",
+          "name": "Losartan",
+          "strength": "50mg",
+          "dose": "",
+          "frequency": "SOS",
+          "duration": "x 10d"
+        }
+      ],
+      "patient": {
+        "name": "Karan Verma",
+        "age_sex": "53/M",
+        "date": "5 Jun 26"
+      },
+      "corrections": [
+        {
+          "crossed_out": "5d",
+          "correction": "5/7"
+        }
+      ],
+      "layout": "printed_labels",
+      "handwriting_font": "Cedarville-Cursive",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": [
+          {
+            "box": [
+              185,
+              612,
+              275,
+              681
+            ],
+            "hidden_source": "VitaminD3",
+            "page_rotation_deg": 1.81
+          }
+        ]
+      }
+    },
+    {
+      "prescription_id": "RX037",
+      "difficulty_level": "hard",
+      "original_text": "Orchid Family Practice\nDr. Kavya Iyer, MBBS, DCH\nReg. No. FMC-38419 | 14 Lakeview Road, Navgaon\nDate: 22 Oct 26\nName: Aditya Rawat\nAge/Sex: 66/M\nc/o knee [ILLEGIBLE] x 6d\nWt 28kg\nRx\n1) Cap Amoxicillin 500 mg 1 tab 0-0-1 x ~~3d~~ 5d\n2. Cap Omeprazole 20 mg 1 1-1-1 PC x 5d\n3) Tab [ILLEGIBLE] 500mg 1 1-0-1 x 3d\n4. Tab ~~Valsartan~~ Losartan 50mg BD x 1m\nAdv: plenty of fluids\nSignature",
+      "medicine_names": [
+        "Amoxicillin",
+        "Omeprazole",
+        "[ILLEGIBLE]",
+        "Losartan"
+      ],
+      "dosage": [
+        "500 mg 1 tab",
+        "20 mg 1",
+        "500mg 1",
+        "50mg"
+      ],
+      "frequency": [
+        "0-0-1",
+        "1-1-1 PC",
+        "1-0-1",
+        "BD"
+      ],
+      "duration": [
+        "x 5d",
+        "x 5d",
+        "x 3d",
+        "x 1m"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "Wt",
+        "Rx",
+        "Cap",
+        "mg",
+        "Tab",
+        "0-0-1 (dose pattern)",
+        "1-1-1 (dose pattern)",
+        "PC",
+        "1-0-1 (dose pattern)",
+        "BD",
+        "m",
+        "Adv"
+      ],
+      "unclear_segments": [
+        "c/o knee [ILLEGIBLE] x 6d",
+        "3) Tab [ILLEGIBLE] 500mg 1 1-0-1 x 3d"
+      ],
+      "special_cases": [
+        "crossed_out_word",
+        "date",
+        "handwritten_correction",
+        "illegible_segment",
+        "lookalike_corrected",
+        "lookalike_name:Losartan~Valsartan",
+        "mixed_case",
+        "numeric_values"
+      ],
+      "medicines": [
+        {
+          "form": "Cap",
+          "name": "Amoxicillin",
+          "strength": "500 mg",
+          "dose": "1 tab",
+          "frequency": "0-0-1",
+          "duration": "x 5d"
+        },
+        {
+          "form": "Cap",
+          "name": "Omeprazole",
+          "strength": "20 mg",
+          "dose": "1",
+          "frequency": "1-1-1 PC",
+          "duration": "x 5d"
+        },
+        {
+          "form": "Tab",
+          "name": "[ILLEGIBLE]",
+          "strength": "500mg",
+          "dose": "1",
+          "frequency": "1-0-1",
+          "duration": "x 3d"
+        },
+        {
+          "form": "Tab",
+          "name": "Losartan",
+          "strength": "50mg",
+          "dose": "",
+          "frequency": "BD",
+          "duration": "x 1m"
+        }
+      ],
+      "patient": {
+        "name": "Aditya Rawat",
+        "age_sex": "66/M",
+        "date": "22 Oct 26"
+      },
+      "corrections": [
+        {
+          "crossed_out": "3d",
+          "correction": "5d"
+        },
+        {
+          "crossed_out": "Valsartan",
+          "correction": "Losartan"
+        }
+      ],
+      "layout": "printed_labels",
+      "handwriting_font": "DawningofaNewDay",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": [
+          {
+            "box": [
+              182,
+              331,
+              234,
+              409
+            ],
+            "hidden_source": "pain",
+            "page_rotation_deg": -0.65
+          },
+          {
+            "box": [
+              185,
+              621,
+              317,
+              703
+            ],
+            "hidden_source": "mETFORMIN",
+            "page_rotation_deg": -0.65
+          }
+        ]
+      }
+    },
+    {
+      "prescription_id": "RX038",
+      "difficulty_level": "hard",
+      "original_text": "Greenleaf Health Centre\nDr. Priya Menon, MBBS, MD (Paediatrics)\nReg. No. FMC-50712 | B-9 Market Street, Chandanpur\nDate: 04/08/2026\nName: Riya Bhatt\nAge/Sex: 36/M\nc/o loose motions x 4d\nDx: HTN\nRx\n1) Tab Vitamin C 15mg 1 tab ~~BD~~ OD after food\nx 14d\n2. Tab CLOPIDOGREL [ILLEGIBLE] OD x 14d\n3) Cap Amoxicillin 500 mg 1/2 QID after food\nx 5d\n4. Tab ~~Cefuroxime~~ Cefixime 200mg OD AC x 3/7\nAdv: steam inhalation BD\nSignature",
+      "medicine_names": [
+        "Vitamin C",
+        "CLOPIDOGREL",
+        "Amoxicillin",
+        "Cefixime"
+      ],
+      "dosage": [
+        "15mg 1 tab",
+        "[ILLEGIBLE]",
+        "500 mg 1/2",
+        "200mg"
+      ],
+      "frequency": [
+        "OD after food",
+        "OD",
+        "QID after food",
+        "OD AC"
+      ],
+      "duration": [
+        "x 14d",
+        "x 14d",
+        "x 5d",
+        "x 3/7"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "Dx",
+        "Rx",
+        "Tab",
+        "mg",
+        "BD",
+        "OD",
+        "Cap",
+        "QID",
+        "AC",
+        "/7",
+        "Adv"
+      ],
+      "unclear_segments": [
+        "2. Tab CLOPIDOGREL [ILLEGIBLE] OD x 14d"
+      ],
+      "special_cases": [
+        "ambiguous_digits",
+        "crossed_out_word",
+        "date",
+        "handwritten_correction",
+        "illegible_segment",
+        "lookalike_corrected",
+        "lookalike_name:Cefixime~Cefuroxime",
+        "mixed_case"
+      ],
+      "medicines": [
+        {
+          "form": "Tab",
+          "name": "Vitamin C",
+          "strength": "15mg",
+          "dose": "1 tab",
+          "frequency": "OD after food",
+          "duration": "x 14d"
+        },
+        {
+          "form": "Tab",
+          "name": "CLOPIDOGREL",
+          "strength": "[ILLEGIBLE]",
+          "dose": "",
+          "frequency": "OD",
+          "duration": "x 14d"
+        },
+        {
+          "form": "Cap",
+          "name": "Amoxicillin",
+          "strength": "500 mg",
+          "dose": "1/2",
+          "frequency": "QID after food",
+          "duration": "x 5d"
+        },
+        {
+          "form": "Tab",
+          "name": "Cefixime",
+          "strength": "200mg",
+          "dose": "",
+          "frequency": "OD AC",
+          "duration": "x 3/7"
+        }
+      ],
+      "patient": {
+        "name": "Riya Bhatt",
+        "age_sex": "36/M",
+        "date": "04/08/2026"
+      },
+      "corrections": [
+        {
+          "crossed_out": "BD",
+          "correction": "OD"
+        },
+        {
+          "crossed_out": "Cefuroxime",
+          "correction": "Cefixime"
+        }
+      ],
+      "layout": "printed_labels",
+      "handwriting_font": "ReenieBeanie",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": [
+          {
+            "box": [
+              402,
+              633,
+              468,
+              727
+            ],
+            "hidden_source": "75mg",
+            "page_rotation_deg": 0.53
+          }
+        ]
+      }
+    },
+    {
+      "prescription_id": "RX039",
+      "difficulty_level": "hard",
+      "original_text": "Greenleaf Health Centre\nDr. Farhan Qadri, MBBS, DCH\nReg. No. FMC-46603 | 14 Lakeview Road, Navgaon\nName: Isha Reddy Age/Sex: 34/M\nDate: 06/03/2026\nc/o fever, body ache x 6d\nBP 111/78\nRx\n1) Syp Ambroxol 10ml 0-0-1 after food x [ILLEGIBLE]\n2. Tab pantoprazole 40mg 1 ~~BD~~ HS PC x 3d\n3) CAP OMEPRAZOLE 20 mg TDS x 10d\n4. Tab Clopidogrel 75mg 1 OD x 5d\n5) Tab ~~Metronidazole~~ Metformin 500mg 1 IM stat\nReview [ILLEGIBLE]\nSignature",
+      "medicine_names": [
+        "Ambroxol",
+        "pantoprazole",
+        "OMEPRAZOLE",
+        "Clopidogrel",
+        "Metformin"
+      ],
+      "dosage": [
+        "10ml",
+        "40mg 1",
+        "20 mg",
+        "75mg 1",
+        "500mg 1"
+      ],
+      "frequency": [
+        "0-0-1 after food",
+        "HS PC",
+        "TDS",
+        "OD",
+        "IM stat"
+      ],
+      "duration": [
+        "x [ILLEGIBLE]",
+        "x 3d",
+        "x 10d",
+        "x 5d",
+        ""
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "BP",
+        "Rx",
+        "Syp",
+        "ml",
+        "0-0-1 (dose pattern)",
+        "Tab",
+        "mg",
+        "BD",
+        "HS",
+        "PC",
+        "Cap",
+        "TDS",
+        "OD",
+        "IM",
+        "stat"
+      ],
+      "unclear_segments": [
+        "1) Syp Ambroxol 10ml 0-0-1 after food x [ILLEGIBLE]",
+        "Review [ILLEGIBLE]"
+      ],
+      "special_cases": [
+        "crossed_out_word",
+        "date",
+        "handwritten_correction",
+        "illegible_segment",
+        "lookalike_corrected",
+        "lookalike_name:Metformin~Metronidazole",
+        "mixed_case",
+        "numeric_values"
+      ],
+      "medicines": [
+        {
+          "form": "Syp",
+          "name": "Ambroxol",
+          "strength": "10ml",
+          "dose": "",
+          "frequency": "0-0-1 after food",
+          "duration": "x [ILLEGIBLE]"
+        },
+        {
+          "form": "Tab",
+          "name": "pantoprazole",
+          "strength": "40mg",
+          "dose": "1",
+          "frequency": "HS PC",
+          "duration": "x 3d"
+        },
+        {
+          "form": "CAP",
+          "name": "OMEPRAZOLE",
+          "strength": "20 mg",
+          "dose": "",
+          "frequency": "TDS",
+          "duration": "x 10d"
+        },
+        {
+          "form": "Tab",
+          "name": "Clopidogrel",
+          "strength": "75mg",
+          "dose": "1",
+          "frequency": "OD",
+          "duration": "x 5d"
+        },
+        {
+          "form": "Tab",
+          "name": "Metformin",
+          "strength": "500mg",
+          "dose": "1",
+          "frequency": "IM stat",
+          "duration": ""
+        }
+      ],
+      "patient": {
+        "name": "Isha Reddy",
+        "age_sex": "34/M",
+        "date": "06/03/2026"
+      },
+      "corrections": [
+        {
+          "crossed_out": "BD",
+          "correction": "HS"
+        },
+        {
+          "crossed_out": "Metronidazole",
+          "correction": "Metformin"
+        }
+      ],
+      "layout": "two_column",
+      "handwriting_font": "DawningofaNewDay",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": [
+          {
+            "box": [
+              686,
+              423,
+              730,
+              504
+            ],
+            "hidden_source": "1wk",
+            "page_rotation_deg": -1.88
+          },
+          {
+            "box": [
+              149,
+              696,
+              217,
+              779
+            ],
+            "hidden_source": "SOS",
+            "page_rotation_deg": -1.88
+          }
+        ]
+      }
+    },
+    {
+      "prescription_id": "RX040",
+      "difficulty_level": "hard",
+      "original_text": "Harmony Health Hub\nDr. Ritesh Malhotra, MBBS, MD (Medicine)\nReg. No. FMC-35737 | 3rd Floor, Kiran Complex, Devpur\nDate: 16-Jun-2026\nName: Lata Dutta\nAge/Sex: 55/F\nc/o acidity, [ILLEGIBLE] x 5d\nRx\n1) Tab Paracetamol 650 mg 1 tab 0-0-1 AC x 5/7\n2. Tab Metformin 500mg 1 tab BD x 7d\n3) tAB montelukast 10mg 2 ~~OD~~ HS PC x 10d\n4. Tab Hydroxyzine 25mg QID after food x 5/7\nReview SOS\nSignature",
+      "medicine_names": [
+        "Paracetamol",
+        "Metformin",
+        "montelukast",
+        "Hydroxyzine"
+      ],
+      "dosage": [
+        "650 mg 1 tab",
+        "500mg 1 tab",
+        "10mg 2",
+        "25mg"
+      ],
+      "frequency": [
+        "0-0-1 AC",
+        "BD",
+        "HS PC",
+        "QID after food"
+      ],
+      "duration": [
+        "x 5/7",
+        "x 7d",
+        "x 10d",
+        "x 5/7"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "Rx",
+        "Tab",
+        "mg",
+        "0-0-1 (dose pattern)",
+        "AC",
+        "/7",
+        "BD",
+        "OD",
+        "HS",
+        "PC",
+        "QID",
+        "SOS"
+      ],
+      "unclear_segments": [
+        "c/o acidity, [ILLEGIBLE] x 5d"
+      ],
+      "special_cases": [
+        "crossed_out_word",
+        "date",
+        "handwritten_correction",
+        "illegible_segment",
+        "lookalike_name:Hydroxyzine~Hydralazine",
+        "mixed_case"
+      ],
+      "medicines": [
+        {
+          "form": "Tab",
+          "name": "Paracetamol",
+          "strength": "650 mg",
+          "dose": "1 tab",
+          "frequency": "0-0-1 AC",
+          "duration": "x 5/7"
+        },
+        {
+          "form": "Tab",
+          "name": "Metformin",
+          "strength": "500mg",
+          "dose": "1 tab",
+          "frequency": "BD",
+          "duration": "x 7d"
+        },
+        {
+          "form": "tAB",
+          "name": "montelukast",
+          "strength": "10mg",
+          "dose": "2",
+          "frequency": "HS PC",
+          "duration": "x 10d"
+        },
+        {
+          "form": "Tab",
+          "name": "Hydroxyzine",
+          "strength": "25mg",
+          "dose": "",
+          "frequency": "QID after food",
+          "duration": "x 5/7"
+        }
+      ],
+      "patient": {
+        "name": "Lata Dutta",
+        "age_sex": "55/F",
+        "date": "16-Jun-2026"
+      },
+      "corrections": [
+        {
+          "crossed_out": "OD",
+          "correction": "HS"
+        }
+      ],
+      "layout": "printed_labels_margin",
+      "handwriting_font": "DawningofaNewDay",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": [
+          {
+            "box": [
+              217,
+              304,
+              292,
+              384
+            ],
+            "hidden_source": "bloating",
+            "page_rotation_deg": 2.38
+          }
+        ]
+      }
+    },
+    {
+      "prescription_id": "RX041",
+      "difficulty_level": "hard",
+      "original_text": "Sunrise Family Clinic\nDr. Arvind Sood, MBBS, MD (Paediatrics)\nReg. No. FMC-81165 | 22 Station Lane, Sitapur Nagar\nDate: 18/02/2026\nName: Harsh Verma\nAge/Sex: 31/F\nc/o [ILLEGIBLE] x 6d\nDx: Viral fever\nRx\n1) Tab Ibuprofen 400 mg TDS x 5d\n2. Tab [ILLEGIBLE] 500mg 1-1-1 PC x 1m\n3) CAP Vitamin D3 60000IU 1 1-0-1 PC x 1m\n4. Tab Prednisolone 10mg 2 SOS x ~~10d~~ 5/7\nAdv: rest x 3d\nSignature",
+      "medicine_names": [
+        "Ibuprofen",
+        "[ILLEGIBLE]",
+        "Vitamin D3",
+        "Prednisolone"
+      ],
+      "dosage": [
+        "400 mg",
+        "500mg",
+        "60000IU 1",
+        "10mg 2"
+      ],
+      "frequency": [
+        "TDS",
+        "1-1-1 PC",
+        "1-0-1 PC",
+        "SOS"
+      ],
+      "duration": [
+        "x 5d",
+        "x 1m",
+        "x 1m",
+        "x 5/7"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "Dx",
+        "Rx",
+        "Tab",
+        "mg",
+        "TDS",
+        "1-1-1 (dose pattern)",
+        "PC",
+        "m",
+        "Cap",
+        "IU",
+        "1-0-1 (dose pattern)",
+        "SOS",
+        "/7",
+        "Adv"
+      ],
+      "unclear_segments": [
+        "c/o [ILLEGIBLE] x 6d",
+        "2. Tab [ILLEGIBLE] 500mg 1-1-1 PC x 1m"
+      ],
+      "special_cases": [
+        "crossed_out_word",
+        "date",
+        "handwritten_correction",
+        "illegible_segment",
+        "lookalike_name:Prednisolone~Prednisone",
+        "mixed_case"
+      ],
+      "medicines": [
+        {
+          "form": "Tab",
+          "name": "Ibuprofen",
+          "strength": "400 mg",
+          "dose": "",
+          "frequency": "TDS",
+          "duration": "x 5d"
+        },
+        {
+          "form": "Tab",
+          "name": "[ILLEGIBLE]",
+          "strength": "500mg",
+          "dose": "",
+          "frequency": "1-1-1 PC",
+          "duration": "x 1m"
+        },
+        {
+          "form": "CAP",
+          "name": "Vitamin D3",
+          "strength": "60000IU",
+          "dose": "1",
+          "frequency": "1-0-1 PC",
+          "duration": "x 1m"
+        },
+        {
+          "form": "Tab",
+          "name": "Prednisolone",
+          "strength": "10mg",
+          "dose": "2",
+          "frequency": "SOS",
+          "duration": "x 5/7"
+        }
+      ],
+      "patient": {
+        "name": "Harsh Verma",
+        "age_sex": "31/F",
+        "date": "18/02/2026"
+      },
+      "corrections": [
+        {
+          "crossed_out": "10d",
+          "correction": "5/7"
+        }
+      ],
+      "layout": "printed_labels_margin",
+      "handwriting_font": "Cedarville-Cursive",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": [
+          {
+            "box": [
+              136,
+              304,
+              218,
+              375
+            ],
+            "hidden_source": "vomiting",
+            "page_rotation_deg": 0.51
+          },
+          {
+            "box": [
+              193,
+              502,
+              285,
+              573
+            ],
+            "hidden_source": "metformin",
+            "page_rotation_deg": 0.51
+          }
+        ]
+      }
+    },
+    {
+      "prescription_id": "RX042",
+      "difficulty_level": "hard",
+      "original_text": "Sunrise Family Clinic\nDr. Neha Kulkarni, MBBS, DNB (Family Medicine)\nReg. No. FMC-37088 | 45 Hill View, Ambapur\nName: Sneha Reddy Age/Sex: 38/F\nDate: 2 May 26\nc/o sore throat, [ILLEGIBLE] x 2d\nSpO2 99%\nRx\n1) Tab Ondansetron 4mg TDS after food x 7d\n2. tAB Atorvastatin 10mg 1 tab ~~BD~~ OD PC x 10d\n3) Inj Diclofenac 1.5mg 1 IM stat\n4. Tab ~~Amiloride~~ Amlodipine 5mg TDS x 5/7\nAvoid cold [ILLEGIBLE]\nSignature",
+      "medicine_names": [
+        "Ondansetron",
+        "Atorvastatin",
+        "Diclofenac",
+        "Amlodipine"
+      ],
+      "dosage": [
+        "4mg",
+        "10mg 1 tab",
+        "1.5mg 1",
+        "5mg"
+      ],
+      "frequency": [
+        "TDS after food",
+        "OD PC",
+        "IM stat",
+        "TDS"
+      ],
+      "duration": [
+        "x 7d",
+        "x 10d",
+        "",
+        "x 5/7"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "Rx",
+        "Tab",
+        "mg",
+        "TDS",
+        "BD",
+        "OD",
+        "PC",
+        "Inj",
+        "IM",
+        "stat",
+        "/7"
+      ],
+      "unclear_segments": [
+        "c/o sore throat, [ILLEGIBLE] x 2d",
+        "Avoid cold [ILLEGIBLE]"
+      ],
+      "special_cases": [
+        "ambiguous_digits",
+        "crossed_out_word",
+        "date",
+        "handwritten_correction",
+        "illegible_segment",
+        "lookalike_corrected",
+        "lookalike_name:Amlodipine~Amiloride",
+        "numeric_values"
+      ],
+      "medicines": [
+        {
+          "form": "Tab",
+          "name": "Ondansetron",
+          "strength": "4mg",
+          "dose": "",
+          "frequency": "TDS after food",
+          "duration": "x 7d"
+        },
+        {
+          "form": "tAB",
+          "name": "Atorvastatin",
+          "strength": "10mg",
+          "dose": "1 tab",
+          "frequency": "OD PC",
+          "duration": "x 10d"
+        },
+        {
+          "form": "Inj",
+          "name": "Diclofenac",
+          "strength": "1.5mg",
+          "dose": "1",
+          "frequency": "IM stat",
+          "duration": ""
+        },
+        {
+          "form": "Tab",
+          "name": "Amlodipine",
+          "strength": "5mg",
+          "dose": "",
+          "frequency": "TDS",
+          "duration": "x 5/7"
+        }
+      ],
+      "patient": {
+        "name": "Sneha Reddy",
+        "age_sex": "38/F",
+        "date": "2 May 26"
+      },
+      "corrections": [
+        {
+          "crossed_out": "BD",
+          "correction": "OD"
+        },
+        {
+          "crossed_out": "Amiloride",
+          "correction": "Amlodipine"
+        }
+      ],
+      "layout": "two_column",
+      "handwriting_font": "DawningofaNewDay",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": [
+          {
+            "box": [
+              283,
+              190,
+              343,
+              268
+            ],
+            "hidden_source": "cough",
+            "page_rotation_deg": -2.35
+          },
+          {
+            "box": [
+              205,
+              622,
+              272,
+              702
+            ],
+            "hidden_source": "drinks",
+            "page_rotation_deg": -2.35
+          }
+        ]
+      }
+    },
+    {
+      "prescription_id": "RX043",
+      "difficulty_level": "hard",
+      "original_text": "Silver Oak Clinic\nDr. Farhan Qadri, MBBS\nReg. No. FMC-81235 | Plot 7, Sector 21, Ramnagar\nDate: ~~23Jun26~~ 01/02/2026\nName: Isha Pillai\nAge/Sex: 35/F\nc/o [ILLEGIBLE] x 2d\nDx: AGE\nRx\n1) Tab rabeprazole 20mg QID after food x 1wk\n2. Cap vitamin d3 ~~250mg~~ 1.5mg 1-0-1 PC x 1wk\n3) Tab Prednisolone 10mg 2 SOS x 1m\nAdv: steam inhalation BD\nSignature",
+      "medicine_names": [
+        "rabeprazole",
+        "vitamin d3",
+        "Prednisolone"
+      ],
+      "dosage": [
+        "20mg",
+        "1.5mg",
+        "10mg 2"
+      ],
+      "frequency": [
+        "QID after food",
+        "1-0-1 PC",
+        "SOS"
+      ],
+      "duration": [
+        "x 1wk",
+        "x 1wk",
+        "x 1m"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "Dx",
+        "Rx",
+        "Tab",
+        "mg",
+        "QID",
+        "wk",
+        "Cap",
+        "1-0-1 (dose pattern)",
+        "PC",
+        "SOS",
+        "m",
+        "Adv",
+        "BD"
+      ],
+      "unclear_segments": [
+        "c/o [ILLEGIBLE] x 2d"
+      ],
+      "special_cases": [
+        "ambiguous_digits",
+        "crossed_out_date",
+        "crossed_out_word",
+        "date",
+        "handwritten_correction",
+        "illegible_segment",
+        "lookalike_name:Prednisolone~Prednisone",
+        "mixed_case"
+      ],
+      "medicines": [
+        {
+          "form": "Tab",
+          "name": "rabeprazole",
+          "strength": "20mg",
+          "dose": "",
+          "frequency": "QID after food",
+          "duration": "x 1wk"
+        },
+        {
+          "form": "Cap",
+          "name": "vitamin d3",
+          "strength": "1.5mg",
+          "dose": "",
+          "frequency": "1-0-1 PC",
+          "duration": "x 1wk"
+        },
+        {
+          "form": "Tab",
+          "name": "Prednisolone",
+          "strength": "10mg",
+          "dose": "2",
+          "frequency": "SOS",
+          "duration": "x 1m"
+        }
+      ],
+      "patient": {
+        "name": "Isha Pillai",
+        "age_sex": "35/F",
+        "date": "01/02/2026"
+      },
+      "corrections": [
+        {
+          "crossed_out": "23Jun26",
+          "correction": "01/02/2026"
+        },
+        {
+          "crossed_out": "250mg",
+          "correction": "1.5mg"
+        }
+      ],
+      "layout": "printed_labels_margin",
+      "handwriting_font": "DawningofaNewDay",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": [
+          {
+            "box": [
+              120,
+              330,
+              201,
+              410
+            ],
+            "hidden_source": "headache",
+            "page_rotation_deg": -0.33
+          }
+        ]
+      }
+    },
+    {
+      "prescription_id": "RX044",
+      "difficulty_level": "hard",
+      "original_text": "Greenleaf Health Centre\nDr. Arvind Sood, MBBS, DNB (Family Medicine)\nReg. No. FMC-60606 | 45 Hill View, Ambapur\nName: Riya Verma Age/Sex: 50/F\nDate: 5-Mar-2026\nc/o acidity, [ILLEGIBLE] x 6d\nBP 146/81\nRx\n1) cAP Vitamin D3 60000IU OD AC x 10d\n2. tab metronidazole 15mg 1 tab 0-0-1 after\nfood x 3d\n3) Tab ~~Prednisone~~ Prednisolone ~~20mg~~ 10mg TDS x 7d\nAvoid cold drinks\nSignature",
+      "medicine_names": [
+        "Vitamin D3",
+        "metronidazole",
+        "Prednisolone"
+      ],
+      "dosage": [
+        "60000IU",
+        "15mg 1 tab",
+        "10mg"
+      ],
+      "frequency": [
+        "OD AC",
+        "0-0-1 after food",
+        "TDS"
+      ],
+      "duration": [
+        "x 10d",
+        "x 3d",
+        "x 7d"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "BP",
+        "Rx",
+        "Cap",
+        "IU",
+        "OD",
+        "AC",
+        "Tab",
+        "mg",
+        "0-0-1 (dose pattern)",
+        "TDS"
+      ],
+      "unclear_segments": [
+        "c/o acidity, [ILLEGIBLE] x 6d"
+      ],
+      "special_cases": [
+        "ambiguous_digits",
+        "crossed_out_word",
+        "date",
+        "handwritten_correction",
+        "illegible_segment",
+        "lookalike_corrected",
+        "lookalike_name:Prednisolone~Prednisone",
+        "mixed_case",
+        "numeric_values"
+      ],
+      "medicines": [
+        {
+          "form": "cAP",
+          "name": "Vitamin D3",
+          "strength": "60000IU",
+          "dose": "",
+          "frequency": "OD AC",
+          "duration": "x 10d"
+        },
+        {
+          "form": "tab",
+          "name": "metronidazole",
+          "strength": "15mg",
+          "dose": "1 tab",
+          "frequency": "0-0-1 after food",
+          "duration": "x 3d"
+        },
+        {
+          "form": "Tab",
+          "name": "Prednisolone",
+          "strength": "10mg",
+          "dose": "",
+          "frequency": "TDS",
+          "duration": "x 7d"
+        }
+      ],
+      "patient": {
+        "name": "Riya Verma",
+        "age_sex": "50/F",
+        "date": "5-Mar-2026"
+      },
+      "corrections": [
+        {
+          "crossed_out": "Prednisone",
+          "correction": "Prednisolone"
+        },
+        {
+          "crossed_out": "20mg",
+          "correction": "10mg"
+        }
+      ],
+      "layout": "two_column",
+      "handwriting_font": "ReenieBeanie",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": [
+          {
+            "box": [
+              239,
+              210,
+              315,
+              293
+            ],
+            "hidden_source": "bloating",
+            "page_rotation_deg": -1.76
+          }
+        ]
+      }
+    },
+    {
+      "prescription_id": "RX045",
+      "difficulty_level": "hard",
+      "original_text": "Sunrise Family Clinic\nDr. Ritesh Malhotra, MBBS, MD (Paediatrics)\nReg. No. FMC-84904 | Plot 7, Sector 21, Ramnagar\nDate: 18/04/2026\nName: Dev Reddy\nAge/Sex: 77/F\nc/o runny nose, sneezing x 4d\nDx: HTN\nRx\n1) Cap Vitamin D3 60000IU 0-0-1 after food x 3d\n2. Tab Cetirizine 10 [ILLEGIBLE] ~~HS~~ QID PC x 1m\n3) Tab Clopidogrel 75mg HS x 3/7\n4. TAB Atorvastatin 10mg BD x 3d\nReview SOS\nSignature",
+      "medicine_names": [
+        "Vitamin D3",
+        "Cetirizine",
+        "Clopidogrel",
+        "Atorvastatin"
+      ],
+      "dosage": [
+        "60000IU",
+        "10 [ILLEGIBLE]",
+        "75mg",
+        "10mg"
+      ],
+      "frequency": [
+        "0-0-1 after food",
+        "QID PC",
+        "HS",
+        "BD"
+      ],
+      "duration": [
+        "x 3d",
+        "x 1m",
+        "x 3/7",
+        "x 3d"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "Dx",
+        "Rx",
+        "Cap",
+        "IU",
+        "0-0-1 (dose pattern)",
+        "Tab",
+        "HS",
+        "QID",
+        "PC",
+        "m",
+        "mg",
+        "/7",
+        "BD",
+        "SOS"
+      ],
+      "unclear_segments": [
+        "2. Tab Cetirizine 10 [ILLEGIBLE] ~~HS~~ QID PC x 1m"
+      ],
+      "special_cases": [
+        "crossed_out_word",
+        "date",
+        "handwritten_correction",
+        "illegible_segment",
+        "mixed_case"
+      ],
+      "medicines": [
+        {
+          "form": "Cap",
+          "name": "Vitamin D3",
+          "strength": "60000IU",
+          "dose": "",
+          "frequency": "0-0-1 after food",
+          "duration": "x 3d"
+        },
+        {
+          "form": "Tab",
+          "name": "Cetirizine",
+          "strength": "10 [ILLEGIBLE]",
+          "dose": "",
+          "frequency": "QID PC",
+          "duration": "x 1m"
+        },
+        {
+          "form": "Tab",
+          "name": "Clopidogrel",
+          "strength": "75mg",
+          "dose": "",
+          "frequency": "HS",
+          "duration": "x 3/7"
+        },
+        {
+          "form": "TAB",
+          "name": "Atorvastatin",
+          "strength": "10mg",
+          "dose": "",
+          "frequency": "BD",
+          "duration": "x 3d"
+        }
+      ],
+      "patient": {
+        "name": "Dev Reddy",
+        "age_sex": "77/F",
+        "date": "18/04/2026"
+      },
+      "corrections": [
+        {
+          "crossed_out": "HS",
+          "correction": "QID"
+        }
+      ],
+      "layout": "printed_labels",
+      "handwriting_font": "DawningofaNewDay",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": [
+          {
+            "box": [
+              353,
+              536,
+              396,
+              612
+            ],
+            "hidden_source": "mg",
+            "page_rotation_deg": 0.29
+          }
+        ]
+      }
+    },
+    {
+      "prescription_id": "RX046",
+      "difficulty_level": "hard",
+      "original_text": "Bluebell Medical Point\nDr. Arvind Sood, MBBS, DNB (Family Medicine)\nReg. No. FMC-21209 | Plot 7, Sector 21, Ramnagar\nName: Riya Shah Age/Sex: 36/M\nDate: 14 Sep\n26\nc/o knee [ILLEGIBLE] x 4d\nRx\n1) tAB azithromycin 500mg 1 ~~HS~~ QID after food x\n7d\n2. Tab Metronidazole 400mg SOS x 1wk\n3) Tab fOLIC ACID 5mg 1 tab 1-0-0 after\nfood x 1m\n4. Tab Domperidone 10mg 1 HS x 5d\nAvoid cold drinks\nSignature",
+      "medicine_names": [
+        "azithromycin",
+        "Metronidazole",
+        "fOLIC ACID",
+        "Domperidone"
+      ],
+      "dosage": [
+        "500mg 1",
+        "400mg",
+        "5mg 1 tab",
+        "10mg 1"
+      ],
+      "frequency": [
+        "QID after food",
+        "SOS",
+        "1-0-0 after food",
+        "HS"
+      ],
+      "duration": [
+        "x 7d",
+        "x 1wk",
+        "x 1m",
+        "x 5d"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "Rx",
+        "Tab",
+        "mg",
+        "HS",
+        "QID",
+        "SOS",
+        "wk",
+        "1-0-0 (dose pattern)",
+        "m"
+      ],
+      "unclear_segments": [
+        "c/o knee [ILLEGIBLE] x 4d"
+      ],
+      "special_cases": [
+        "crossed_out_word",
+        "date",
+        "handwritten_correction",
+        "illegible_segment",
+        "mixed_case"
+      ],
+      "medicines": [
+        {
+          "form": "tAB",
+          "name": "azithromycin",
+          "strength": "500mg",
+          "dose": "1",
+          "frequency": "QID after food",
+          "duration": "x 7d"
+        },
+        {
+          "form": "Tab",
+          "name": "Metronidazole",
+          "strength": "400mg",
+          "dose": "",
+          "frequency": "SOS",
+          "duration": "x 1wk"
+        },
+        {
+          "form": "Tab",
+          "name": "fOLIC ACID",
+          "strength": "5mg",
+          "dose": "1 tab",
+          "frequency": "1-0-0 after food",
+          "duration": "x 1m"
+        },
+        {
+          "form": "Tab",
+          "name": "Domperidone",
+          "strength": "10mg",
+          "dose": "1",
+          "frequency": "HS",
+          "duration": "x 5d"
+        }
+      ],
+      "patient": {
+        "name": "Riya Shah",
+        "age_sex": "36/M",
+        "date": "14 Sep 26"
+      },
+      "corrections": [
+        {
+          "crossed_out": "HS",
+          "correction": "QID"
+        }
+      ],
+      "layout": "two_column",
+      "handwriting_font": "ReenieBeanie",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": [
+          {
+            "box": [
+              208,
+              250,
+              267,
+              341
+            ],
+            "hidden_source": "pain",
+            "page_rotation_deg": 0.23
+          }
+        ]
+      }
+    },
+    {
+      "prescription_id": "RX047",
+      "difficulty_level": "hard",
+      "original_text": "Bluebell Medical Point\nDr. Meera Bansal, MBBS, MD (Medicine)\nReg. No. FMC-48036 | B-9 Market Street, Chandanpur\nDate: 14-Oct-2026\nName: Kabir Saxena\nAge/Sex: 50/M\nc/o skin itching x 2d\nRx\n1) Tab Azithromycin 250mg 1 ~~BD~~ OD PC x 3d\n2. Tab Vitamin C 500 mg 1-0-1 x 3d\n3) TAB Cetirizine 10 mg SOS AC x 7d\n4. Tab Folic Acid 5mg 1-0-1 x 3d\n5) Tab ~~Valsartan~~ Losartan 50mg OD x 14d\nAdv: steam inhalation [ILLEGIBLE]\nSignature",
+      "medicine_names": [
+        "Azithromycin",
+        "Vitamin C",
+        "Cetirizine",
+        "Folic Acid",
+        "Losartan"
+      ],
+      "dosage": [
+        "250mg 1",
+        "500 mg",
+        "10 mg",
+        "5mg",
+        "50mg"
+      ],
+      "frequency": [
+        "OD PC",
+        "1-0-1",
+        "SOS AC",
+        "1-0-1",
+        "OD"
+      ],
+      "duration": [
+        "x 3d",
+        "x 3d",
+        "x 7d",
+        "x 3d",
+        "x 14d"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "Rx",
+        "Tab",
+        "mg",
+        "BD",
+        "OD",
+        "PC",
+        "1-0-1 (dose pattern)",
+        "SOS",
+        "AC",
+        "Adv"
+      ],
+      "unclear_segments": [
+        "Adv: steam inhalation [ILLEGIBLE]"
+      ],
+      "special_cases": [
+        "crossed_out_word",
+        "date",
+        "handwritten_correction",
+        "illegible_segment",
+        "lookalike_corrected",
+        "lookalike_name:Losartan~Valsartan",
+        "mixed_case"
+      ],
+      "medicines": [
+        {
+          "form": "Tab",
+          "name": "Azithromycin",
+          "strength": "250mg",
+          "dose": "1",
+          "frequency": "OD PC",
+          "duration": "x 3d"
+        },
+        {
+          "form": "Tab",
+          "name": "Vitamin C",
+          "strength": "500 mg",
+          "dose": "",
+          "frequency": "1-0-1",
+          "duration": "x 3d"
+        },
+        {
+          "form": "TAB",
+          "name": "Cetirizine",
+          "strength": "10 mg",
+          "dose": "",
+          "frequency": "SOS AC",
+          "duration": "x 7d"
+        },
+        {
+          "form": "Tab",
+          "name": "Folic Acid",
+          "strength": "5mg",
+          "dose": "",
+          "frequency": "1-0-1",
+          "duration": "x 3d"
+        },
+        {
+          "form": "Tab",
+          "name": "Losartan",
+          "strength": "50mg",
+          "dose": "",
+          "frequency": "OD",
+          "duration": "x 14d"
+        }
+      ],
+      "patient": {
+        "name": "Kabir Saxena",
+        "age_sex": "50/M",
+        "date": "14-Oct-2026"
+      },
+      "corrections": [
+        {
+          "crossed_out": "BD",
+          "correction": "OD"
+        },
+        {
+          "crossed_out": "Valsartan",
+          "correction": "Losartan"
+        }
+      ],
+      "layout": "printed_labels",
+      "handwriting_font": "DawningofaNewDay",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": [
+          {
+            "box": [
+              343,
+              766,
+              396,
+              844
+            ],
+            "hidden_source": "BD",
+            "page_rotation_deg": 0.41
+          }
+        ]
+      }
+    },
+    {
+      "prescription_id": "RX048",
+      "difficulty_level": "hard",
+      "original_text": "Riverside Wellness Clinic\nDr. Priya Menon, MBBS, DCH\nReg. No. FMC-92785 | 45 Hill View, Ambapur\nName: Lata Bhatt Age/Sex: 78/F\nDate: 20-May-2026\nc/o runny nose, sneezing x 6d\nRx\n1) cAP Amoxicillin 500 mg 2 HS x 5/7\n2. tab Levocetirizine [ILLEGIBLE] 1 tab HS AC x ~~3d~~ 14d\n3) Tab ~~Amiloride~~ Amlodipine 5mg 2 HS after food x 7d\nAvoid cold [ILLEGIBLE]\nSignature",
+      "medicine_names": [
+        "Amoxicillin",
+        "Levocetirizine",
+        "Amlodipine"
+      ],
+      "dosage": [
+        "500 mg 2",
+        "[ILLEGIBLE] 1 tab",
+        "5mg 2"
+      ],
+      "frequency": [
+        "HS",
+        "HS AC",
+        "HS after food"
+      ],
+      "duration": [
+        "x 5/7",
+        "x 14d",
+        "x 7d"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "Rx",
+        "Cap",
+        "mg",
+        "HS",
+        "/7",
+        "Tab",
+        "AC"
+      ],
+      "unclear_segments": [
+        "2. tab Levocetirizine [ILLEGIBLE] 1 tab HS AC x ~~3d~~ 14d",
+        "Avoid cold [ILLEGIBLE]"
+      ],
+      "special_cases": [
+        "crossed_out_word",
+        "date",
+        "handwritten_correction",
+        "illegible_segment",
+        "lookalike_corrected",
+        "lookalike_name:Amlodipine~Amiloride",
+        "mixed_case"
+      ],
+      "medicines": [
+        {
+          "form": "cAP",
+          "name": "Amoxicillin",
+          "strength": "500 mg",
+          "dose": "2",
+          "frequency": "HS",
+          "duration": "x 5/7"
+        },
+        {
+          "form": "tab",
+          "name": "Levocetirizine",
+          "strength": "[ILLEGIBLE]",
+          "dose": "1 tab",
+          "frequency": "HS AC",
+          "duration": "x 14d"
+        },
+        {
+          "form": "Tab",
+          "name": "Amlodipine",
+          "strength": "5mg",
+          "dose": "2",
+          "frequency": "HS after food",
+          "duration": "x 7d"
+        }
+      ],
+      "patient": {
+        "name": "Lata Bhatt",
+        "age_sex": "78/F",
+        "date": "20-May-2026"
+      },
+      "corrections": [
+        {
+          "crossed_out": "3d",
+          "correction": "14d"
+        },
+        {
+          "crossed_out": "Amiloride",
+          "correction": "Amlodipine"
+        }
+      ],
+      "layout": "two_column",
+      "handwriting_font": "NothingYouCouldDo",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": [
+          {
+            "box": [
+              388,
+              319,
+              437,
+              386
+            ],
+            "hidden_source": "5mg",
+            "page_rotation_deg": -1.48
+          },
+          {
+            "box": [
+              216,
+              452,
+              278,
+              515
+            ],
+            "hidden_source": "drinks",
+            "page_rotation_deg": -1.48
+          }
+        ]
+      }
+    },
+    {
+      "prescription_id": "RX049",
+      "difficulty_level": "hard",
+      "original_text": "Silver Oak Clinic\nDr. Kavya Iyer, MBBS, MD (Paediatrics)\nReg. No. FMC-14376 | 22 Station Lane, Sitapur Nagar\nDate: ~~12/11/2026~~ 13/03/2026\nName: Sneha Shah\nAge/Sex: 71/M\nc/o loose [ILLEGIBLE] x 5d\nDx: Viral fever\nRx\n1) Tab Pantoprazole 40mg 2 1-0-1 after food x 14d\n2. Inj Diclofenac 75mg 1 IM stat\n3) tAB cetirizine 10 mg 1 0-0-1 [ILLEGIBLE] x ~~5d~~ 1m\n4. Tab Prednisolone 10mg 1 1-1-1 x 3d\nRv after 5/7\nSignature",
+      "medicine_names": [
+        "Pantoprazole",
+        "Diclofenac",
+        "cetirizine",
+        "Prednisolone"
+      ],
+      "dosage": [
+        "40mg 2",
+        "75mg 1",
+        "10 mg 1",
+        "10mg 1"
+      ],
+      "frequency": [
+        "1-0-1 after food",
+        "IM stat",
+        "0-0-1 [ILLEGIBLE]",
+        "1-1-1"
+      ],
+      "duration": [
+        "x 14d",
+        "",
+        "x 1m",
+        "x 3d"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "Dx",
+        "Rx",
+        "Tab",
+        "mg",
+        "1-0-1 (dose pattern)",
+        "Inj",
+        "IM",
+        "stat",
+        "0-0-1 (dose pattern)",
+        "m",
+        "1-1-1 (dose pattern)",
+        "Rv",
+        "/7"
+      ],
+      "unclear_segments": [
+        "c/o loose [ILLEGIBLE] x 5d",
+        "3) tAB cetirizine 10 mg 1 0-0-1 [ILLEGIBLE] x ~~5d~~ 1m"
+      ],
+      "special_cases": [
+        "crossed_out_date",
+        "crossed_out_word",
+        "date",
+        "handwritten_correction",
+        "illegible_segment",
+        "lookalike_name:Prednisolone~Prednisone",
+        "mixed_case"
+      ],
+      "medicines": [
+        {
+          "form": "Tab",
+          "name": "Pantoprazole",
+          "strength": "40mg",
+          "dose": "2",
+          "frequency": "1-0-1 after food",
+          "duration": "x 14d"
+        },
+        {
+          "form": "Inj",
+          "name": "Diclofenac",
+          "strength": "75mg",
+          "dose": "1",
+          "frequency": "IM stat",
+          "duration": ""
+        },
+        {
+          "form": "tAB",
+          "name": "cetirizine",
+          "strength": "10 mg",
+          "dose": "1",
+          "frequency": "0-0-1 [ILLEGIBLE]",
+          "duration": "x 1m"
+        },
+        {
+          "form": "Tab",
+          "name": "Prednisolone",
+          "strength": "10mg",
+          "dose": "1",
+          "frequency": "1-1-1",
+          "duration": "x 3d"
+        }
+      ],
+      "patient": {
+        "name": "Sneha Shah",
+        "age_sex": "71/M",
+        "date": "13/03/2026"
+      },
+      "corrections": [
+        {
+          "crossed_out": "12/11/2026",
+          "correction": "13/03/2026"
+        },
+        {
+          "crossed_out": "5d",
+          "correction": "1m"
+        }
+      ],
+      "layout": "printed_labels_margin",
+      "handwriting_font": "LaBelleAurore",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": [
+          {
+            "box": [
+              181,
+              307,
+              251,
+              379
+            ],
+            "hidden_source": "motions",
+            "page_rotation_deg": -0.71
+          },
+          {
+            "box": [
+              505,
+              555,
+              546,
+              623
+            ],
+            "hidden_source": "AC",
+            "page_rotation_deg": -0.71
+          }
+        ]
+      }
+    },
+    {
+      "prescription_id": "RX050",
+      "difficulty_level": "hard",
+      "original_text": "Crescent Care Centre\nDr. Ritesh Malhotra, MBBS, DCH\nReg. No. FMC-55946 | 22 Station Lane, Sitapur Nagar\nName: Nisha Bhatt Age/Sex: 9/F\nDate: 27/02/2026\nc/o loose [ILLEGIBLE] x 6d\nWt 32kg\nRx\n1) Cap aMOXICILLIN 500 mg OD after food\nx 5/7\n2. tab Ondansetron 4mg 1-1-1 PC x 10d\n3) Tab Ibuprofen 400 mg 1/2 1-0-0 x 3d\n4. Tab cETIRIZINE 650mg QID PC x ~~10d~~ 3d\n5) Tab Montelukast 10mg BD after food x 1m\nAvoid cold drinks\nSignature",
+      "medicine_names": [
+        "aMOXICILLIN",
+        "Ondansetron",
+        "Ibuprofen",
+        "cETIRIZINE",
+        "Montelukast"
+      ],
+      "dosage": [
+        "500 mg",
+        "4mg",
+        "400 mg 1/2",
+        "650mg",
+        "10mg"
+      ],
+      "frequency": [
+        "OD after food",
+        "1-1-1 PC",
+        "1-0-0",
+        "QID PC",
+        "BD after food"
+      ],
+      "duration": [
+        "x 5/7",
+        "x 10d",
+        "x 3d",
+        "x 3d",
+        "x 1m"
+      ],
+      "abbreviations": [
+        "c/o",
+        "x",
+        "d",
+        "Wt",
+        "Rx",
+        "Cap",
+        "mg",
+        "OD",
+        "/7",
+        "Tab",
+        "1-1-1 (dose pattern)",
+        "PC",
+        "1-0-0 (dose pattern)",
+        "QID",
+        "BD",
+        "m"
+      ],
+      "unclear_segments": [
+        "c/o loose [ILLEGIBLE] x 6d"
+      ],
+      "special_cases": [
+        "ambiguous_digits",
+        "crossed_out_word",
+        "date",
+        "handwritten_correction",
+        "illegible_segment",
+        "mixed_case",
+        "numeric_values"
+      ],
+      "medicines": [
+        {
+          "form": "Cap",
+          "name": "aMOXICILLIN",
+          "strength": "500 mg",
+          "dose": "",
+          "frequency": "OD after food",
+          "duration": "x 5/7"
+        },
+        {
+          "form": "tab",
+          "name": "Ondansetron",
+          "strength": "4mg",
+          "dose": "",
+          "frequency": "1-1-1 PC",
+          "duration": "x 10d"
+        },
+        {
+          "form": "Tab",
+          "name": "Ibuprofen",
+          "strength": "400 mg",
+          "dose": "1/2",
+          "frequency": "1-0-0",
+          "duration": "x 3d"
+        },
+        {
+          "form": "Tab",
+          "name": "cETIRIZINE",
+          "strength": "650mg",
+          "dose": "",
+          "frequency": "QID PC",
+          "duration": "x 3d"
+        },
+        {
+          "form": "Tab",
+          "name": "Montelukast",
+          "strength": "10mg",
+          "dose": "",
+          "frequency": "BD after food",
+          "duration": "x 1m"
+        }
+      ],
+      "patient": {
+        "name": "Nisha Bhatt",
+        "age_sex": "9/F",
+        "date": "27/02/2026"
+      },
+      "corrections": [
+        {
+          "crossed_out": "10d",
+          "correction": "3d"
+        }
+      ],
+      "layout": "two_column",
+      "handwriting_font": "ReenieBeanie",
+      "_render_source_hidden": {
+        "NOTE": "Debug only. The word that was rendered and then destroyed. NOT ground truth.",
+        "illegible_regions": [
+          {
+            "box": [
+              222,
+              201,
+              300,
+              292
+            ],
+            "hidden_source": "motions",
+            "page_rotation_deg": -2.23
+          }
+        ]
+      }
+    }
+  ]
+}

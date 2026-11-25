@@ -1,0 +1,697 @@
+prescription_id,difficulty_level,original_text,medicine_names,dosage,frequency,duration,abbreviations,unclear_segments,special_cases
+RX001,easy,"Sunrise Family Clinic
+Dr. Meera Bansal, MBBS, MD (Paediatrics)
+Reg. No. FMC-83499 | Plot 7, Sector 21, Ramnagar
+Date: 25.2.26
+Name: Harsh Saxena
+Age/Sex: 27 yrs / F
+Complaint: vomiting for 5 days
+Rx
+1. Omeprazole 20 mg - 1 capsule once a day for 2
+weeks
+Review after one week
+Signature",Omeprazole,20 mg 1 capsule,once a day,2 weeks,Rx | mg,,date
+RX002,easy,"Orchid Family Practice
+Dr. Arvind Sood, MBBS, DCH
+Reg. No. FMC-20807 | Plot 7, Sector 21, Ramnagar
+Date: 12.6.26
+Name: Riya Mehra
+Age/Sex: 45 yrs / M
+Complaint: vomiting for 4 days
+Rx
+1. Vitamin C 500 mg - 1 tablet at night for
+10 days
+Drink plenty of water
+Signature",Vitamin C,500 mg 1 tablet,at night,10 days,m | Rx | mg,,date
+RX003,easy,"Harmony Health Hub
+Dr. Arvind Sood, MBBS, DNB (Family Medicine)
+Reg. No. FMC-64274 | 3rd Floor, Kiran Complex, Devpur
+Date: 10/08/26
+Name: Anjali Dutta
+Age/Sex: 10 yrs / M
+Complaint: sore throat, cough for 2 days
+Rx
+1. ORS - 1 sachet when needed for 7 days
+2. Vitamin C 500 mg - 1 tablet twice a day for
+10 days
+3. Omeprazole 20 mg - 1 capsule once a day for
+3 days
+Take rest for 3 days
+Signature",ORS | Vitamin C | Omeprazole,1 sachet | 500 mg 1 tablet | 20 mg 1 capsule,when needed | twice a day | once a day,7 days | 10 days | 3 days,m | Rx | mg,,date
+RX004,easy,"Greenleaf Health Centre
+Dr. Meera Bansal, MBBS, MD (Medicine)
+Reg. No. FMC-42956 | B-9 Market Street, Chandanpur
+Date: 8.4.26
+Name: Yash Saxena
+Age/Sex: 57 yrs / M
+Complaint: dry cough for 5 days
+Rx
+1. Paracetamol 500 mg - 1 tablet when needed for 5
+days
+2. Calcium 500 mg - 1 tablet at night for 7 days
+Come back if fever continues
+Signature",Paracetamol | Calcium,500 mg 1 tablet | 500 mg 1 tablet,when needed | at night,5 days | 7 days,m | Rx | mg,,date
+RX005,easy,"Maple Polyclinic
+Dr. Kavya Iyer, MBBS, MD (Medicine)
+Reg. No. FMC-65756 | 45 Hill View, Ambapur
+Name: Tanvi Rawat Age/Sex: 28 yrs / M
+Date: 11/10/26
+Complaint: vomiting for 2 days
+Rx
+1. Paracetamol 650 mg - 1 tablet at night for 2 weeks
+Drink plenty of water
+Signature",Paracetamol,650 mg 1 tablet,at night,2 weeks,m | Rx | mg,,date
+RX006,easy,"Sunrise Family Clinic
+Dr. Ritesh Malhotra, MBBS
+Reg. No. FMC-35481 | 22 Station Lane, Sitapur Nagar
+Name: Nisha Bhatt Age/Sex: 51 yrs / F
+Date: 27/02/26
+Complaint: runny nose, sneezing for 5 days
+Rx
+1. Ibuprofen 400 mg - 1 tablet when needed for 2 weeks
+2. ORS - 1 sachet at night for 2 weeks
+Avoid oily food
+Signature",Ibuprofen | ORS,400 mg 1 tablet | 1 sachet,when needed | at night,2 weeks | 2 weeks,Rx | mg,,date
+RX007,easy,"Silver Oak Clinic
+Dr. Ananya Ghosh, MBBS, MD (Paediatrics)
+Reg. No. FMC-64518 | 45 Hill View, Ambapur
+Date: 24/06/26
+Name: Karan Bhatt
+Age/Sex: 4 yrs / M
+Complaint: fever, body ache for 4 days
+Rx
+1. Paracetamol 650 mg - 1 tablet when needed
+for 5 days
+2. Amoxicillin 500 mg - 1 capsule twice a day
+for 2 weeks
+3. Omeprazole 20 mg - 1 capsule when needed for
+7 days
+Review after one week
+Signature",Paracetamol | Amoxicillin | Omeprazole,650 mg 1 tablet | 500 mg 1 capsule | 20 mg 1 capsule,when needed | twice a day | when needed,5 days | 2 weeks | 7 days,m | Rx | mg,,date
+RX008,easy,"Orchid Family Practice
+Dr. Arvind Sood, MBBS, DNB (Family Medicine)
+Reg. No. FMC-77545 | B-9 Market Street, Chandanpur
+Date: 24/11/2026
+Name: Simran Nair
+Age/Sex: 44 yrs / M
+Complaint: vomiting for 3 days
+Rx
+1. Calcium 500 mg - 1 tablet three times a day for 10
+days
+2. Vitamin C 500 mg - 1 tablet three times a day for
+3 days
+Review after one week
+Signature",Calcium | Vitamin C,500 mg 1 tablet | 500 mg 1 tablet,three times a day | three times a day,10 days | 3 days,m | Rx | mg,,date
+RX009,easy,"Harmony Health Hub
+Dr. Ritesh Malhotra, MBBS, MD (Medicine)
+Reg. No. FMC-81630 | 45 Hill View, Ambapur
+Date: 27/02/2026
+Name: Anjali Nair
+Age/Sex: 65 yrs / F
+Complaint: skin itching for 2 days
+Rx
+1. Paracetamol 650 mg - 1 tablet at night for 7 days
+Review after one week
+Signature",Paracetamol,650 mg 1 tablet,at night,7 days,Rx | mg,,date
+RX010,easy,"Sunrise Family Clinic
+Dr. Priya Menon, MBBS, DCH
+Reg. No. FMC-21757 | 22 Station Lane, Sitapur Nagar
+Name: Karan Reddy Age/Sex: 28 yrs / F
+Date: 16-Mar-2026
+Complaint: dry cough for 2 days
+Rx
+1. ORS - 1 sachet at night for 2 weeks
+2. Vitamin C 500 mg - 1 tablet twice a day for 10
+days
+3. Cetirizine 10 mg - 1 tablet twice a day for 5
+days
+Take rest for 3 days
+Signature",ORS | Vitamin C | Cetirizine,1 sachet | 500 mg 1 tablet | 10 mg 1 tablet,at night | twice a day | twice a day,2 weeks | 10 days | 5 days,Rx | mg,,date
+RX011,easy,"Maple Polyclinic
+Dr. Neha Kulkarni, MBBS, MD (Medicine)
+Reg. No. FMC-21896 | Plot 7, Sector 21, Ramnagar
+Date: 10/07/2026
+Name: Simran Nair
+Age/Sex: 68 yrs / M
+Complaint: loose motions for 3 days
+Rx
+1. Omeprazole 20 mg - 1 capsule when needed for 7 days
+Avoid oily food
+Signature",Omeprazole,20 mg 1 capsule,when needed,7 days,m | Rx | mg,,date
+RX012,easy,"Lotus Care Clinic
+Dr. Vikram Chauhan, MBBS, MD (Medicine)
+Reg. No. FMC-84142 | 14 Lakeview Road, Navgaon
+Date: 1.4.26
+Name: Karan Kapoor
+Age/Sex: 71 yrs / M
+Complaint: fever, body ache for 4 days
+Rx
+1. Cefixime 200 mg - 1 capsule at night for 10 days
+Drink plenty of water
+Signature",Cefixime,200 mg 1 capsule,at night,10 days,m | Rx | mg,,date | lookalike_name:Cefixime~Cefuroxime
+RX013,easy,"Orchid Family Practice
+Dr. Arvind Sood, MBBS, MD (Medicine)
+Reg. No. FMC-56459 | 14 Lakeview Road, Navgaon
+Name: Om Joshi Age/Sex: 14 yrs / M
+Date: 17/06/26
+Complaint: skin itching for 5 days
+Rx
+1. Vitamin C 500 mg - 1 tablet twice a day for 5
+days
+Avoid oily food
+Signature",Vitamin C,500 mg 1 tablet,twice a day,5 days,m | Rx | mg,,date
+RX014,easy,"Lotus Care Clinic
+Dr. Ananya Ghosh, MBBS, DNB (Family Medicine)
+Reg. No. FMC-17156 | B-9 Market Street, Chandanpur
+Date: 06/01/2026
+Name: Lata Reddy
+Age/Sex: 49 yrs / F
+Complaint: acidity, bloating for 5 days
+Rx
+1. Paracetamol 650 mg - 1 tablet twice a day for
+~~3~~ 2 weeks
+2. Ibuprofen 400 mg - 1 tablet twice a day for 5
+days
+Take rest for 3 days
+Signature",Paracetamol | Ibuprofen,650 mg 1 tablet | 400 mg 1 tablet,twice a day | twice a day,2 weeks | 5 days,Rx | mg,,crossed_out_word | date | handwritten_correction
+RX015,easy,"Harmony Health Hub
+Dr. Sunil Rathore, MBBS, MD (Paediatrics)
+Reg. No. FMC-47225 | Plot 7, Sector 21, Ramnagar
+Date: 4.1.26
+Name: Nisha Mehra
+Age/Sex: 77 yrs / F
+Complaint: loose motions for 2 days
+Rx
+1. Calcium 500 mg - 1 tablet when needed for 10
+days
+2. Omeprazole 20 mg - 1 capsule three times a day
+for 3 days
+3. ORS - 1 sachet at night for 7 days
+Come back if fever continues
+Signature",Calcium | Omeprazole | ORS,500 mg 1 tablet | 20 mg 1 capsule | 1 sachet,when needed | three times a day | at night,10 days | 3 days | 7 days,Rx | mg,,date
+RX016,medium,"Harmony Health Hub
+Dr. Arvind Sood, MBBS, MD (Paediatrics)
+Reg. No. FMC-27234 | 22 Station Lane, Sitapur Nagar
+Name: Lata Verma Age/Sex: 48/F
+Date: 6.6.26
+c/o acidity, bloating x 3d
+Rx
+1) Inj Diclofenac [ILLEGIBLE] 1 ~~TDS~~ IM stat
+2. Tab Hydroxyzine 25mg 0-0-1 AC x 5d
+Rv after 5/7
+Signature",Diclofenac | Hydroxyzine,[ILLEGIBLE] 1 | 25mg,IM stat | 0-0-1 AC, | x 5d,c/o | x | d | Rx | Inj | TDS | IM | stat | Tab | mg | 0-0-1 (dose pattern) | AC | Rv | /7,1) Inj Diclofenac [ILLEGIBLE] 1 ~~TDS~~ IM stat,crossed_out_word | date | handwritten_correction | illegible_segment | lookalike_name:Hydroxyzine~Hydralazine
+RX017,medium,"Crescent Care Centre
+Dr. Vikram Chauhan, MBBS
+Reg. No. FMC-37700 | Plot 7, Sector 21, Ramnagar
+Name: Anjali Saxena Age/Sex: 61/F
+Date: 02/01/26
+c/o skin itching x 2d
+Temp 102.9 F
+Rx
+1) Tab [ILLEGIBLE] 250mg 1 tab 1-0-1 PC x 5d
+2. Tab metformin 1.5mg 1 tab 1-0-1 x 3d
+3) Tab Atorvastatin 10mg QID x 10d
+4. Tab Prednisolone 10mg 1-0-0 after food x 1wk
+Avoid cold drinks
+Signature",[ILLEGIBLE] | metformin | Atorvastatin | Prednisolone,250mg 1 tab | 1.5mg 1 tab | 10mg | 10mg,1-0-1 PC | 1-0-1 | QID | 1-0-0 after food,x 5d | x 3d | x 10d | x 1wk,c/o | x | d | Temp | Rx | Tab | mg | 1-0-1 (dose pattern) | PC | QID | 1-0-0 (dose pattern) | wk,1) Tab [ILLEGIBLE] 250mg 1 tab 1-0-1 PC x 5d,ambiguous_digits | date | illegible_segment | mixed_case | numeric_values
+RX018,medium,"Harmony Health Hub
+Dr. Sunil Rathore, MBBS, MD (Medicine)
+Reg. No. FMC-64197 | 45 Hill View, Ambapur
+Date: 02/05/2026
+Name: Dev Kapoor
+Age/Sex: 39/F
+c/o loose motions x 4d
+SpO2 95%
+Rx
+1) Tab Rabeprazole ~~5ml~~ 20mg 1 tab 1-1-1 PC x 10d
+2. Tab cLOPIDOGREL 75mg SOS PC x 3d
+3) Tab Folic Acid 5mg 1/2 HS x 5d
+4. Tab Cetirizine 10 mg BD AC x 3/7
+Adv: plenty of fluids
+Signature",Rabeprazole | cLOPIDOGREL | Folic Acid | Cetirizine,20mg 1 tab | 75mg | 5mg 1/2 | 10 mg,1-1-1 PC | SOS PC | HS | BD AC,x 10d | x 3d | x 5d | x 3/7,c/o | x | d | Rx | Tab | ml | mg | 1-1-1 (dose pattern) | PC | SOS | HS | BD | AC | /7 | Adv,,crossed_out_word | date | handwritten_correction | mixed_case | numeric_values
+RX019,medium,"Lotus Care Clinic
+Dr. Arvind Sood, MBBS, DNB (Family Medicine)
+Reg. No. FMC-94876 | 3rd Floor, Kiran Complex, Devpur
+Date: 11 Oct 26
+Name: Lata Shah
+Age/Sex: 47/F
+c/o acidity, bloating x 2d
+BP 114/82
+Rx
+1) Tab Metronidazole 400mg TDS [ILLEGIBLE] x 7d
+2. Tab Domperidone 10mg BD PC x ~~10d~~ 1wk
+Review SOS
+Signature",Metronidazole | Domperidone,400mg | 10mg,TDS [ILLEGIBLE] | BD PC,x 7d | x 1wk,c/o | x | d | BP | Rx | Tab | mg | TDS | BD | PC | wk | SOS,1) Tab Metronidazole 400mg TDS [ILLEGIBLE] x 7d,crossed_out_word | date | handwritten_correction | illegible_segment | numeric_values
+RX020,medium,"Orchid Family Practice
+Dr. Arvind Sood, MBBS, MD (Paediatrics)
+Reg. No. FMC-50742 | 14 Lakeview Road, Navgaon
+Date: 10-Jun-2026
+Name: Raghav Dutta
+Age/Sex: 52/M
+c/o acidity, [ILLEGIBLE] x 4d
+Wt 73kg
+Rx
+1) Cap omeprazole 20 mg 1-1-1 x 7d
+2. Tab Azithromycin 500mg 0-0-1 after food x 14d
+3) Tab Cefixime ~~100mg~~ 75mg 1 IM stat
+Adv: steam inhalation BD
+Signature",omeprazole | Azithromycin | Cefixime,20 mg | 500mg | 75mg 1,1-1-1 | 0-0-1 after food | IM stat,x 7d | x 14d | ,c/o | x | d | Wt | Rx | Cap | mg | 1-1-1 (dose pattern) | Tab | 0-0-1 (dose pattern) | IM | stat | Adv | BD,"c/o acidity, [ILLEGIBLE] x 4d",ambiguous_digits | crossed_out_word | date | handwritten_correction | illegible_segment | lookalike_name:Cefixime~Cefuroxime | mixed_case | numeric_values
+RX021,medium,"Harmony Health Hub
+Dr. Sunil Rathore, MBBS, DCH
+Reg. No. FMC-92065 | 14 Lakeview Road, Navgaon
+Name: Kriti Rawat Age/Sex: 36/M
+Date: 8 Oct 26
+c/o loose motions x 5d
+Rx
+1) Tab Montelukast 10mg 2 TDS x 10d
+2. Tab lEVOCETIRIZINE 0.5mg 2 HS x 3/7
+3) Tab Metformin 500mg 1 tab QID x 5d
+Adv: steam inhalation BD
+Signature",Montelukast | lEVOCETIRIZINE | Metformin,10mg 2 | 0.5mg 2 | 500mg 1 tab,TDS | HS | QID,x 10d | x 3/7 | x 5d,c/o | x | d | Rx | Tab | mg | TDS | HS | /7 | QID | Adv | BD,,ambiguous_digits | date | lookalike_name:Metformin~Metronidazole | mixed_case
+RX022,medium,"Orchid Family Practice
+Dr. Meera Bansal, MBBS, MD (Paediatrics)
+Reg. No. FMC-95191 | 3rd Floor, Kiran Complex, Devpur
+Name: Arjun Reddy Age/Sex: 19/M
+Date: 14/07/2026
+c/o loose motions x 3d
+Wt 73kg
+Rx
+1) Tab Montelukast 10mg 1-0-0 x 10d
+2. Tab Atorvastatin 10mg 1/2 0-0-1 x 14d
+3) Tab Prednisolone 5mg 1/2 1-1-1 AC x 10d
+4. Tab Ondansetron 0.5mg 1 tab 1-0-1 PC x 5/7
+Adv: soft [ILLEGIBLE]
+Signature",Montelukast | Atorvastatin | Prednisolone | Ondansetron,10mg | 10mg 1/2 | 5mg 1/2 | 0.5mg 1 tab,1-0-0 | 0-0-1 | 1-1-1 AC | 1-0-1 PC,x 10d | x 14d | x 10d | x 5/7,c/o | x | d | Wt | Rx | Tab | mg | 1-0-0 (dose pattern) | 0-0-1 (dose pattern) | 1-1-1 (dose pattern) | AC | 1-0-1 (dose pattern) | PC | /7 | Adv,Adv: soft [ILLEGIBLE],ambiguous_digits | date | illegible_segment | numeric_values
+RX023,medium,"Maple Polyclinic
+Dr. Farhan Qadri, MBBS, MD (Medicine)
+Reg. No. FMC-91673 | B-9 Market Street, Chandanpur
+Date: 8-Mar-2026
+Name: Harsh Dutta
+Age/Sex: 20/F
+c/o acidity, bloating x 5d
+Rx
+1) Cap Vitamin D3 60000IU 1/2 1-0-0 x 1m
+2. Tab PARACETAMOL 650 mg 1 TDS after food x
+3d
+3) Syp Ambroxol 10ml QID after food x 5/7
+4. Tab Atorvastatin 10mg SOS PC x 14d
+Review SOS
+Signature",Vitamin D3 | PARACETAMOL | Ambroxol | Atorvastatin,60000IU 1/2 | 650 mg 1 | 10ml | 10mg,1-0-0 | TDS after food | QID after food | SOS PC,x 1m | x 3d | x 5/7 | x 14d,c/o | x | d | Rx | Cap | IU | 1-0-0 (dose pattern) | m | Tab | mg | TDS | Syp | ml | QID | /7 | SOS | PC,,date | mixed_case
+RX024,medium,"Orchid Family Practice
+Dr. Meera Bansal, MBBS, DCH
+Reg. No. FMC-96575 | Plot 7, Sector 21, Ramnagar
+Date: 27/04/26
+Name: Lata Rawat
+Age/Sex: 56/M
+c/o sore throat, cough x 4d
+SpO2 95%
+Rx
+1) Tab Domperidone 10mg 1 1-0-1 x 1m
+2. Tab Rabeprazole 20mg OD PC x 5d
+3) Tab Azithromycin 500mg 2 QID after food
+x 3d
+4. Tab [ILLEGIBLE] 10mg TDS AC x ~~7d~~ 3d
+Adv: plenty of fluids
+Signature",Domperidone | Rabeprazole | Azithromycin | [ILLEGIBLE],10mg 1 | 20mg | 500mg 2 | 10mg,1-0-1 | OD PC | QID after food | TDS AC,x 1m | x 5d | x 3d | x 3d,c/o | x | d | Rx | Tab | mg | 1-0-1 (dose pattern) | m | OD | PC | QID | TDS | AC | Adv,4. Tab [ILLEGIBLE] 10mg TDS AC x ~~7d~~ 3d,crossed_out_word | date | handwritten_correction | illegible_segment | mixed_case | numeric_values
+RX025,medium,"Crescent Care Centre
+Dr. Kavya Iyer, MBBS
+Reg. No. FMC-78199 | 14 Lakeview Road, Navgaon
+Date: 12.6.26
+Name: Kriti Shah
+Age/Sex: 23/M
+c/o vomiting x 2d
+SpO2 98%
+Rx
+1) Tab Folic Acid 1.5mg 1/2 0-0-1 PC x 7d
+2. Cap Omeprazole 20 mg HS PC x 5/7
+3) Tab Metronidazole 400mg 1 OD PC x 1m
+4. Tab Paracetamol 650 mg 1/2 HS PC x 3d
+Adv: plenty of fluids
+Signature",Folic Acid | Omeprazole | Metronidazole | Paracetamol,1.5mg 1/2 | 20 mg | 400mg 1 | 650 mg 1/2,0-0-1 PC | HS PC | OD PC | HS PC,x 7d | x 5/7 | x 1m | x 3d,c/o | x | d | Rx | Tab | mg | 0-0-1 (dose pattern) | PC | Cap | HS | /7 | OD | m | Adv,,ambiguous_digits | date | numeric_values
+RX026,medium,"Lotus Care Clinic
+Dr. Arvind Sood, MBBS
+Reg. No. FMC-50427 | B-9 Market Street, Chandanpur
+Name: Kabir Joshi Age/Sex: 64/F
+Date: 9 Jul 26
+c/o sore throat, cough x 2d
+Wt 51kg
+Rx
+1) Tab Pantoprazole 0.5mg 1 tab 0-0-1 x 10d
+2. Tab AMLODIPINE 5mg 1 ~~BD~~ TDS PC x 14d
+3) Tab Prednisolone 5mg SOS x 1m
+Adv: steam inhalation BD
+Signature",Pantoprazole | AMLODIPINE | Prednisolone,0.5mg 1 tab | 5mg 1 | 5mg,0-0-1 | TDS PC | SOS,x 10d | x 14d | x 1m,c/o | x | d | Wt | Rx | Tab | mg | 0-0-1 (dose pattern) | BD | TDS | PC | SOS | m | Adv,,ambiguous_digits | crossed_out_word | date | handwritten_correction | mixed_case | numeric_values
+RX027,medium,"Sunrise Family Clinic
+Dr. Neha Kulkarni, MBBS, DCH
+Reg. No. FMC-99101 | Plot 7, Sector 21, Ramnagar
+Date: 26/04/2026
+Name: Nisha Kapoor
+Age/Sex: 74/M
+c/o headache x 5d
+Rx
+1) Tab Metronidazole 400mg 2 OD x 1wk
+2. Tab pANTOPRAZOLE 40mg BD after food x
+5/7
+3) Tab Clopidogrel 75mg OD x 10d
+4. Cap Amoxicillin 500 mg 1 QID PC x 5/7
+Adv: rest x 3d
+Signature",Metronidazole | pANTOPRAZOLE | Clopidogrel | Amoxicillin,400mg 2 | 40mg | 75mg | 500 mg 1,OD | BD after food | OD | QID PC,x 1wk | x 5/7 | x 10d | x 5/7,c/o | x | d | Rx | Tab | mg | OD | wk | BD | /7 | Cap | QID | PC | Adv,,date | mixed_case
+RX028,medium,"Bluebell Medical Point
+Dr. Ananya Ghosh, MBBS, DNB (Family Medicine)
+Reg. No. FMC-21568 | Plot 7, Sector 21, Ramnagar
+Date: 24/11/2026
+Name: Simran Pillai
+Age/Sex: 51/F
+c/o dry cough x 4d
+Wt 72kg
+Rx
+1) Tab Atorvastatin 10mg 1/2 QID x 3/7
+2. Tab Paracetamol 500 mg HS x 5/7
+Adv: steam inhalation BD
+Signature",Atorvastatin | Paracetamol,10mg 1/2 | 500 mg,QID | HS,x 3/7 | x 5/7,c/o | x | d | Wt | Rx | Tab | mg | QID | /7 | HS | Adv | BD,,date | numeric_values
+RX029,medium,"Silver Oak Clinic
+Dr. Arvind Sood, MBBS, DCH
+Reg. No. FMC-37528 | 14 Lakeview Road, Navgaon
+Date: 14.10.26
+Name: Raghav Kapoor
+Age/Sex: 71/M
+c/o acidity, bloating x 2d
+Rx
+1) Tab Pantoprazole 40mg BD x 14d
+2. Tab Paracetamol 500 mg 0-0-1 x 5d
+Adv: soft diet
+Signature",Pantoprazole | Paracetamol,40mg | 500 mg,BD | 0-0-1,x 14d | x 5d,c/o | x | d | Rx | Tab | mg | BD | 0-0-1 (dose pattern) | Adv,,date
+RX030,medium,"Riverside Wellness Clinic
+Dr. Vikram Chauhan, MBBS, DNB (Family Medicine)
+Reg. No. FMC-49049 | 45 Hill View, Ambapur
+Date: 8 Mar 26
+Name: Kabir Shah
+Age/Sex: 36/M
+c/o fever, body ache x 3d
+BP 139/89
+Rx
+1) Tab Ondansetron 4mg 1/2 BD after food x 5/7
+2. Tab Levocetirizine ~~20mg~~ 5mg 1 tab BD PC x 5/7
+3) Syp Ambroxol 5ml BD x 10d
+4. Tab Cetirizine 10 mg 1 tab OD x 1m
+Adv: plenty of fluids
+Signature",Ondansetron | Levocetirizine | Ambroxol | Cetirizine,4mg 1/2 | 5mg 1 tab | 5ml | 10 mg 1 tab,BD after food | BD PC | BD | OD,x 5/7 | x 5/7 | x 10d | x 1m,c/o | x | d | BP | Rx | Tab | mg | BD | /7 | PC | Syp | ml | OD | m | Adv,,crossed_out_word | date | handwritten_correction | numeric_values
+RX031,hard,"Harmony Health Hub
+Dr. Arvind Sood, MBBS, DCH
+Reg. No. FMC-65913 | 45 Hill View, Ambapur
+Name: Riya Bhatt Age/Sex: 17/F
+Date: ~~07/09/26~~ 18/09/2026
+c/o fever, body ache x 2d
+BP 149/83
+Rx
+1) Tab Rabeprazole 20mg 2 1-0-0 x 14d
+2. Tab Metformin 500mg QID PC x 14d
+3) Cap Amoxicillin 500 mg 1-0-0 after food x
+1m
+4. Tab Atorvastatin 10mg 1 SOS AC x 1wk
+5) Tab Vitamin C ~~250mg~~ 17mg 1 1-0-1 x 3/7
+Rv after [ILLEGIBLE]
+Signature",Rabeprazole | Metformin | Amoxicillin | Atorvastatin | Vitamin C,20mg 2 | 500mg | 500 mg | 10mg 1 | 17mg 1,1-0-0 | QID PC | 1-0-0 after food | SOS AC | 1-0-1,x 14d | x 14d | x 1m | x 1wk | x 3/7,c/o | x | d | BP | Rx | Tab | mg | 1-0-0 (dose pattern) | QID | PC | Cap | m | SOS | AC | wk | 1-0-1 (dose pattern) | /7 | Rv,Rv after [ILLEGIBLE],ambiguous_digits | crossed_out_date | crossed_out_word | date | handwritten_correction | illegible_segment | numeric_values
+RX032,hard,"Lotus Care Clinic
+Dr. Priya Menon, MBBS
+Reg. No. FMC-44614 | 3rd Floor, Kiran Complex, Devpur
+Date: 2-Jul-2026
+Name: Bela Kapoor
+Age/Sex: 7/M
+c/o loose [ILLEGIBLE] x 4d
+Wt 32kg
+Dx: AGE
+Rx
+1) Tab Atorvastatin 10mg 1 TDS x 1m
+2. Cap Omeprazole 20 mg 1 tab OD PC x 14d
+3) Tab Pantoprazole 40mg HS AC x ~~2d~~ 7d
+4. Tab ~~Metronidazole~~ Metformin 500mg 1 tab TDS after [ILLEGIBLE]
+x 1m
+Review SOS
+Signature",Atorvastatin | Omeprazole | Pantoprazole | Metformin,10mg 1 | 20 mg 1 tab | 40mg | 500mg 1 tab,TDS | OD PC | HS AC | TDS after [ILLEGIBLE],x 1m | x 14d | x 7d | x 1m,c/o | x | d | Wt | Dx | Rx | Tab | mg | TDS | m | Cap | OD | PC | HS | AC | SOS,c/o loose [ILLEGIBLE] x 4d | 4. Tab ~~Metronidazole~~ Metformin 500mg 1 tab TDS after [ILLEGIBLE],crossed_out_word | date | handwritten_correction | illegible_segment | lookalike_corrected | lookalike_name:Metformin~Metronidazole | numeric_values
+RX033,hard,"Harmony Health Hub
+Dr. Arvind Sood, MBBS, DCH
+Reg. No. FMC-19882 | 3rd Floor, Kiran Complex, Devpur
+Date: 9 Sep 26
+Name: Aditya Saxena
+Age/Sex: 12/F
+c/o loose [ILLEGIBLE] x 4d
+BP 147/86
+Rx
+1) Cap VITAMIN D3 60000IU 2 1-0-1 AC x 10d
+2. syp Ambroxol 10ml ~~OD~~ SOS PC x 1m
+3) Tab Prednisolone 10mg 1-0-1 x 5/7
+4. Tab Paracetamol 650mg 1/2 1-0-1 AC x 1wk
+Review [ILLEGIBLE]
+Signature",VITAMIN D3 | Ambroxol | Prednisolone | Paracetamol,60000IU 2 | 10ml | 10mg | 650mg 1/2,1-0-1 AC | SOS PC | 1-0-1 | 1-0-1 AC,x 10d | x 1m | x 5/7 | x 1wk,c/o | x | d | BP | Rx | Cap | IU | 1-0-1 (dose pattern) | AC | Syp | ml | OD | SOS | PC | m | Tab | mg | /7 | wk,c/o loose [ILLEGIBLE] x 4d | Review [ILLEGIBLE],ambiguous_digits | crossed_out_word | date | handwritten_correction | illegible_segment | mixed_case | numeric_values
+RX034,hard,"Bluebell Medical Point
+Dr. Neha Kulkarni, MBBS
+Reg. No. FMC-27971 | 14 Lakeview Road, Navgaon
+Date: 15 Feb 26
+Name: Dev Mehra
+Age/Sex: 66/F
+c/o runny nose, sneezing x 3d
+Temp 99.5 F
+Rx
+1) tab Metformin 500mg 1 tab HS x 1wk
+2. Tab Paracetamol 500 mg 1/2 1-1-1 after [ILLEGIBLE] x 1m
+3) cAP Omeprazole 17mg 1/2 OD PC x 10d
+4. Tab Pantoprazole 40mg 2 TDS after food x ~~7d~~ 1wk
+5) Tab ~~Valsartan~~ Losartan 50mg 1 tab 1-0-1 x 7d
+Review SOS
+Signature",Metformin | Paracetamol | Omeprazole | Pantoprazole | Losartan,500mg 1 tab | 500 mg 1/2 | 17mg 1/2 | 40mg 2 | 50mg 1 tab,HS | 1-1-1 after [ILLEGIBLE] | OD PC | TDS after food | 1-0-1,x 1wk | x 1m | x 10d | x 1wk | x 7d,c/o | x | d | Temp | Rx | Tab | mg | HS | wk | 1-1-1 (dose pattern) | m | Cap | OD | PC | TDS | 1-0-1 (dose pattern) | SOS,2. Tab Paracetamol 500 mg 1/2 1-1-1 after [ILLEGIBLE] x 1m,ambiguous_digits | crossed_out_word | date | handwritten_correction | illegible_segment | lookalike_corrected | lookalike_name:Losartan~Valsartan | mixed_case | numeric_values
+RX035,hard,"Greenleaf Health Centre
+Dr. Meera Bansal, MBBS, MD (Medicine)
+Reg. No. FMC-82657 | 14 Lakeview Road, Navgaon
+Name: Arjun Shah Age/Sex: 44/M
+Date: 03/01/26
+c/o dry [ILLEGIBLE] x 6d
+Rx
+1) tAB Metformin 500mg BD after food x 5d
+2. TAB Domperidone 10mg 1 tab BD after food x 3/7
+3) Tab Cetirizine 10 mg 1 OD after food x ~~10d~~ 1wk
+Adv: soft diet
+Signature",Metformin | Domperidone | Cetirizine,500mg | 10mg 1 tab | 10 mg 1,BD after food | BD after food | OD after food,x 5d | x 3/7 | x 1wk,c/o | x | d | Rx | Tab | mg | BD | /7 | OD | wk | Adv,c/o dry [ILLEGIBLE] x 6d,crossed_out_word | date | handwritten_correction | illegible_segment | mixed_case
+RX036,hard,"Bluebell Medical Point
+Dr. Arvind Sood, MBBS, DNB (Family Medicine)
+Reg. No. FMC-63221 | B-9 Market Street, Chandanpur
+Date: 5 Jun 26
+Name: Karan Verma
+Age/Sex: 53/M
+c/o vomiting x 5d
+Dx: Viral fever
+Rx
+1) tab Metformin 500mg 1 1-1-1 x 1wk
+2. Tab Prednisolone 5mg TDS x 10d
+3) Tab Rabeprazole 20mg SOS PC x ~~5d~~ 5/7
+4. Cap [ILLEGIBLE] 60000IU 1/2 0-0-1 PC x 3d
+5) Tab Losartan 50mg SOS x 10d
+Rv after 5/7
+Signature",Metformin | Prednisolone | Rabeprazole | [ILLEGIBLE] | Losartan,500mg 1 | 5mg | 20mg | 60000IU 1/2 | 50mg,1-1-1 | TDS | SOS PC | 0-0-1 PC | SOS,x 1wk | x 10d | x 5/7 | x 3d | x 10d,c/o | x | d | Dx | Rx | Tab | mg | 1-1-1 (dose pattern) | wk | TDS | SOS | PC | /7 | Cap | IU | 0-0-1 (dose pattern) | Rv,4. Cap [ILLEGIBLE] 60000IU 1/2 0-0-1 PC x 3d,crossed_out_word | date | handwritten_correction | illegible_segment | lookalike_name:Losartan~Valsartan | mixed_case
+RX037,hard,"Orchid Family Practice
+Dr. Kavya Iyer, MBBS, DCH
+Reg. No. FMC-38419 | 14 Lakeview Road, Navgaon
+Date: 22 Oct 26
+Name: Aditya Rawat
+Age/Sex: 66/M
+c/o knee [ILLEGIBLE] x 6d
+Wt 28kg
+Rx
+1) Cap Amoxicillin 500 mg 1 tab 0-0-1 x ~~3d~~ 5d
+2. Cap Omeprazole 20 mg 1 1-1-1 PC x 5d
+3) Tab [ILLEGIBLE] 500mg 1 1-0-1 x 3d
+4. Tab ~~Valsartan~~ Losartan 50mg BD x 1m
+Adv: plenty of fluids
+Signature",Amoxicillin | Omeprazole | [ILLEGIBLE] | Losartan,500 mg 1 tab | 20 mg 1 | 500mg 1 | 50mg,0-0-1 | 1-1-1 PC | 1-0-1 | BD,x 5d | x 5d | x 3d | x 1m,c/o | x | d | Wt | Rx | Cap | mg | Tab | 0-0-1 (dose pattern) | 1-1-1 (dose pattern) | PC | 1-0-1 (dose pattern) | BD | m | Adv,c/o knee [ILLEGIBLE] x 6d | 3) Tab [ILLEGIBLE] 500mg 1 1-0-1 x 3d,crossed_out_word | date | handwritten_correction | illegible_segment | lookalike_corrected | lookalike_name:Losartan~Valsartan | mixed_case | numeric_values
+RX038,hard,"Greenleaf Health Centre
+Dr. Priya Menon, MBBS, MD (Paediatrics)
+Reg. No. FMC-50712 | B-9 Market Street, Chandanpur
+Date: 04/08/2026
+Name: Riya Bhatt
+Age/Sex: 36/M
+c/o loose motions x 4d
+Dx: HTN
+Rx
+1) Tab Vitamin C 15mg 1 tab ~~BD~~ OD after food
+x 14d
+2. Tab CLOPIDOGREL [ILLEGIBLE] OD x 14d
+3) Cap Amoxicillin 500 mg 1/2 QID after food
+x 5d
+4. Tab ~~Cefuroxime~~ Cefixime 200mg OD AC x 3/7
+Adv: steam inhalation BD
+Signature",Vitamin C | CLOPIDOGREL | Amoxicillin | Cefixime,15mg 1 tab | [ILLEGIBLE] | 500 mg 1/2 | 200mg,OD after food | OD | QID after food | OD AC,x 14d | x 14d | x 5d | x 3/7,c/o | x | d | Dx | Rx | Tab | mg | BD | OD | Cap | QID | AC | /7 | Adv,2. Tab CLOPIDOGREL [ILLEGIBLE] OD x 14d,ambiguous_digits | crossed_out_word | date | handwritten_correction | illegible_segment | lookalike_corrected | lookalike_name:Cefixime~Cefuroxime | mixed_case
+RX039,hard,"Greenleaf Health Centre
+Dr. Farhan Qadri, MBBS, DCH
+Reg. No. FMC-46603 | 14 Lakeview Road, Navgaon
+Name: Isha Reddy Age/Sex: 34/M
+Date: 06/03/2026
+c/o fever, body ache x 6d
+BP 111/78
+Rx
+1) Syp Ambroxol 10ml 0-0-1 after food x [ILLEGIBLE]
+2. Tab pantoprazole 40mg 1 ~~BD~~ HS PC x 3d
+3) CAP OMEPRAZOLE 20 mg TDS x 10d
+4. Tab Clopidogrel 75mg 1 OD x 5d
+5) Tab ~~Metronidazole~~ Metformin 500mg 1 IM stat
+Review [ILLEGIBLE]
+Signature",Ambroxol | pantoprazole | OMEPRAZOLE | Clopidogrel | Metformin,10ml | 40mg 1 | 20 mg | 75mg 1 | 500mg 1,0-0-1 after food | HS PC | TDS | OD | IM stat,x [ILLEGIBLE] | x 3d | x 10d | x 5d | ,c/o | x | d | BP | Rx | Syp | ml | 0-0-1 (dose pattern) | Tab | mg | BD | HS | PC | Cap | TDS | OD | IM | stat,1) Syp Ambroxol 10ml 0-0-1 after food x [ILLEGIBLE] | Review [ILLEGIBLE],crossed_out_word | date | handwritten_correction | illegible_segment | lookalike_corrected | lookalike_name:Metformin~Metronidazole | mixed_case | numeric_values
+RX040,hard,"Harmony Health Hub
+Dr. Ritesh Malhotra, MBBS, MD (Medicine)
+Reg. No. FMC-35737 | 3rd Floor, Kiran Complex, Devpur
+Date: 16-Jun-2026
+Name: Lata Dutta
+Age/Sex: 55/F
+c/o acidity, [ILLEGIBLE] x 5d
+Rx
+1) Tab Paracetamol 650 mg 1 tab 0-0-1 AC x 5/7
+2. Tab Metformin 500mg 1 tab BD x 7d
+3) tAB montelukast 10mg 2 ~~OD~~ HS PC x 10d
+4. Tab Hydroxyzine 25mg QID after food x 5/7
+Review SOS
+Signature",Paracetamol | Metformin | montelukast | Hydroxyzine,650 mg 1 tab | 500mg 1 tab | 10mg 2 | 25mg,0-0-1 AC | BD | HS PC | QID after food,x 5/7 | x 7d | x 10d | x 5/7,c/o | x | d | Rx | Tab | mg | 0-0-1 (dose pattern) | AC | /7 | BD | OD | HS | PC | QID | SOS,"c/o acidity, [ILLEGIBLE] x 5d",crossed_out_word | date | handwritten_correction | illegible_segment | lookalike_name:Hydroxyzine~Hydralazine | mixed_case
+RX041,hard,"Sunrise Family Clinic
+Dr. Arvind Sood, MBBS, MD (Paediatrics)
+Reg. No. FMC-81165 | 22 Station Lane, Sitapur Nagar
+Date: 18/02/2026
+Name: Harsh Verma
+Age/Sex: 31/F
+c/o [ILLEGIBLE] x 6d
+Dx: Viral fever
+Rx
+1) Tab Ibuprofen 400 mg TDS x 5d
+2. Tab [ILLEGIBLE] 500mg 1-1-1 PC x 1m
+3) CAP Vitamin D3 60000IU 1 1-0-1 PC x 1m
+4. Tab Prednisolone 10mg 2 SOS x ~~10d~~ 5/7
+Adv: rest x 3d
+Signature",Ibuprofen | [ILLEGIBLE] | Vitamin D3 | Prednisolone,400 mg | 500mg | 60000IU 1 | 10mg 2,TDS | 1-1-1 PC | 1-0-1 PC | SOS,x 5d | x 1m | x 1m | x 5/7,c/o | x | d | Dx | Rx | Tab | mg | TDS | 1-1-1 (dose pattern) | PC | m | Cap | IU | 1-0-1 (dose pattern) | SOS | /7 | Adv,c/o [ILLEGIBLE] x 6d | 2. Tab [ILLEGIBLE] 500mg 1-1-1 PC x 1m,crossed_out_word | date | handwritten_correction | illegible_segment | lookalike_name:Prednisolone~Prednisone | mixed_case
+RX042,hard,"Sunrise Family Clinic
+Dr. Neha Kulkarni, MBBS, DNB (Family Medicine)
+Reg. No. FMC-37088 | 45 Hill View, Ambapur
+Name: Sneha Reddy Age/Sex: 38/F
+Date: 2 May 26
+c/o sore throat, [ILLEGIBLE] x 2d
+SpO2 99%
+Rx
+1) Tab Ondansetron 4mg TDS after food x 7d
+2. tAB Atorvastatin 10mg 1 tab ~~BD~~ OD PC x 10d
+3) Inj Diclofenac 1.5mg 1 IM stat
+4. Tab ~~Amiloride~~ Amlodipine 5mg TDS x 5/7
+Avoid cold [ILLEGIBLE]
+Signature",Ondansetron | Atorvastatin | Diclofenac | Amlodipine,4mg | 10mg 1 tab | 1.5mg 1 | 5mg,TDS after food | OD PC | IM stat | TDS,x 7d | x 10d |  | x 5/7,c/o | x | d | Rx | Tab | mg | TDS | BD | OD | PC | Inj | IM | stat | /7,"c/o sore throat, [ILLEGIBLE] x 2d | Avoid cold [ILLEGIBLE]",ambiguous_digits | crossed_out_word | date | handwritten_correction | illegible_segment | lookalike_corrected | lookalike_name:Amlodipine~Amiloride | numeric_values
+RX043,hard,"Silver Oak Clinic
+Dr. Farhan Qadri, MBBS
+Reg. No. FMC-81235 | Plot 7, Sector 21, Ramnagar
+Date: ~~23Jun26~~ 01/02/2026
+Name: Isha Pillai
+Age/Sex: 35/F
+c/o [ILLEGIBLE] x 2d
+Dx: AGE
+Rx
+1) Tab rabeprazole 20mg QID after food x 1wk
+2. Cap vitamin d3 ~~250mg~~ 1.5mg 1-0-1 PC x 1wk
+3) Tab Prednisolone 10mg 2 SOS x 1m
+Adv: steam inhalation BD
+Signature",rabeprazole | vitamin d3 | Prednisolone,20mg | 1.5mg | 10mg 2,QID after food | 1-0-1 PC | SOS,x 1wk | x 1wk | x 1m,c/o | x | d | Dx | Rx | Tab | mg | QID | wk | Cap | 1-0-1 (dose pattern) | PC | SOS | m | Adv | BD,c/o [ILLEGIBLE] x 2d,ambiguous_digits | crossed_out_date | crossed_out_word | date | handwritten_correction | illegible_segment | lookalike_name:Prednisolone~Prednisone | mixed_case
+RX044,hard,"Greenleaf Health Centre
+Dr. Arvind Sood, MBBS, DNB (Family Medicine)
+Reg. No. FMC-60606 | 45 Hill View, Ambapur
+Name: Riya Verma Age/Sex: 50/F
+Date: 5-Mar-2026
+c/o acidity, [ILLEGIBLE] x 6d
+BP 146/81
+Rx
+1) cAP Vitamin D3 60000IU OD AC x 10d
+2. tab metronidazole 15mg 1 tab 0-0-1 after
+food x 3d
+3) Tab ~~Prednisone~~ Prednisolone ~~20mg~~ 10mg TDS x 7d
+Avoid cold drinks
+Signature",Vitamin D3 | metronidazole | Prednisolone,60000IU | 15mg 1 tab | 10mg,OD AC | 0-0-1 after food | TDS,x 10d | x 3d | x 7d,c/o | x | d | BP | Rx | Cap | IU | OD | AC | Tab | mg | 0-0-1 (dose pattern) | TDS,"c/o acidity, [ILLEGIBLE] x 6d",ambiguous_digits | crossed_out_word | date | handwritten_correction | illegible_segment | lookalike_corrected | lookalike_name:Prednisolone~Prednisone | mixed_case | numeric_values
+RX045,hard,"Sunrise Family Clinic
+Dr. Ritesh Malhotra, MBBS, MD (Paediatrics)
+Reg. No. FMC-84904 | Plot 7, Sector 21, Ramnagar
+Date: 18/04/2026
+Name: Dev Reddy
+Age/Sex: 77/F
+c/o runny nose, sneezing x 4d
+Dx: HTN
+Rx
+1) Cap Vitamin D3 60000IU 0-0-1 after food x 3d
+2. Tab Cetirizine 10 [ILLEGIBLE] ~~HS~~ QID PC x 1m
+3) Tab Clopidogrel 75mg HS x 3/7
+4. TAB Atorvastatin 10mg BD x 3d
+Review SOS
+Signature",Vitamin D3 | Cetirizine | Clopidogrel | Atorvastatin,60000IU | 10 [ILLEGIBLE] | 75mg | 10mg,0-0-1 after food | QID PC | HS | BD,x 3d | x 1m | x 3/7 | x 3d,c/o | x | d | Dx | Rx | Cap | IU | 0-0-1 (dose pattern) | Tab | HS | QID | PC | m | mg | /7 | BD | SOS,2. Tab Cetirizine 10 [ILLEGIBLE] ~~HS~~ QID PC x 1m,crossed_out_word | date | handwritten_correction | illegible_segment | mixed_case
+RX046,hard,"Bluebell Medical Point
+Dr. Arvind Sood, MBBS, DNB (Family Medicine)
+Reg. No. FMC-21209 | Plot 7, Sector 21, Ramnagar
+Name: Riya Shah Age/Sex: 36/M
+Date: 14 Sep
+26
+c/o knee [ILLEGIBLE] x 4d
+Rx
+1) tAB azithromycin 500mg 1 ~~HS~~ QID after food x
+7d
+2. Tab Metronidazole 400mg SOS x 1wk
+3) Tab fOLIC ACID 5mg 1 tab 1-0-0 after
+food x 1m
+4. Tab Domperidone 10mg 1 HS x 5d
+Avoid cold drinks
+Signature",azithromycin | Metronidazole | fOLIC ACID | Domperidone,500mg 1 | 400mg | 5mg 1 tab | 10mg 1,QID after food | SOS | 1-0-0 after food | HS,x 7d | x 1wk | x 1m | x 5d,c/o | x | d | Rx | Tab | mg | HS | QID | SOS | wk | 1-0-0 (dose pattern) | m,c/o knee [ILLEGIBLE] x 4d,crossed_out_word | date | handwritten_correction | illegible_segment | mixed_case
+RX047,hard,"Bluebell Medical Point
+Dr. Meera Bansal, MBBS, MD (Medicine)
+Reg. No. FMC-48036 | B-9 Market Street, Chandanpur
+Date: 14-Oct-2026
+Name: Kabir Saxena
+Age/Sex: 50/M
+c/o skin itching x 2d
+Rx
+1) Tab Azithromycin 250mg 1 ~~BD~~ OD PC x 3d
+2. Tab Vitamin C 500 mg 1-0-1 x 3d
+3) TAB Cetirizine 10 mg SOS AC x 7d
+4. Tab Folic Acid 5mg 1-0-1 x 3d
+5) Tab ~~Valsartan~~ Losartan 50mg OD x 14d
+Adv: steam inhalation [ILLEGIBLE]
+Signature",Azithromycin | Vitamin C | Cetirizine | Folic Acid | Losartan,250mg 1 | 500 mg | 10 mg | 5mg | 50mg,OD PC | 1-0-1 | SOS AC | 1-0-1 | OD,x 3d | x 3d | x 7d | x 3d | x 14d,c/o | x | d | Rx | Tab | mg | BD | OD | PC | 1-0-1 (dose pattern) | SOS | AC | Adv,Adv: steam inhalation [ILLEGIBLE],crossed_out_word | date | handwritten_correction | illegible_segment | lookalike_corrected | lookalike_name:Losartan~Valsartan | mixed_case
+RX048,hard,"Riverside Wellness Clinic
+Dr. Priya Menon, MBBS, DCH
+Reg. No. FMC-92785 | 45 Hill View, Ambapur
+Name: Lata Bhatt Age/Sex: 78/F
+Date: 20-May-2026
+c/o runny nose, sneezing x 6d
+Rx
+1) cAP Amoxicillin 500 mg 2 HS x 5/7
+2. tab Levocetirizine [ILLEGIBLE] 1 tab HS AC x ~~3d~~ 14d
+3) Tab ~~Amiloride~~ Amlodipine 5mg 2 HS after food x 7d
+Avoid cold [ILLEGIBLE]
+Signature",Amoxicillin | Levocetirizine | Amlodipine,500 mg 2 | [ILLEGIBLE] 1 tab | 5mg 2,HS | HS AC | HS after food,x 5/7 | x 14d | x 7d,c/o | x | d | Rx | Cap | mg | HS | /7 | Tab | AC,2. tab Levocetirizine [ILLEGIBLE] 1 tab HS AC x ~~3d~~ 14d | Avoid cold [ILLEGIBLE],crossed_out_word | date | handwritten_correction | illegible_segment | lookalike_corrected | lookalike_name:Amlodipine~Amiloride | mixed_case
+RX049,hard,"Silver Oak Clinic
+Dr. Kavya Iyer, MBBS, MD (Paediatrics)
+Reg. No. FMC-14376 | 22 Station Lane, Sitapur Nagar
+Date: ~~12/11/2026~~ 13/03/2026
+Name: Sneha Shah
+Age/Sex: 71/M
+c/o loose [ILLEGIBLE] x 5d
+Dx: Viral fever
+Rx
+1) Tab Pantoprazole 40mg 2 1-0-1 after food x 14d
+2. Inj Diclofenac 75mg 1 IM stat
+3) tAB cetirizine 10 mg 1 0-0-1 [ILLEGIBLE] x ~~5d~~ 1m
+4. Tab Prednisolone 10mg 1 1-1-1 x 3d
+Rv after 5/7
+Signature",Pantoprazole | Diclofenac | cetirizine | Prednisolone,40mg 2 | 75mg 1 | 10 mg 1 | 10mg 1,1-0-1 after food | IM stat | 0-0-1 [ILLEGIBLE] | 1-1-1,x 14d |  | x 1m | x 3d,c/o | x | d | Dx | Rx | Tab | mg | 1-0-1 (dose pattern) | Inj | IM | stat | 0-0-1 (dose pattern) | m | 1-1-1 (dose pattern) | Rv | /7,c/o loose [ILLEGIBLE] x 5d | 3) tAB cetirizine 10 mg 1 0-0-1 [ILLEGIBLE] x ~~5d~~ 1m,crossed_out_date | crossed_out_word | date | handwritten_correction | illegible_segment | lookalike_name:Prednisolone~Prednisone | mixed_case
+RX050,hard,"Crescent Care Centre
+Dr. Ritesh Malhotra, MBBS, DCH
+Reg. No. FMC-55946 | 22 Station Lane, Sitapur Nagar
+Name: Nisha Bhatt Age/Sex: 9/F
+Date: 27/02/2026
+c/o loose [ILLEGIBLE] x 6d
+Wt 32kg
+Rx
+1) Cap aMOXICILLIN 500 mg OD after food
+x 5/7
+2. tab Ondansetron 4mg 1-1-1 PC x 10d
+3) Tab Ibuprofen 400 mg 1/2 1-0-0 x 3d
+4. Tab cETIRIZINE 650mg QID PC x ~~10d~~ 3d
+5) Tab Montelukast 10mg BD after food x 1m
+Avoid cold drinks
+Signature",aMOXICILLIN | Ondansetron | Ibuprofen | cETIRIZINE | Montelukast,500 mg | 4mg | 400 mg 1/2 | 650mg | 10mg,OD after food | 1-1-1 PC | 1-0-0 | QID PC | BD after food,x 5/7 | x 10d | x 3d | x 3d | x 1m,c/o | x | d | Wt | Rx | Cap | mg | OD | /7 | Tab | 1-1-1 (dose pattern) | PC | 1-0-0 (dose pattern) | QID | BD | m,c/o loose [ILLEGIBLE] x 6d,ambiguous_digits | crossed_out_word | date | handwritten_correction | illegible_segment | mixed_case | numeric_values

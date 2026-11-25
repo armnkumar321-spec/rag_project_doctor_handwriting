@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RxReadable</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Caveat:wght@600&display=swap" rel="stylesheet">
+<style>
+/* VOICE clinical, calm, precise: a pharmacist's verification desk
+   IDEA the dispensing counter: handwritten slip on the left, typed dispensing label on the right
+   PICTURE the working tool itself: slip image beside live medicine labels
+   COLOUR white counter, prescription-pad blue ink, alert red for checks
+   TYPE IBM Plex Sans/Mono for labels, Caveat only as the handwriting echo; LAYOUT two panes, stack under 900px */
+:root{color-scheme:light dark;--bg:light-dark(#f6f7f9,#0f1319);--card:light-dark(#fff,#171c24);--ink:light-dark(#141a24,#e7ebf2);--mute:light-dark(#5b6575,#9aa4b4);--line:light-dark(#dfe3ea,#2a313d);--blue:light-dark(#1f4fd1,#7d9cff);--blue2:light-dark(#e9efff,#1b2540);--red:light-dark(#b4232c,#ff7b82);--red2:light-dark(#fdecee,#3a1a1e);--ok:light-dark(#0f7a4a,#5fd39b)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "IBM Plex Sans",system-ui,sans-serif;overflow-x:clip}
+header{padding:22px max(4vw,16px) 10px;display:flex;flex-wrap:wrap;gap:8px 24px;align-items:baseline}
+h1{font-size:32px;line-height:1.05;margin:0;letter-spacing:-.01em}h1 span{font-family:Caveat,cursive;color:var(--blue);font-size:40px}
+.sub{color:var(--mute);margin:0;font-size:15px}
+.note{margin:0 max(4vw,16px);padding:10px 14px;border-radius:10px;background:var(--red2);color:var(--red);font-size:14px}
+.tabs{display:flex;gap:6px;padding:14px max(4vw,16px) 0;flex-wrap:wrap}
+.tabs button,.btn{font:inherit;font-size:15px;min-height:44px;padding:8px 16px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+.tabs button[aria-selected=true]{background:var(--blue);border-color:var(--blue);color:#fff}
+.btn.primary{background:var(--blue);border-color:var(--blue);color:#fff}
+button:focus-visible,textarea:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+main{padding:14px max(4vw,16px) 40px;max-width:1400px}
+.desk{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:18px}
+@media(max-width:900px){.desk{grid-template-columns:minmax(0,1fr)}}
+.pane{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+select,input[type=text]{font:inherit;font-size:16px;min-height:44px;padding:8px 10px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+.slip{margin-top:12px;border-radius:10px;overflow:hidden;border:1px solid var(--line);background:#fff;max-height:640px;overflow-y:auto}
+.slip img{display:block;width:100%}
+.empty{padding:40px 16px;text-align:center;color:var(--mute)}
+label.small{font-size:13px;color:var(--mute);display:block;margin:10px 0 4px}
+textarea{width:100%;min-height:220px;font:14px/1.5 "IBM Plex Mono",monospace;padding:10px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--ink);resize:vertical}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:10px;overflow:hidden}.seg button{border:0;border-radius:0;min-height:40px}
+.meta{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14px;color:var(--mute);margin:12px 0}.meta b{color:var(--ink);font-weight:600}
+.labels{display:grid;gap:12px;margin-top:6px}
+.lab{border:1px solid var(--line);border-left:6px solid var(--blue);border-radius:10px;padding:12px 14px;background:var(--card)}
+.lab.warn{border-left-color:var(--red)}
+.lab h3{margin:0;font-size:19px;display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline}
+.lab h3 small{font-size:13px;color:var(--mute);font-weight:400}
+.plain{margin:4px 0 8px;font-size:16px}
+.fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:6px;font-size:13px}
+.fields div{background:var(--blue2);border-radius:8px;padding:6px 8px}.fields span{display:block;color:var(--mute);font-size:12px}
+.fields b{font-family:"IBM Plex Mono",monospace;font-weight:500;white-space:nowrap}
+.raw{font:13px "IBM Plex Mono",monospace;color:var(--mute);margin-top:8px;overflow-wrap:anywhere}
+.w{margin:8px 0 0;padding:0;list-style:none;font-size:14px;color:var(--red)}.w li::before{content:"! ";font-weight:700}
+details{margin-top:8px;font-size:14px}summary{cursor:pointer;color:var(--blue);min-height:28px}
+.kb{margin:6px 0 0;padding-left:18px}
+.score{font:13px "IBM Plex Mono",monospace;color:var(--mute)}
+.qa .hit{border-top:1px solid var(--line);padding:10px 0}.qa .hit:first-child{border-top:0}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}.chips button{font-size:14px;min-height:36px;padding:4px 12px;border-radius:999px}
+.cmp{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px}@media(max-width:600px){.cmp{grid-template-columns:minmax(0,1fr)}}
+pre{margin:0;white-space:pre-wrap;font:13px/1.5 "IBM Plex Mono",monospace;background:var(--bg);border-radius:10px;padding:10px;max-height:320px;overflow:auto}
+.foot{color:var(--mute);font-size:13px;margin-top:22px}
+</style></head><body>
+<header><h1>Rx<span>Readable</span></h1><p class="sub">Read a handwritten prescription → structured medicines → plain-English explanation</p></header>
+<p class="note">Academic demo with fictional data. Readings can be wrong and are not medical advice. Always confirm with the doctor or a pharmacist.</p>
+<div class="tabs" role="tablist">
+  <button role="tab" aria-selected="true" data-t="read">Read a prescription</button>
+  <button role="tab" aria-selected="false" data-t="ask">Ask about terms</button>
+</div>
+<main>
+<section id="read" class="desk">
+  <div class="pane">
+    <div class="row">
+      <select id="sample" aria-label="Dataset sample"></select>
+      <label class="btn" for="file" style="display:inline-flex;align-items:center">Upload photo</label>
+      <input id="file" type="file" accept="image/*" hidden>
+    </div>
+    <div class="slip" id="slip"></div>
+  </div>
+  <div class="pane">
+    <div class="row" style="justify-content:space-between">
+      <div class="seg" role="group" aria-label="Text source">
+        <button class="btn" id="src-tess">Tesseract OCR output</button>
+        <button class="btn" id="src-gt">Ground-truth text</button>
+      </div>
+      <span class="score" id="stat"></span>
+    </div>
+    <label class="small" for="txt">OCR text. Edit it and the labels update live. For your own photo, paste text from Gemini/Tesseract here.</label>
+    <textarea id="txt" spellcheck="false"></textarea>
+    <div class="meta" id="meta"></div>
+    <div class="labels" id="labels"></div>
+  </div>
+</section>
+<section id="ask" class="pane qa" hidden>
+  <div class="row"><input id="q" type="text" placeholder="e.g. What does TDS mean?  paracetamal side effects" style="flex:1 1 320px"><button class="btn primary" id="go">Search</button></div>
+  <div class="chips" id="chips"></div>
+  <div id="hits"></div>
+</section>
+<p class="foot">Runs entirely in your browser: JavaScript port of the RxReadable parser (fuzzy drug matching, dose/frequency/duration extraction) and a character n-gram TF-IDF retriever over a 33-drug, 43-abbreviation knowledge base. Samples show real Tesseract output from the Python pipeline. Live OCR and Gemini explanations need the Python app (streamlit run app.py).</p>
+</main>
+<script>
+{
+const D = __DATA__;
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+/* ---------------- parser (port of rxreadable/parser.py) ---------------- */
+const FORMS = {tab:"Tab",tablet:"Tab",cap:"Cap",capsule:"Cap",syp:"Syp",syrup:"Syp",inj:"Inj",injection:"Inj",sachet:"Sachet",drops:"Drops",gel:"Gel"};
+const FREQ_ABBR = ["OD","BD","BID","TDS","TID","QID","QDS","HS","SOS","PRN","STAT"];
+const FREQ_WORDS = ["once a day","twice a day","three times a day","four times a day","at night","when needed","in the morning"];
+const TIMING = [["AC","before food"],["PC","after food"],["after food","after food"],["before food","before food"]];
+const RE_STRENGTH = /(\d+(?:[.,]\d+)?)\s*(mg|mcg|ml|g|iu)\b/i;
+const RE_PATTERN = /\b([0-2](?:\/2)?)\s*-\s*([0-2](?:\/2)?)\s*-\s*([0-2](?:\/2)?)\b/;
+const RE_DURATION = /(?:\bx\s*|\bfor\s+)?(\d+)\s*(\/7|d\b|days?\b|wks?\b|weeks?\b|m\b|months?\b)/i;
+const RE_DOSE = /(?<![\d.-])(1\/2|\d)\s*(tab(?:let)?s?|cap(?:sule)?s?|sachets?|tsp|puffs?)?(?![\d.\/-])(?!\s*(?:mg|ml|mcg|g|iu|d\b|days?|wk|m\b|\/7))/i;
+const NAMES = {};
+for (const d of D.drugs) { NAMES[d.name.toLowerCase()] = d; for (const a of d.aliases) NAMES[a.toLowerCase()] = d; }
+const NAME_KEYS = Object.keys(NAMES);
+
+function ratio(a, b) {               // rapidfuzz.fuzz.ratio (Indel similarity)
+  if (!a.length && !b.length) return 100;
+  const m = a.length, n = b.length; let prev = new Array(n + 1).fill(0);
+  for (let i = 1; i <= m; i++) { const cur = [0]; for (let j = 1; j <= n; j++) cur[j] = a[i-1] === b[j-1] ? prev[j-1] + 1 : Math.max(prev[j], cur[j-1]); prev = cur; }
+  return 200 * prev[n] / (m + n);
+}
+function matchDrug(words) {
+  let best = ["", null, 0];
+  for (const n of [2, 1]) for (let i = 0; i + n <= words.length; i++) {
+    const span = words.slice(i, i + n).join(" "), s = span.toLowerCase().replace(/[^a-z0-9 ]/g, "");
+    if (s.length < 3 || FORMS[s] || FREQ_ABBR.includes(s.toUpperCase())) continue;
+    for (const k of NAME_KEYS) { const r = ratio(s, k); if (r > best[2]) best = [span, NAMES[k], r]; }
+  }
+  return best[2] >= 78 ? best : ["", null, best[2]];
+}
+const expandFreq = f => f.split(" ").map(t => D.abbr[t.toUpperCase()]?.expansion.split(" (")[0] ?? t).join(" ");
+function describe(m) {
+  const form = {Tab:"tablet",Cap:"capsule",Syp:"syrup",Inj:"injection",Sachet:"sachet"}[m.form] ?? m.form.toLowerCase();
+  let dose = m.dose; if (dose && !/[a-z]/i.test(dose) && form) dose = `${dose} ${form}`;
+  let what = dose ? `${dose} of ${m.name}` : `${m.name} ${form}`.trim(); if (m.strength) what += " " + m.strength;
+  const p = [what]; if (m.frequency) p.push(expandFreq(m.frequency)); if (m.timing) p.push(m.timing);
+  if (m.duration) { const [n, u] = m.duration.split(" "); p.push(`for ${n} ${n === "1" && u.endsWith("s") ? u.slice(0, -1) : u}`); }
+  return p.join(", ");
+}
+function parseLine(line) {
+  const words = line.replace(/,/g, " ").split(/\s+/).filter(Boolean);
+  const [span, drug, score] = matchDrug(words); if (!drug) return null;
+  const m = {raw: line, nameOcr: span, name: drug.name, score: Math.round(score), form:"", strength:"", dose:"", frequency:"", timing:"", duration:"", warnings: [], drug};
+  for (const w of words) { const k = w.toLowerCase().replace(/[.)]/g, ""); if (FORMS[k]) { m.form = FORMS[k]; break; } }
+  let rest = line.replace(span, " "), x;
+  if ((x = rest.match(RE_STRENGTH))) { m.strength = x[1].replace(",", ".") + x[2].toLowerCase().replace("iu", "IU"); rest = rest.replace(x[0], " "); }
+  if ((x = rest.match(RE_PATTERN))) { m.frequency = x.slice(1, 4).join("-"); rest = rest.replace(x[0], " "); }
+  else { const f = FREQ_ABBR.find(f => new RegExp(`\\b${f}\\b`, "i").test(rest)) ?? FREQ_WORDS.find(f => rest.toLowerCase().includes(f));
+    if (f) { m.frequency = f; rest = rest.replace(new RegExp(f.includes(" ") ? f : `\\b${f}\\b`, "i"), " "); } }
+  for (const [t, v] of TIMING) { const re = new RegExp(`\\b${t}\\b`, t.includes(" ") ? "i" : ""); if (re.test(rest)) { m.timing = v; rest = rest.replace(re, " "); break; } }
+  if ((x = rest.match(RE_DURATION))) { const u = x[2].toLowerCase();
+    m.duration = `${x[1]} ${({"/7":"days",d:"days",day:"days",wk:"weeks",wks:"weeks",week:"weeks",m:"months",month:"months"})[u] ?? u}`; rest = rest.replace(x[0], " "); }
+  rest = rest.replace(/^\s*\d+\s*[.)]/, " ");
+  if ((x = rest.match(RE_DOSE))) m.dose = (x[1] + (x[2] ? " " + x[2] : "")).trim();
+  if (score < 90) m.warnings.push(`Low-confidence name match: "${span}" read as ${drug.name} (${m.score}%). Verify.`);
+  if (drug.lookalikes.length) m.warnings.push(`Look-alike drug name: ${drug.lookalikes.join(", ")}. Double-check the spelling.`);
+  if (line.includes("[ILLEGIBLE]")) m.warnings.push("Part of this line is illegible.");
+  for (const k of ["strength", "frequency", "duration"]) if (!m[k]) m.warnings.push(`${k} not found`);
+  if (/\b0?\.\d|\b[17]\d?mg/.test(m.strength)) m.warnings.push("Strength has digits that are easy to misread (1/7, decimal point).");
+  m.plain = describe(m); return m;
+}
+function parse(text) {
+  text = text.replace(/~~.+?~~\s*/g, "").replace(/½/g, "1/2").replace(/[—–]/g, "-").replace(/[ \t]+/g, " ");
+  const info = {date:"", patient:"", age:"", complaint:"", dx:"", advice:[]}, meds = [];
+  for (let line of text.split("\n")) { line = line.trim(); if (!line) continue; const low = line.toLowerCase();
+    if (/^date\s*[:.-]/.test(low)) { info.date = line.split(":").slice(1).join(":").trim(); continue; }
+    if (/^name\s*[:.-]/.test(low)) { info.patient = line.split(":").slice(1).join(":").split(/age/i)[0].trim(); if (!low.includes("age")) continue; }
+    if (low.includes("age/sex") || /\bage\b/.test(low)) { info.age = line.split(":").pop().trim(); continue; }
+    if (/^(c\/o|complaint)/.test(low)) { info.complaint = line; continue; }
+    if (/^dx\b/.test(low)) { info.dx = line.split(":").slice(1).join(":").trim(); continue; }
+    if (/^(adv|advice|review|rv|avoid|drink|take rest|come back)/.test(low)) { info.advice.push(line); continue; }
+    const m = /^rx$/.test(low) ? null : parseLine(line);
+    if (m) meds.push(m);
+    else if (meds.length && line.split(" ").length <= 6 && (RE_DURATION.test(line) || /^(days?|weeks?|months?|wks?)\b/.test(low) ||
+             FREQ_ABBR.concat(FREQ_WORDS).some(f => new RegExp(`\\b${f}\\b`, "i").test(line)))) meds[meds.length - 1] = parseLine(meds.at(-1).raw + " " + line);
+  }
+  let x; if (!info.date && (x = text.match(/\b\d{1,2}\s*[\/.-]\s*(?:\d{1,2}|[A-Za-z]{3})\s*[\/.-]\s*\d{2,4}\b/))) info.date = x[0];
+  if (!info.age && (x = text.match(/\b(\d{1,3})\s*(?:yrs?|y)?\w?\s*\/\s*([MF])\b/))) info.age = `${x[1]}/${x[2]}`;
+  return {meds, info};
+}
+
+/* ---------------- retriever (char n-gram TF-IDF, like embeddings.py fallback) ---------------- */
+const DOCS = [];
+for (const d of D.drugs) DOCS.push({id:"drug:" + d.name, type:"drug", name:d.name, text:`Drug: ${d.name}${d.aliases.length ? ` (also called ${d.aliases.join(", ")})` : ""}. Class: ${d.class}. Commonly used for: ${d.used_for}. Common side effects: ${d.common_side_effects}. ${d.caution ? "Caution: " + d.caution + "." : ""}`});
+for (const [k, v] of Object.entries(D.abbr)) DOCS.push({id:"abbr:" + k, type:"abbreviation", name:k, text:`Abbreviation ${k} means ${v.expansion}${v.latin ? ` (Latin: ${v.latin})` : ""}. Category: ${v.category}.`});
+function grams(t) { const g = {}; for (const w of t.toLowerCase().split(/\s+/)) { const s = ` ${w} `; for (let n = 3; n <= 5; n++) for (let i = 0; i + n <= s.length; i++) { const k = s.slice(i, i + n); g[k] = (g[k] || 0) + 1; } } return g; }
+const DF = {}; const DG = DOCS.map(d => { const g = grams(d.text); for (const k in g) DF[k] = (DF[k] || 0) + 1; return g; });
+const N = DOCS.length, idf = k => Math.log((1 + N) / (1 + (DF[k] || 0))) + 1;
+function vec(g) { const v = {}; let s = 0; for (const k in g) { if (!DF[k]) continue; const x = (1 + Math.log(g[k])) * idf(k); v[k] = x; s += x * x; } s = Math.sqrt(s) || 1; for (const k in v) v[k] /= s; return v; }
+const DV = DG.map(vec);
+function search(q, k = 4, type) { const qv = vec(grams(q)); return DOCS.map((d, i) => { let s = 0; for (const t in qv) if (DV[i][t]) s += qv[t] * DV[i][t]; return {...d, score:s}; })
+  .filter(d => !type || d.type === type).sort((a, b) => b.score - a.score).slice(0, k); }
+
+/* ---------------- UI ---------------- */
+let cur = null, source = "tess";
+$("#sample").innerHTML = `<option value="">Choose a dataset sample…</option>` + D.samples.map((s, i) => `<option value="${i}">${s.id} · ${s.level}</option>`).join("");
+function setSource(src) { source = src; $("#src-tess").classList.toggle("primary", src === "tess"); $("#src-gt").classList.toggle("primary", src === "gt");
+  if (cur) { $("#txt").value = src === "tess" ? cur.tess : cur.gt; render(); } }
+function loadSample(i) { cur = D.samples[i]; $("#slip").innerHTML = `<img alt="Prescription ${esc(cur.id)}" src="${cur.img}">`; setSource(source); }
+$("#sample").addEventListener("change", e => e.target.value !== "" && loadSample(+e.target.value));
+$("#src-tess").addEventListener("click", () => setSource("tess"));
+$("#src-gt").addEventListener("click", () => setSource("gt"));
+$("#file").addEventListener("change", e => { const f = e.target.files[0]; if (!f) return; cur = null; $("#sample").value = "";
+  const r = new FileReader(); r.onload = () => { $("#slip").innerHTML = `<img alt="Uploaded prescription" src="${r.result}">`; $("#txt").value = ""; $("#txt").placeholder = "Paste the OCR text for this photo here (from Gemini, Tesseract, or typed by you)."; render(); }; r.readAsDataURL(f); });
+$("#txt").addEventListener("input", render);
+
+function render() {
+  const t0 = performance.now(), {meds, info} = parse($("#txt").value);
+  $("#stat").textContent = $("#txt").value.trim() ? `${meds.length} medicine${meds.length === 1 ? "" : "s"} · parsed in ${(performance.now() - t0).toFixed(1)} ms` : "";
+  $("#meta").innerHTML = [["Patient", info.patient], ["Age/Sex", info.age], ["Date", info.date], ["Diagnosis", info.dx], ["Advice", info.advice.join(" · ")]]
+    .filter(x => x[1]).map(([k, v]) => `<span>${k}: <b>${esc(v)}</b></span>`).join("");
+  if (!$("#txt").value.trim()) { $("#labels").innerHTML = `<div class="empty">Pick a sample or upload a photo to start.</div>`; return; }
+  if (!meds.length) { $("#labels").innerHTML = `<div class="empty">No medicines recognised. Try the ground-truth text, or correct the OCR text above.</div>`; return; }
+  $("#labels").innerHTML = meds.map(m => {
+    const abbr = [...new Set((m.form + " " + m.frequency + " " + m.raw).split(/[\s,]+/).map(t => t.toUpperCase().replace(/[.)]/g, "")).filter(t => D.abbr[t]))];
+    const kb = search("Drug: " + m.name, 1, "drug")[0];
+    return `<article class="lab ${m.warnings.length ? "warn" : ""}">
+      <h3>${esc(m.name)} <small>${m.form ? esc(m.form) + " · " : ""}match ${m.score}%</small></h3>
+      <p class="plain">${esc(m.plain)}</p>
+      <div class="fields">${["strength", "dose", "frequency", "timing", "duration"].map(k => `<div><span>${k}</span><b>${esc(m[k]) || "—"}</b></div>`).join("")}</div>
+      ${m.warnings.length ? `<ul class="w">${m.warnings.map(w => `<li>${esc(w)}</li>`).join("")}</ul>` : ""}
+      <div class="raw">written as: ${esc(m.raw)}</div>
+      <details><summary>Explain (retrieved from knowledge base)</summary><ul class="kb">
+        <li>${esc(kb.text)} <span class="score">${kb.score.toFixed(2)}</span></li>
+        ${abbr.map(a => `<li><b>${esc(a)}</b> = ${esc(D.abbr[a].expansion)}${D.abbr[a].latin ? ` (${esc(D.abbr[a].latin)})` : ""}</li>`).join("")}
+      </ul></details></article>`; }).join("");
+}
+
+const CHIPS = ["What does TDS mean?", "paracetamal side effects", "what is 1-0-1", "Losarten", "medicine for allergy sneezing", "what does AC mean", "x 5/7"];
+$("#chips").innerHTML = CHIPS.map(c => `<button class="btn">${esc(c)}</button>`).join("");
+$("#chips").addEventListener("click", e => { if (e.target.tagName === "BUTTON") { $("#q").value = e.target.textContent; ask(); } });
+function ask() { const q = $("#q").value.trim(); if (!q) return;
+  $("#hits").innerHTML = search(q, 4).map(h => `<div class="hit"><span class="score">${esc(h.id)} · ${h.score.toFixed(2)}</span><div>${esc(h.text)}</div></div>`).join(""); }
+$("#go").addEventListener("click", ask); $("#q").addEventListener("keydown", e => e.key === "Enter" && ask());
+
+document.querySelectorAll(".tabs button").forEach(b => b.addEventListener("click", () => {
+  document.querySelectorAll(".tabs button").forEach(x => x.setAttribute("aria-selected", x === b));
+  $("#read").hidden = b.dataset.t !== "read"; $("#ask").hidden = b.dataset.t !== "ask"; }));
+
+setSource("tess"); loadSample(3); $("#sample").value = "3";
+}
+</script></body></html>

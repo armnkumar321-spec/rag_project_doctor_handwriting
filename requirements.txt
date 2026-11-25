@@ -1,0 +1,16 @@
+# core
+numpy
+pillow
+opencv-python-headless
+rapidfuzz
+scikit-learn
+python-dotenv
+streamlit
+# OCR engines (pick at least one)
+pytesseract          # also needs the Tesseract binary: https://github.com/UB-Mannheim/tesseract/wiki (Windows)
+google-genai         # Gemini: best for handwriting, needs GEMINI_API_KEY
+# optional: better local embeddings / vector DB
+# sentence-transformers
+# chromadb
+# optional: scoring
+jiwer
